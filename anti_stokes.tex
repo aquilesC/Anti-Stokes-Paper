@@ -1,0 +1,132 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{epstopdf}
+\usepackage{setspace}
+\onehalfspacing
+\epstopdfsetup{update} % only regenerate pdf files when eps file is newer
+\title{Single Gold Nanorods as nano thermometers}
+\author{Aquiles Carattino \and Michel Orrit}
+
+\begin{document}
+\maketitle
+\abstract{This is the abstract}
+
+\section{Introduction}
+Intro
+\section{Experimental method}
+The main advantage of the method proposed in this work is that any confocal
+microscope equipped with a spectrometer is ready to perform the measurement. In
+the present case, gold nanorods were spincoated into glass coverslips and rinsed
+with milli-Q water to remove any excess of CTAB present. A simple $532$nm diode
+laser was employed to acquire the full emission spectrum of individual
+particles. A HeNe (Thorlabs ..) with a wavlength of $632.8$nm (from now own
+referred as $633$nm) is employed to excite the particles in the plasmon
+resonance.
+An AOM placed in its path allows to vary the intensity in a fast and repetitive
+manner.
+
+Two different objectives are employed for the mesurements at room or at higher
+temperature. In the first case a high NA oil-immersion
+objective was employed (Olympus ..), while for the latter an Olympus 60X NA 0.9 is chosen to minimize
+the thermal contact between the sample and the optics. The samples were placed
+in a flowcell in which the temperature can be regulated by flowing warm or cold
+water. A thermo resistance (PT$100$) mounted close to the observation position
+allows to monitor the local temperature in an independent way. 
+
+The output of the objective was filter via a confocal pinhole and sent to an APD
+(Perkin-Elmers) for recording images and to a Spectrometer (Acton 500-i) through
+a non polarizing beamsplitter cube. The full schematic of the setup can be found
+in the supporting information.
+
+\section{Results}
+Figure \ref{fig:spectra1} shows the three key elements of this work. The green
+curve with squares shows the emission spectra of a particle while being
+irradiated with $532$nm laser. The cut at around this wavelength is due to the
+notch filters employed. The peak at around $650$nm is normally referred as the
+longitudinal plasmon. The curve in red with open circles shows the emission
+while the same particle is irradiated with $633$nm laser and a longpass filter
+is used to cut out the excitation light. It was normalized a $650$nm to show the
+overlap with the $532$nm curve. This emission will be referred as the Stokes
+emission from now on. The third curve (blue, full circles) shows the emission of
+the gold nanorod to shorter wavelengths (higher energies) when a shortpass
+filter is employed. This portion of the spectra will be referred to as the
+anti-Stokes emission and is the one in which we are going to focus, since it
+encodes the temperature information. 
+
+One of the first things to realize is that the anti-Stokes luminescence depends
+heavily with the plasmon peak position. On one hand the absorption cross section
+of a particle coincides with its plasmon therefore exciting at the resonance
+frequency yields the highest absorption. However, as can be seen in Figure
+\ref{fig:intensity_plasmon_position}.a, the maximum anti-Stokes emission happens
+for particles with the resonance peak slightly shifted to the blue. This is
+result is however not surprising if we consider the presence of the filters, for
+which the Stokes emission (Figure \ref{fig:intensity_plasmon_position}.b) may
+give a better picture. Exciting in resonance also means loosing the
+resonance peak since its going to be blocked by the filters. If the peak is
+slightly shifted, the excitation may be slightly smaller, but the collection
+efficiency will be larger. 
+
+Polarization analysis of both the emission and the excitation yield a perfect
+matching between Stokes and anti-Stokes. When the excitation laser is parallel
+to the longitudinal axes of the nanorod, the cross section is maximized and
+therefore the emission is the highest for both cases. On the other hand, the
+Stokes-shifted emission has long be known to be polarized along the axis of the
+particle. This same behavior is observed for the anti-Stokes. Combinig this two
+simple observations makes clear that there will be a plasmonic component in the
+anti-Stokes emission and therefore cannot be neglected. 
+
+Figure \ref{fig:Intensity_excitation} shows the dependence of both the Stokes
+and the anti-Stokes emission with the excitation power. To a first degree it is
+possible to observe the linear increase of signal meaning that this process is a
+one-photon excitation of the particles. This has already been discussed and
+investigated in previous works, both in bulk and at the single-particle level. 
+
+The statement of the previous paragraph holds only for a first order
+approximation of the curves. Figure \ref{fig:several_powers_room_temperature}
+shows different anti-Stokes emission spectra for different excitation powers.
+The logarithmic scale in the ordinates allows to see that changing the intensity
+of the laser not only increases the emission intensity but also changes the
+slope of it. Stricktly speaking this means that doubling the excitation power
+does not double the emission intensity, but that there is a non linear effect
+that will be shown later is due to an increase in temperature of the particle
+and its surrounding. 
+
+By fitting the spectra shown in \ref{fig:several_powers_room_temperature} with
+the equation \ref{eqn:fitting_anti_stokes} it is possible to extract the surface
+temperature of the particle at each excitation power. The first step is to
+extract the lorentzian shape of the plasmon peak by fitting the curve obtained
+with the $532nm$ excitation wavelength. Then, the extracted temperatures are
+shown in Figure \ref{fig:temp_vs_power_room_temperature}; the errorbars are
+derived from the uncertainty in the slope in the linear fitting of the spectra.
+This readly shows that it is possible to measure the particle's temperature with
+an accuracy of 2\% for higher powers and with 5\% for lower ones. It can be seen
+that this increase in uncertainty comes from a lower intensity being recorded by
+the spectrometer, therefore increasing the exposure time may improve the
+results. The other source of uncertainty comes from the fitting of the plasmon
+peak. It can be seen that by shifting the value of the plasmon peak position the
+temperature extracted changes by several degrees. It is therefore of outmost
+importance to acquire the spectra while exciting at $532$nm with the best
+accuracy. 
+
+The results discussed above can be analyzed even further. A linear fitting of
+the data shown in Figure \ref{several_powers_room_temperature} allows to extrapolate
+the data to zero excitation power; this is equivalent to measure room
+temperature. In this case the value extracted was $111$K that coincides
+precisely with the temperature in the laboratory at the time of the measurement.
+To show the utility of this technique to extract the temperature of the
+surrounding medium, we performed the same experiment while varying the
+temperature of the environment in which the particles are immersed. 
+
+Because of the design of the flowcell and to improve the thermal conductivity,
+the rods are placed in immersion oil. This will shift the plasmon resonance to
+the red as compared to water, but nevertheless it is possible to find particles
+with its resonance close enough to our laser. Figure \ref{fig:Temp_Vs_Temp}
+shows the extrapolated zero-excitation temperature as a function of the
+temperature in the flowcell. 
+%AGREEMENT OR NOT? 
+
+
+\end{document}

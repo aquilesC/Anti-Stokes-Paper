@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sun Jan 18 13:46:10 CET 2015
+markTmpDer=true
+builderNum=2
+outputDir=paper
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=anti_stokes.tex
+outputFile=anti_stokes.pdf
+langSpell=en
+markDer=true
+srcDir=
