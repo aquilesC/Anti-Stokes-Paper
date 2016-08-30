@@ -18,6 +18,7 @@
 \usepackage[T1]{fontenc}       % Use modern font encodings
 \externaldocument{supporting}
 
+\newcommand{\K}{\ensuremath{\,\textrm{K}}}
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\mm}{\ensuremath{\,\textrm{mm}}}
 \newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
@@ -272,37 +273,90 @@ To prove that the temperature values obtained with this procedure are
 reasonable, we performed finite element method simulations using Comsol.
 Firstly We obtained the cross section from discrete dipole calculations
 employing the ADDA package, using the average values for the dimensions of the
-particles, and adjusting the length to obtain a plasmon overlapping the oberved
+particles, and adjusting the length to obtain a plasmon overlapping the observed
 one. Figure \ref{fig:simu_heating} shows the calculated temperatures under the
 same excitation conditions. It can be seen a good agreement between both
 measurement and simulations. Moreover it can be seen that once calculated the
 cross section of the particle, the temperature of a rod or of a sphere with the
-same volume are the same, therefore the temperature can be analytically
-determined.
+same volume are the same, therefore the temperature can be easily determined
+from the absorbed power.
 
 To study the dependence of the emission spectrum with the ambient conditions, we
 proceeded to change the temperature of the surrounding medium. It has to be
 remembered that in this set of experiments we employed a dry objective, and
-therefore the excitation powers employed are larger to compensate for the lower
-excitation efficiency but collection efficiency cannot be improved. At each
-temperature several spectra were acquired at different $633\nm$ excitation
-powers and also a $532\nm$ full spectrum in order to monitor any possible
-reshaping of the particles during the experiment.
+therefore the excitation powers are larger to compensate for the lower
+excitation efficiency but the collection efficiency cannot be improved. This
+translates as fewer photons reaching the detector for the same laser intensity
+at the sample plane. At each temperature several spectra were acquired at
+different $633\nm$ excitation powers and also a $532\nm$ full spectrum in order
+to monitor any possible reshaping of the particles during the experiment.
 
 Figure \ref{fig:AS-temps-rods} shows the anti-Stokes emission spectra at the
-same excitation power but at different temperatures. The minute changes in the
-slope of the curves encodes the different temperatures. It is possible to note
-that the spectra looks noiser than before, and it is due to the change in the
-NA of the objective. However, it is possible to fit the more intense curves with
-the same equation \ref{eqn:fitting} as before to extract the temperature of the
-nanoparticle. It was not possible, however, to extrapolate to zero excitation
-power, since only few spectra were clear enough as to proceed with the fitting. 
+same excitation power but at different temperatures. The changes in the slope of
+the curves encodes the different temperatures. It is possible to note that there
+is an increase in the noise of the spectra. It is possible to fit the more
+intense curves with the same equation \ref{eqn:fitting} as before to extract the
+temperature of the nanoparticle. The inset in Fig. \ref{fig:AS-temps-rods} shows
+the extracted temperature from the fitting with the model as a function of the
+temperature measured by the Pt100 in the vicinity of the nanorod. The red line
+is showing the water temperature and acts as a guide to the eye. 
 
-Figure \ref{fig:temps-rods} shows the extracted temperature from the fitting
-with the model as a function of the temperature measured by the Pt100 in the
-vicinity of the nanorod. The red line is just a guide to the eye. It is possible
-to observe a good agreement between both values for the range of
-temperatures explored. 
+The inset of Figure \ref{fig:AS-temps-rods} clearly shows an increase in the
+extracted temperature while increasing the temperature of the surrounding
+medium. The range of explored temperatures went from $296\K$, room temperature,
+up to $320\K$. This range is enough to observe a change in the anti-Stokes
+emission spectrum. It has to be noted that the extracted temperature depends
+also on the excitation power. At higher temperatures the stability of the setup
+plays a crucial role in maintaining the particle in focus during the spectra
+acquisition time. Longer exposure times and therefore lower excitation
+intensities can be obtained if particles are actively maintained in focus.
+
+Together with the excitation intensity, the plasmon position has a crucial role
+in the accuracy of the extracted temperature. The luminescence spectrum acquired
+with the $532\nm$ laser shows an asymmetric shape, due to the broadband
+contribution of gold and the plasmonic emission. This makes the initial fitting
+needed for the $SPR$ function of equation \ref{eqn:fitting} non univocally
+determined. For the particle shown in Fig. \ref{fig:spectra_rod}, changing the
+initial wavelength from $600\nm$ to $640\nm$ yields a significative difference
+in the obtained parameters of the lorentzian fit.
+
+Using the following shape for the SPR function in $\eV$, \begin{equation}*
+SPR(E) = \frac{P_1}{(E-P_2)^2+P_3}
+\end{equation}
+The different fitting ranges give values for $P_2$ between $1.940\eV$ and
+$1.955eV$, while the values of $P_3$ lie in between $5\cdot10^{-3}\eV^2$ and
+$8\cdot10^{-3}\eV^2$. Figure \ref{fig:estimation-error}.a shows the extracted
+temperature from the anti-Stokes spectra for all the possible parameter
+combinations in the range just mentioned. Figure \ref{fig:estimation-error}.b
+shows the temperature dependence while keeping either $P_2$ or $P_3$ constant.
+
+In this example it is possible to note that the extracted temperature is highly
+dependent on the fitted width of the plasmon spectrum but barely dependent on
+the extracted peak position. From the initial spectrum of the particle, it is
+possible to note that the wing of the plasmon coincides with the range of
+anti-Stokes emission. Therefore minute changes in the initial shape will yield
+higher changes in the extracted temperature.
+
+This assertion implies that there should be particles in which the extracted
+temperature wouldn't be too sensitive to the initial plasmon fit. To explore
+these possibilities, we calculated the anti-Stokes emission of different
+particles at $400\K$ by using equation \ref{eqn:fitting} and the results of ADDA
+calculations for the $SPR$ function. We then extracted a temperature from these
+spectra while varying the lorentzian parameters as was done for the experimental
+results. In this way it is possible to study the expected error in temperature
+generated by the initial uncertainty in the fitting of the plasmon for different
+particles. 
+
+Figure \ref{fig:calculated-error} shows the uncertainty in the extracted
+temperature as a function of the plasmon peak position. The uncertainty is
+defined as the difference of the maximum and the minimum extracted temperatures
+while varying $P_2$ by $10\%$ and $P_3$ by $30\%$. The vertical red line depicts
+the position of the laser.
+
+
+
+% It was not possible, however, to extrapolate to zero excitation power, since
+% only few spectra were clear enough as to proceed with the fitting.
 
 To increase the power employed and compensate for the lower collection
 efficiency, it is possible to employ gold nanospheres instead of nanorods. The
