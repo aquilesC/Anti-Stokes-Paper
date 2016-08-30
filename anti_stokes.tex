@@ -351,48 +351,95 @@ Figure \ref{fig:calculated-error} shows the uncertainty in the extracted
 temperature as a function of the plasmon peak position. The uncertainty is
 defined as the difference of the maximum and the minimum extracted temperatures
 while varying $P_2$ by $10\%$ and $P_3$ by $30\%$. The vertical red line depicts
-the position of the laser.
-
-
+the position of the laser. It is remarkable the difference for particles with a
+resonance red-shifted from the excitation laser to particles blue-shifted.
+Indeed, when the plasmon favors the anti-Stokes emission the correct modelling
+of the resonance is crucial for the extraction of temperatures. On the other
+hand, when the plasmon is red-shifted from the excitation, the error in the
+extracted temperature is much lower. The amount of collected light is
+another factor to keep into account. When the resonance is red-shifted
+from the laser, the anti-Stokes emission is much weaker and therefore
+accumulating enough photons in the spectrometers requires longer acquisition
+times.
 
 % It was not possible, however, to extrapolate to zero excitation power, since
 % only few spectra were clear enough as to proceed with the fitting.
 
-To increase the power employed and compensate for the lower collection
-efficiency, it is possible to employ gold nanospheres instead of nanorods. The
-main practical difference is that they can withstand much higher excitation
-powers without reshaping. Moreover the plasmon resonance of spheres shifts only
-slightly with radius, therefore is is possible to predict it using
-Mie theory and eliminating the need of a second laser beam. 
+It would be beneficial therefore to have particles that can withstand higher
+excitation powers and that have a plasmon resonance well defined. In principle
+gold nanospheres fulfill these requirements. They are known to withstand much
+higher excitation powers without reshaping nor melting. Moreover the plasmon
+resonance of spheres shifts only slightly with radius, therefore is is possible
+to predict it using Mie theory and eliminating the need of a second laser beam.
+Sphere samples however always show a shape distribution that cannot be
+neglected and that induces a deviation of the observed resonance from the
+predicted.
 
-An example of the spectrum of a $60\nm$ sphere under $532\nm$ irradiation at
-different excitation powers can be seen in Figure \ref{fig:60sphere}.
-As in the case of gold nanorods, two distinct parts of the spectrum can be
-observed; in red the Stokes emission and in blue the anti-Stokes emission. The
-linearity of both is presented on the left inset of the figure. It has to be
-noted however that all spheres will have approximately the same resonance and
-therefore it will not be possible to find one in which the anti-Stokes emission
-is more favorable, as was done for the rods. In this case using a laser with a
-different wavelength would have been advisable. 
+An example of spectra of three different $60\nm$ spheres under $532\nm$
+irradiation at different excitation powers can be seen in Figure
+\ref{fig:60sphere}. As in the case of gold nanorods, two distinct parts of the
+spectrum can be observed; the Stokes emission to longer wavelengths and the
+anti-Stokes to shorter ones. The figure also shows the scattering spectrum
+calculated from Mie theory. From the figure it is already possible to observe
+that two of the studied particles have a plasmon shape similar to the
+calculated, while the third one is red-shifted by $20\nm$. 
 
 It has to be noted that spheres have a quantum yield one order of magnitude
 lower than rods; the same is true for the anti-Stokes emission. Moreover, the
 luminescence intensity is proportional to the volume, thus scaling as the third 
-power of the radius. It means that going from $60\nm$ radius to $30\nm$ will
-diminish the luminescence intensity by a factor $8$. The spectra of a $40\nm$
-and a $30\nm$ radius spheres is shown in Figure \ref{fig:30-40}. It is still
-possible to observe the anti-Stokes emission but the noise in the spectra is
-much more significative than before. 
+power of the radius. It means that going from $60\nm$ diameter to $30\nm$ will
+diminish the luminescence intensity by a factor $8$. This can be compensated by
+increasing the excitation power up to either reaching a melting temperature of 
+gold or a phase transition of the surrounding liquid that in turn would induce
+a shift in the plasmon resonance.
 
-We performed the same measurements than with rods, varying the temperature of
-the surrounding medium. Figure \ref{fig:spheres-temperature} shows the extracted
-temperature for different measured temperatures for spheres of different radii.
-It is remarkable that the three spheres follow the same trend. The inset of
-the Figure shows the anti-Stokes emission of the $40\nm$ sphere for different
-temperatures and their fitting with the model of equation $\ref{eqn:fitting}$.
+Studying the anti-Stokes emission of spheres at different temperatures but with
+the same excitation power does not show a clear dependence as was observed with
+rods. Figure \ref{AS_60nm} shows the spectra of the same particle at different
+conditions with the corresponding fitting with equation \ref{eqn:fitting}. The
+inset shows the extracted temperatures. There is a good agreement between the
+extracted temperature and the expected temperature from simple thermal
+conductivity calculations. In this case the variation of $35\K$ between the
+measurements lies between the error of the procedure.
 
+\section{Conclusions}
+Being able to manipulate and monitor temperature at the nanoscale is of utmost
+importance in different fields ranging from photothermal therapy to nano
+fabrication. In this work we have shown a simple procedure that allows to
+measure the temperature of single gold nanorods and nano spheres while being
+irradiated under a monochromatic continuous laser. 
 
+The model employed for describing the anti-Stokes emission takes into account
+the presence of the plasmon, responsible for enhancing the emission as well as
+Bose-Einstein statistics to explain the distribution of the exited states of the
+particles. It has been shown that the correct characterization of the plasmonic
+resonance is fundamental for the proper extraction of temperature, specifically
+in the cases where the excitation wavelength is red-detuned from the resonance.
 
+Particles with a resonance to the red of the excitation wavelength would be more
+reliable in the temperature extraction procedure, but would also exhibit a lower
+emission towards shorter wavelengths. The trade-off between both effects will
+determine the specific particles that are better suited for specific
+applications.
+
+In this work we have also explored the possibility of employing gold nano
+spheres. Since this particles do not reshape under higher excitation powers it
+is possible to compensate their lower quantum yield by increasing the
+irradiation intensity. Moreover samples with a narrow shape distribution would
+be ideal candidates to temperature extraction since their plasmon can be
+determined from Mie theory with only the radius as a parameter. 
+
+We have observed the anti-Stokes emission from particles with three different
+diameters. The extracted temperature in each case matches with the expected
+value from thermal conductivity calculations, but the change when changing the
+surrounding medium temperature falls between the experimental error of the
+procedure.
+
+The main advantage of the proposed method is that it doesn't require any
+modification of adaptation to any existing setup that is capable of recording
+spectra. Moreover there is no need of calibration, since the only free
+parameters of the model (besides a normalization factor) is the absolute
+temperature of the nanoparticle under study.
 
 
 \end{document}
