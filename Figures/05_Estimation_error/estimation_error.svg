@@ -9,7 +9,7 @@
       ><path d="M0 0 L560 0 L560 420 L0 420 L0 0 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath2"
-      ><path d="M0 50 L50 50 L50 0 L0 0 Z"
+      ><path d="M0 0 L50 0 L50 50 L0 50 Z"
       /></clipPath
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath3"
       ><path d="M0 572 L54 572 L54 0 Z"
@@ -219,31 +219,36 @@ sCAAAAAASUVORK5CYII=" style="clip-path:url(#clipPath4);" height="572" preserveAs
     /></g
     ><g style="fill:rgb(38,38,38); text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38);"
     ><line y2="41" style="fill:none;" x1="486" x2="486" y1="327"
-      /><line y2="296.208" style="fill:none;" x1="486" x2="483.14" y1="296.208"
-      /><line y2="240.0018" style="fill:none;" x1="486" x2="483.14" y1="240.0018"
-      /><line y2="183.7956" style="fill:none;" x1="486" x2="483.14" y1="183.7956"
-      /><line y2="127.5895" style="fill:none;" x1="486" x2="483.14" y1="127.5895"
-      /><line y2="71.3833" style="fill:none;" x1="486" x2="483.14" y1="71.3833"
+      /><line y2="308.4136" style="fill:none;" x1="486" x2="483.14" y1="308.4136"
+      /><line y2="263.4486" style="fill:none;" x1="486" x2="483.14" y1="263.4486"
+      /><line y2="218.4837" style="fill:none;" x1="486" x2="483.14" y1="218.4837"
+      /><line y2="173.5188" style="fill:none;" x1="486" x2="483.14" y1="173.5188"
+      /><line y2="128.5538" style="fill:none;" x1="486" x2="483.14" y1="128.5538"
+      /><line y2="83.5889" style="fill:none;" x1="486" x2="483.14" y1="83.5889"
     /></g
-    ><g transform="translate(493.4667,296.208)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><g transform="translate(493.4667,308.4136)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
     ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
-      >600</text
+      >-40</text
     ></g
-    ><g transform="translate(493.4667,240.0018)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><g transform="translate(493.4667,263.4486)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
     ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
-      >650</text
+      >-20</text
     ></g
-    ><g transform="translate(493.4667,183.7956)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><g transform="translate(493.4667,218.4837)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
     ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
-      >700</text
+      >0</text
     ></g
-    ><g transform="translate(493.4667,127.5895)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><g transform="translate(493.4667,173.5188)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
     ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
-      >750</text
+      >20</text
     ></g
-    ><g transform="translate(493.4667,71.3833)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><g transform="translate(493.4667,128.5538)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
     ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
-      >800</text
+      >40</text
+    ></g
+    ><g transform="translate(493.4667,83.5889)" style="font-size:24px; fill:rgb(38,38,38); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB; stroke:rgb(38,38,38);"
+    ><text x="0" xml:space="preserve" y="9.5" style="stroke:none;"
+      >60</text
     ></g
     ><g style="fill:rgb(38,38,38); text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke:rgb(38,38,38);"
     ><line y2="41" style="fill:none;" x1="459" x2="486" y1="41"
