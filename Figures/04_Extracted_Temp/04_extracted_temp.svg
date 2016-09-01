@@ -1971,11 +1971,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.645817"
-     inkscape:cx="184.48192"
-     inkscape:cy="178.12067"
+     inkscape:zoom="1.9740976"
+     inkscape:cx="151.18009"
+     inkscape:cy="152.95727"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="987"
@@ -2033,8 +2033,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(0.41682911,-6.1742315)"
-     sodipodi:insensitive="true">
+     transform="translate(0.41682911,-6.1742315)">
     <text
        x="122.33976"
        xml:space="preserve"
@@ -2478,13 +2477,13 @@
        id="line4341"
        clip-path="url(#clipPath11174)" />
     <text
-       x="-150.33267"
+       x="-153.95499"
        xml:space="preserve"
        y="6.6110029"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text4345"
        transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="125%">Intensity (smoothed)</text>
+       sodipodi:linespacing="125%">Intensity (Counts/60s)</text>
     <line
        y2="168.63359"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"

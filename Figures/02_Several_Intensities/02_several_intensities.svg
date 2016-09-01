@@ -545,9 +545,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6519244"
-     inkscape:cx="74.550804"
-     inkscape:cy="91.524952"
+     inkscape:zoom="2.5116797"
+     inkscape:cx="158.0375"
+     inkscape:cy="32.806407"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -629,13 +629,15 @@
        id="text4599"
        sodipodi:linespacing="125%">800</text>
     <text
-       x="-123.62149"
+       x="-155.72098"
        xml:space="preserve"
        y="10.27662"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text4603"
        transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="125%">Intensity</text>
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="600"
+       inkscape:export-ydpi="600">Intensity (Counts/10s)</text>
     <text
        x="22.531141"
        xml:space="preserve"
