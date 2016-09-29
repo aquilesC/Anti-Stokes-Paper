@@ -96,14 +96,18 @@ local temperature and to monitor it will be of great interest in a broad range
 of fields.
 
 Gold nanoparticles continue to receive a great amount of attention because of
-their optical properties\cite{Zijlstra2011}. A large absorption and scattering
-cross section spanning through almost the entire visible spectrum makes them
-easy to detect via exciting their luminescence and collecting either the Stokes
-or the anti-Stokes emission\cite{Jiang2013}; in a dark field
-scattering\cite{Hu2008} configuration or via photothermal
-imaging\cite{Berciaud2006}. Moreover their signal is stable over time; gold
-nanoparticles do not blink nor bleach, making them ideal candidates for
-biological labeling.
+their optical properties\cite{Zijlstra2011}. The collective oscillation of
+conduction electrons, also known as plasmon, shows a resonance in the visible to
+near infra-red wavelengths. This resonance can be tuned by changing the shape of
+the particles\cite{Carattino2016} and will be responsible for a large absorption
+and scattering cross section at the resonance wavelength. It is therefore simple
+to detect nanoparticles in a dark field scattering\cite{Hu2008} configuration or
+via photothermal imaging\cite{Berciaud2006}. Detecting the particles through
+their luminescence\cite{Tcherniak2011} is also possible; their low quantum
+yield, in the order of $10^{-5}$\cite{Yorulmaz2012} is compensated by the
+enhanced cross section. Moreover the luminescence signal is stable over time;
+gold nanoparticles do not blink nor bleach, therefore being useful labelling
+agents for processes that require of extended periods of observation.
 
 Different metallic nano-objects are being introduced as agents for photothermal
 therapy or drug delivery\cite{Kang2013}. One of the advantages of gold
@@ -115,52 +119,53 @@ In this work we propose that the anti-Stokes luminescence of gold nanorods and
 nanospheres can be used to measure their temperature with a relatively high
 accuracy.
 
-Luminescence of metallic nanoparticles has been object of extensive study in
+Luminescence of metallic nanoparticles has been the object of extensive study in
 recent years. Since the first observation of luminescence from bulk
 gold\cite{Mooradian1969}, different groups have tried to quantitatively describe
-the observed properties\cite{Mohamed2000,Beversluis2003a}, as the quantum
-yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015} and the emission
-spectrum\cite{Link2010}. Several computer packages\cite{Yurkin2011} allow to
-compute the cross sections of different geometries and there are already several successful
-applications of nanoparticles into different fields. The anti-Stokes emission
-from these particles has however been largely overlooked.
+the observed properties\cite{Mohamed2000,Beversluis2003a}, as the
+quantum yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015,Dulkeith2004} and the
+emission spectrum\cite{Link2010}. Several computer packages\cite{Yurkin2011} allow to
+compute the cross sections of different geometries and there are already several
+successful applications of nanoparticles into different fields. The anti-Stokes
+emission from these particles has however been largely overlooked.
 
 The mechanism we propose to explain the luminescence from gold nanoparticles is
-based in the radiative recombination of electron and holes that are created upon
+based on the radiative recombination of electron and holes that are created upon
 the absorption of an incident photon\cite{Dulkeith2004,Mooradian1969}. The
 emission will be enhanced by the presence of the surface plasmon acting as an
 antenna\cite{Mohamed2000}. At the same time, the probability of the interaction
-of the electron or hole with a phonon before recombining can give rise to an
-emission photon with a higher energy than the
+of the electron or hole with a thermal bath (a phonon or a carrier) before
+recombining can give rise to an emitted photon with a higher energy than the
 excitation\cite{Hodak2000,Giri2015,Arbouet2003a}.
 
 A monochromatic photon incident to the particle will give rise to a collective
 oscillation of the gas of conduction electrons. The coherence of the oscillation
-is broken due to collisions with the particle's surface and to the interaction
-with baths\cite{Zhao2016,Sonnichsen2002}. These can be mainly the
+is soon broken due to collisions with the particle's surface and to the
+interaction with baths\cite{Zhao2016,Sonnichsen2002}. These can be mainly the
 electron-electron interactions, electron-phonon coupling and the bath of photons
 coupled via spontaneous emission. The decoherence time can be measured in pulsed
 experiments or deduced from the inverse linewidth of the plasmon resonance and
-is in the order of $6\fs$ or shorter\cite{Sun1994}. After this the state of the
-system can be described as a superposition of hot electron and hole states.
+is in the order of $10\fs$\cite{Sonnichsen2002}. After this the state of the
+system can be described as an incoherent superposition of hot electron and hole
+states.
 
 The hot electron and hole cool down by exchanging energy with the lattice on a
 timescale of $\tau\approx1\ps$\cite{Pustovalov2005}. Before this happens,
-electron and hole have a small probability of recombining radiatively,
+electron and hole have a small probability of recombining radiatively, i.e. of 
 re-emitting their high electronic energy as a photoluminescence photon. If they
 have interacted only with static surfaces, their energy would be the same and
-therefore the emitted photon would have the same energy than the incoming
-photon, and will not contribute to the measured photoluminescence (will be
+therefore the emitted photon would have the same energy as the incoming
+photon, and will not contribute to the measured photoluminescence (as it will be
 blocked by the notch filter.) If on the other hand they have interacted with a
-phonon they have lost or acquired a phonon energy and momentum quantum before
-recombining.
+phonon or a thermally exited electron or hole, they may have lost or acquired a
+energy before recombining.
 
-Electron and hole can also interact with phonons upon recombination, either by
+Electron and hole can also interact with baths upon recombination, either by
 creation or annihilaton of a phonon. In both cases the energy available upon
-recombination cannot exceed $\hbar\omega_L+k_BT$. It has to be noted that in the
-hypothesis of a single-photon absorption, i.e. at low excitation power, the
-temperature $T$ is that of the bath before absorption, the temperature of the
-surrounding medium of the particle. This is different from pulsed experiments,
+recombination cannot much exceed $\hbar\omega_L+k_BT$. It has to be noted that
+in the hypothesis of a single-photon absorption, i.e. at low excitation power, the
+temperature $T$ is that of the baths before absorption, i.e. the temperature of
+the medium surrounding the particle. This is different from pulsed experiments,
 in which the electron gas temperature can be orders of magnitude higher than
 room temperature\cite{Baffou2013a}. 
 
@@ -198,22 +203,27 @@ resonance.
 In this work we propose to use the anti-Stokes luminescence emission from gold
 nanoparticles to determine their temperature. According to the model just
 described, the anti-Stokes emission follows the following form,
+
 \begin{equation}\label{eqn:fitting}
 	I(\nu) =
-	\textrm{SPR}(\nu)\cdot\left(\exp\frac{\textrm{h}(\nu-\nu_L)}{k_\textrm{B}T}-1\right)^{-1}
+	\textrm{I}_{\textrm{SPR}}(\nu)\cdot\left(\exp\frac{\textrm{h}(\nu-\nu_L)}{k_\textrm{B}T}-1\right)^{-1}
 \end{equation}
-where $I$ is the intensity, $\nu$ is the frequency of the photons, $SPR$ is the
-surface plasmon resonance, $\nu_L$ is the frequency of the laser, $h$ is
-Planck's constant, $k_\textrm{B}$ the Boltzmann constant and the only remaining
-free parameter is the Temperature $T$ (plus a normalization constant not
-included in eqn. \ref{eqn:fitting}.) This means that carefully fitting the
-emission spectra allows to extract the absolute temperature of the
-particles without any previous calibration.
+
+where $I$ is the intensity, $\nu$ is the frequency of the photons, $\nu_L$ is
+the frequency of the laser, $h$ is Planck's constant, $k_\textrm{B}$ the
+Boltzmann constant. $\textrm{I}_{\textrm{SPR}}$ is the spectrum of the surface
+plasmon resonance that can be obtained by exciting the particle at energies
+higher than the resonance, or by looking at the scattering spectrum. The only
+remaining free parameter is the temperature $T$ (plus a normalization constant
+not included in eqn. \ref{eqn:fitting}.) This means that carefully fitting the
+emission spectra excited at two frequencies ($\nu\gg\nu_{\textrm{SPR}}$ and
+$\nu\approx\nu_{\textrm{SPR}}$) allows us to extract the absolute temperature of
+the particles without any previous calibration.
 
 \section{Experimental method}
-All the measurements in this work were performed in a home-built confocal
+All the measurements in this work were performed with a home-built confocal
 microscope equipped with an APD and a spectrometer (Acton 500i). Samples were
-mounted in a flowcell that allowed to increase the temperature of the medium up
+mounted in a flow cell that allowed to increase the temperature of the medium up
 to $60\,^oC$ and to monitor it through a Pt100 resistance thermometer placed
 $1\mm$ away from the observation area.
 
@@ -227,16 +237,16 @@ spheres close to resonance. A $633\nm$ HeNe (Thorlabs) was employed to excite
 the nanorods in resonance.
 
 Room temperature measurements were performed using a $60X$, NA $1.4$ oil
-immersion objective (Olympus). This allowed a high excitation and collection
-efficiency. At higher temperatures a dry objective, $60X$, NA $0.9$ (Olympus)
-was employed to avoid the presence of a heat-sink directly in contact to the
+immersion objective (Olympus). This provided a high excitation and collection
+efficiency. At higher temperatures an air-spaced objective, $60X$, NA $0.9$
+(Olympus) was employed to avoid the presence of a heat-sink directly in contact to the
 observed area. The lower NA of this objective made both the excitation and
-collection efficiencies significantly lower. The first can be compensated
+collection efficiencies significantly lower. The former can be compensated
 increasing the excitation power, the latter however is inherent to the method
 and can be compensated by increasing the exposure time.
 
-To compensate for the drift of the setup while increasing the temperature, a
-computer program was developed to continuously track a reference particle. The
+To compensate for the drift of the setup while increasing the temperature, we
+developed a computer program to continuously track a reference particle. The
 same program was responsible for recording the temperature and triggering the
 spectrometer. In this way complete data sets were acquired at different
 temperatures, including spectra while exciting at $532\nm$, at $633\nm$ with
@@ -247,10 +257,10 @@ particle was not reshaping due to higher excitation powers.
 The intensity of the lasers was controlled via the voltage applied to an AOM in
 each optical path. Several accumulations of the spectra at the same laser
 intensity were recorded. On one hand this allowed to lower the noise of the
-measurements. On the other also allowed to remove bright pixels generated by
+measurements. On the other it also allowed to remove bright pixels generated by
 cosmic rays and to monitor changes in the intensity of the spectra during the
 acquisition. These changes can be due to a drift of the setup while measuring or
-to a reshape of the particle, that can be confirmed by comparing the spectra
+to a reshaping of the particle, that can be confirmed by comparing the spectra
 acquired with the $532\nm$ laser. In case of a recorded intensity change larger
 than acceptable, the particular spectra was disregarded.
 
@@ -274,21 +284,21 @@ of the excitation power, overlapped with a linear fit in red.}
 \end{figure}
 
 The proposed model for the anti-Stokes emission requires to know the plasmon
-spectrum ($SPR$ function in equation \ref{eqn:fitting}) of the particle in order
-to fit the emission at shorter wavelengths and extract its temperature. It has
-been shown that both scattering and luminescence spectra overlap over a broad
-range of wavelengths\cite{Yorulmaz2012}. Therefore exciting gold nanorods with
-$532\nm$ allows to record the longitudinal plasmon spectra, as shown in the
-green solid curve of Figure \ref{fig:spectra_rod}. The peak was fitted by a
-single lorentzian, shown in red in the Figure; the dashed part of the curve
-depicts the spectral region that was not considered for the fitting. It has to
-be reminded that the luminescence spectra is not a perfect lorentzian since
-there is a broadband contribution to the lumienscence arising between the
-excitation wavelength and the plasmon peak\cite{Boyd1986}. This appears as an
-asymmetry in the emission spectrum, particularly visible for wavelengths smaller
-than $625\nm$. The results of this fitting will be employed for the SPR function
-defined in equation \ref{eqn:fitting}. A lengthier discussion on the effects of
-this procedure will be given later.
+spectrum ($\textrm{I}_{\textrm{SPR}}$ function in equation \ref{eqn:fitting}) of
+the particle in order to fit the emission at shorter wavelengths and extract its
+temperature. It has been shown that both scattering and luminescence spectra
+roughly overlap over a broad range of wavelengths\cite{Yorulmaz2012}. Therefore
+exciting gold nanorods with $532\nm$ allows to record the longitudinal plasmon
+spectra, as shown in the green solid curve of Figure \ref{fig:spectra_rod}. The
+peak was fitted by a single lorentzian, shown in red in the Figure; the dashed
+part of the curve depicts the spectral region that was not considered for the
+fitting. It has to be reminded that the luminescence spectra is not a perfect
+lorentzian since there is a broadband contribution to the lumienscence arising
+between the excitation wavelength and the plasmon peak\cite{Boyd1986}. This
+appears as an asymmetry in the emission spectrum, particularly visible for
+wavelengths smaller than $625\nm$. The results of this fitting will be employed
+for the SPR function defined in equation \ref{eqn:fitting}. A lengthier
+discussion on the effects of this procedure will be given later.
 
 The other curves in Fig. \ref{fig:spectra_rod} show the luminescence emission of
 the same nanorod while irradiating with a $633\nm$ laser at different powers,
