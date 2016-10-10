@@ -771,11 +771,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84105108"
-     inkscape:cx="208.03921"
-     inkscape:cy="44.961333"
+     inkscape:zoom="22.025025"
+     inkscape:cx="110.8857"
+     inkscape:cy="54.705123"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="987"
@@ -805,7 +805,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4680,8 +4680,7 @@
      id="layer3"
      inkscape:label="Legend"
      transform="translate(-2.9795609,7.079314)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="opacity:1;fill:#000000;fill-opacity:0.71573606;stroke:none;stroke-width:0.87519687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect10599-8"
@@ -5724,7 +5723,8 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Container"
-     transform="translate(4.7949219e-8,8.4650972)">
+     transform="translate(4.7949219e-8,8.4650972)"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
