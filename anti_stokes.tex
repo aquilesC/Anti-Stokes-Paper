@@ -34,7 +34,7 @@
 \newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
 \newcommand{\kCPS}{\ensuremath{\,\textrm{kCPS}}}
 \newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
-
+\newcommand{\deg}{\ensuremath{\,^o\textrm{C}}}
 
 \author{Aquiles Carattino}
 \affiliation[Leiden]
@@ -60,13 +60,13 @@ measuring and controlling temperature at a single cell level will provide not on
 intracellular processes but it will also contribute to a better understanding of
 the mechanisms involved in the proposed new therapies such as photothermal tumor
 ablation\cite{Gobin2007} or controlled drug
-delivery\cite{Huang2006}\cite{Huo2014}.
+delivery\cite{Huang2006,Huo2014}.
 
 Probes with distinctive spectral features are ideal candidates for temperature
 measurements since they provide high spatial accuracy while far field optics
 allow a non contact readout. Some of the proposed strategies include structures
 that undergo a conformational change upon a change in
-temperatures\cite{Ebrahimi2014}, thus inducing a change in fluorescence
+temperature\cite{Ebrahimi2014}, thus inducing a change in fluorescence
 intensity of a dye molecule embedded into them. Also cleverly designed
 fluorescent probes\cite{Vetrone2010} in which the ratio of particular emission
 peaks depends on temperature allow a high accuracy and can be used for
@@ -107,7 +107,8 @@ their luminescence\cite{Tcherniak2011} is also possible; their low quantum
 yield, in the order of $10^{-5}$\cite{Yorulmaz2012} is compensated by the
 enhanced cross section. Moreover the luminescence signal is stable over time;
 gold nanoparticles do not blink nor bleach, therefore being useful labelling
-agents for processes that require of extended periods of observation.
+agents for processes that require extended periods of
+observation\cite{Wang2005}.
 
 Different metallic nano-objects are being introduced as agents for photothermal
 therapy or drug delivery\cite{Kang2013}. One of the advantages of gold
@@ -116,17 +117,19 @@ range, where the penetration of light into tissues can be of several
 centimeters\cite{Huang2006,Gobin2007,Hirsch2003,ONeal2004,Li2013c,Huang2008}.
 Moreover the particles can be used not only for treatment, but also for imaging.
 In this work we propose that the anti-Stokes luminescence of gold nanorods and
-nanospheres can be used to measure their temperature with a relatively high
+nanospheres can be used to measure their temperature with relatively high
 accuracy.
 
 Luminescence of metallic nanoparticles has been the object of extensive study in
 recent years. Since the first observation of luminescence from bulk
 gold\cite{Mooradian1969}, different groups have tried to quantitatively describe
-the observed properties\cite{Mohamed2000,Beversluis2003a}, as the
-quantum yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015,Dulkeith2004} and the
-emission spectrum\cite{Link2010}. Several computer packages\cite{Yurkin2011} allow to
-compute the cross sections of different geometries and there are already several
-successful applications of nanoparticles into different fields. The anti-Stokes
+the observed properties\cite{Mohamed2000,Beversluis2003a}, as the quantum
+yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015,Dulkeith2004} and the
+emission spectrum\cite{Link2010}. Several computer
+packages\cite{Yurkin2011,Draine1994,Oskooi2010} allow to calculate the cross
+sections of different geometries and there are already several successful
+applications of nanoparticles into different
+fields\cite{Fedoruk2013,Huang2006,Huang2008,Zijlstra2009}. The anti-Stokes
 emission from these particles has however been largely overlooked.
 
 The mechanism we propose to explain the luminescence from gold nanoparticles is
@@ -157,13 +160,13 @@ have interacted only with static surfaces, their energy would be the same and
 therefore the emitted photon would have the same energy as the incoming
 photon, and will not contribute to the measured photoluminescence (as it will be
 blocked by the notch filter.) If on the other hand they have interacted with a
-phonon or a thermally exited electron or hole, they may have lost or acquired a
+phonon or a thermally excited electron or hole, they may have lost or acquired a
 energy before recombining.
 
 Electron and hole can also interact with baths upon recombination, either by
 creation or annihilaton of a phonon. In both cases the energy available upon
 recombination cannot much exceed $\hbar\omega_L+k_BT$. It has to be noted that
-in the hypothesis of a single-photon absorption, i.e. at low excitation power, the
+in the hypothesis of a single-photon absorption at low excitation power, the
 temperature $T$ is that of the baths before absorption, i.e. the temperature of
 the medium surrounding the particle. This is different from pulsed experiments,
 in which the electron gas temperature can be orders of magnitude higher than
@@ -173,7 +176,7 @@ Radiative recombination gives rise to weakly emitting sources spatially and
 spectrally distributed throughout the particle over a broad frequency band with
 an exponential cutoff at $\hbar\omega_\textrm{L}+k_\textrm{B}T$. The weak
 recombination emission can be greatly enhanced by the surface plasmon resonance,
-acting as an antenna. With this model the following prediction can be made.
+acting as an antenna. With this model the following predictions can be made.
 Firstly the emission spectrum must follow the plasmon spectrum if the excitation
 laser is well above the plasmon resonance as shown in Figure
 \ref{fig:spectra_rod} in the results. If the excitation falls within the
@@ -265,11 +268,11 @@ acquired with the $532\nm$ laser. In case of a recorded intensity change larger
 than acceptable, the particular spectra was disregarded.
 
 To calculate the heating of the particles the absorption cross section has to be
-computed. For the case of nanorods, the ADDA package was employed. Spheres'
-cross section can be calculated from Mie theory. Once the dissipated power is
-known, the parameters can be either used in a Comsol model or the
-heat equation can be analytically solved, approximating the rods by spheres of
-the same volume.
+computed. For the case of nanorods, the ADDA package was
+employed\cite{Yurkin2011}. Spheres' cross section can be calculated from Mie
+theory. Once the dissipated power is known, the parameters can be either used in
+a Comsol model or the heat equation can be analytically solved, approximating
+the rods by spheres of the same volume.
 
 \section{Results}
 \begin{figure}[htp] \centering
@@ -302,9 +305,9 @@ discussion on the effects of this procedure will be given later.
 
 The other curves in Fig. \ref{fig:spectra_rod} show the luminescence emission of
 the same nanorod while irradiating with a $633\nm$ laser at different powers,
-ranging from $25\uW$ to $125\uW$ at the back aperture of the objective. The
+ranging from $25\uW$ to $105\uW$ at the back aperture of the objective. The
 vertical black line shows the wavelength of the laser. The Stokes part of the
-spectrum at longer wavelengths than the excitation, show the same shape as the
+spectrum at longer wavelengths than the excitation, shows the same shape as the
 plasmon emission observed under $532\nm$ excitation, apart from a normalization
 factor. From the figure it can readily be seen that the shape of the anti-Stokes
 emission, at shorter wavelengths than excitation, is exponential-like and
@@ -330,8 +333,8 @@ ensuring the 1-photon nature of both kinds of emission.}
 
 Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
 anti-Stokes (blue) emission for several excitation powers. In both cases the
-linear fit in logarithmic scale has a slope close to $1$, being $0.9$ for the
-Stokes and $1.2$ for the anti-Stokes, ensuring that both types of emission are
+linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
+Stokes and $1.20$ for the anti-Stokes, ensuring that both types of emission are
 single-photon processes. The behavior is independent of the plasmon resonance
 position. It is important to note that the excitation intensity cannot be
 increased much beyond what is shown because nanorods would start reshaping into
@@ -347,33 +350,47 @@ irradiation at $100\uW$. The red line shows the position of the laser.}
 
 Figure \ref{fig:ASS-ratio} shows the ratio of the anti-Stokes emission to the
 Stokes emission for $90$ nanorods with different plasmon resonance and under the
-same $633\nm$ excitation. The vertical red line marks the laser wavelength. It
-can be seen that in the range of plasmonnresonances going from $610\nm$ to
-$680\nm$ there is a variation by a factor of at least $30$ in the ratio of
-emissions. Moreover, the maximum ratio happens when the laser is red-detuned
-from the resonance. This is the case where the plasmon is enhancing preferably
-the anti-Stokes emission. It has to be kept in mind that off-resonance the cross
-section is lower and therefore the excitation is not as efficient. For particles
-with a resonance at the laser wavelength, the anti-Stokes and the Stokes
-have similar enhancement and show a ratio close to $10\%$.
+same $633\nm$ excitation; the blue circles are experimental data. The vertical
+red line marks the laser wavelength. It can be seen that in the range of plasmon
+resonances going from $600\nm$ to $690\nm$ there is a variation by a factor of
+at least $30$ in the ratio of emissions. Moreover, the maximum ratio happens
+when the laser is red-detuned from the resonance. This is the case where the
+plasmon is enhancing preferably the anti-Stokes emission. It has to be kept in
+mind that off-resonance the cross section is lower and therefore the excitation
+is not as efficient. For particles with a resonance at the laser wavelength, the
+anti-Stokes and the Stokes have similar enhancement and show a ratio close to
+$10\%$. Plotting the ratio of anti-Stokes-to-Stokes emission allows to overcome
+the differences in quantum yield intrinsic to each particle.
+
+Figure \ref{fig:ASS-ratio} also shows the results of calculations as the red
+triangles. A very good overlap between the measured and the calculated data can
+be observed. The absorption cross section of several particles was calculated
+with the ADDA package. Each calculated spectrum was fitted by a lorentzian and
+used as $\textrm{I}_{\textrm{SPR}}(\nu)$ in eqn.
+\ref{eqn:fitting}. The absorption cross section also allowed to estimate the
+temperature of the particle assuming a diffraction limited spot and from this
+calculate the emission spectrum of the anti-Stokes using the full eqn.
+\ref{eqn:fitting}. The Stokes part of the emission was set to purely lorentzian.
+In this calculation no free parameters were assumed and the transmission of the
+filters was taken into account. 
 
 \begin{figure}[htp] \centering
-\includegraphics[width=0.90\textwidth]{Figures/03_Fit_Of_AS/03_Log_Fit_AS.png}
+\includegraphics[width=\textwidth]{Figures/03_Fit_Of_AS/03_Log_Fit_AS.png}
 \caption{Anti-Stokes emission at different irradiation powers with the
 corresponding fitting by equation \ref{eqn:fitting}. There is a good overlap
 between data and model. The inset shows the extracted temperature at each
 power (blue dots) and a linear extrapolation of the data to $0\uW$ excitation
 power. The value obtained for room temperature was $293\K$ while the measured
-value was $296\K$. The green stars are the calculated temperatures under the
+value was $296\K$. The green dots are the calculated temperatures under the
 same excitation conditions. There is a good agreement between experimental and
 numerical values.}
 	\label{fig:AS_in_Log}
 \end{figure}
 
 By fitting the anti-Stokes part of the spectra shown in Fig.
-\ref{fig:spectra_rod} with equation \ref{eqn:fitting} it is possible to extract
+\ref{fig:spectra_rod}a with equation \ref{eqn:fitting} it is possible to extract
 the temperature of the particle at each excitation power. Figure
-\ref{fig:AS_in_Log} shows the result of this procedure. The spectra shown were
+\ref{fig:AS_in_Log}a shows the result of this procedure. The spectra shown were
 recorded at $4$ different excitation intensities; the full lines are the fits.
 There is a good agreement between the fits and the experimental values. The
 inset in the figure shows the extracted temperatures at different intensities
@@ -388,135 +405,71 @@ reasonable, we performed finite element analysis using Comsol. The cross section
 was obtained from discrete dipole calculations employing the ADDA
 package\cite{Yurkin2011}. The values for the dimensions of the particle were
 deduced from SEM images, and the length was adjusted to obtain a plasmon
-overlapping to the observed one. The inset in Fig. \ref{fig:AS_in_Log} shows the
-calculated temperatures under the same excitation conditions as the green dots.
-There is a good agreement between both measurements and simulations. 
-
-%Moreover it
-%can be seen that once calculated the cross section of the particle, the
-%temperature of a rod or of a sphere with the same volume are the same,
-%% therefore the temperature can be easily determined from the absorbed power
-%% using the heat
-%equation.
+overlapping to the observed one. The inset in Fig. \ref{fig:AS_in_Log}a shows
+the calculated temperatures under the same excitation conditions as the green dots.
+There is a good agreement between both measurements and simulations.
 
 As expected from the model, the anti-Stokes emission should depend not only on
-the particle\'s intrinsic properties but also on the temperature of the
+the particle's intrinsic properties but also on the temperature of the
 surrounding medium\cite{Konrad2013}. The samples were mounted in a flow cell
 that allowed to change the temperature and to measure it with a Pt100 resistance
-thermometer. It has to be remembered that in this set of experiments we
-employed a dry objective, and therefore the excitation powers are larger to compensate for the
+thermometer. It has to be remembered that in this set of experiments we employed
+a dry objective, and therefore the laser powers are larger to compensate for the
 lower excitation efficiency. At each temperature several spectra were acquired
 at different $633\nm$ excitation powers and also a spectrum of the plasmon
 before and after in order to monitor any possible reshaping of the particles
 during the experiment.
 
+Figure \ref{fig:AS_in_Log}b shows the extracted temperature of a particle at
+varying excitation powers and at different water temperatures. The blue circles
+are the results of the measurement at $20\deg$, while the green crosses are at
+$40\deg$ and the yellow squares at $60\deg$. The full lines are the calculated
+temperatures for a particle with an overlapping plasmon and assuming a
+diffraction-limited focus spot. There is a remarkable agreement between the
+calculation and the measured values. Moreover it is possible to extrapolate the
+temperature at $0$ excitation power for each case as was explained earlier. The
+results are shown in the inset of the figure for each temperature. The red line
+with slope $1$ is a guide to the eye.
+
+Figure \ref{fig:spectra_rod}b clearly shows that the extracted temperature
+varies with the temperature of the surrounding medium. The values obtained
+with the extrapolation to $0\uW$ excitation power were $299\K$, $311\K$ and
+$347\K$ for water temperatures of $293\K$, $313\K$ and $333\K$ respectively. The
+departure from the expected values is within our experimental error and it is
+due to the propagation of errors from one fitting step to the next. 
+
 \begin{figure}[htp] \centering
-\includegraphics[width=0.45\textwidth]{Figures/04_Extracted_Temp/04_extracted_temp.png}
+\includegraphics[width=0.50\textwidth]{Figures/04_Extracted_Temp/04_extracted_temp.png}
 \caption{Anti-Stokes emission spectra under $633\nm$ laser excitation at
 $510\uW$ but at different temperatures. The inset shows the extracted
 temperature as the temperature of the medium increases.}
 	\label{fig:AS-temps-rods}
 \end{figure}
 
-Figure \ref{fig:AS-temps-rods} shows the anti-Stokes emission spectra at
-$510\uW$ but at different temperatures. The changes in the slope of the curves
-encode the different temperatures. The inset in Fig. \ref{fig:AS-temps-rods}
-shows the extracted temperature from the fitting with equation \ref{eqn:fitting}
-as a function of the temperature measured by the Pt100 in the vicinity of the
+It is also possible to keep the excitation intensity constant and to vary the
+temperature of the surrounding medium. Figure \ref{fig:AS-temps-rods} shows the
+extracted temperature from the fitting with equation \ref{eqn:fitting} as a
+function of the temperature measured by the Pt100 in the vicinity of the
 nanorod. The red line is showing the water temperature and acts as a guide to
-the eye.
-
-The inset of Figure \ref{fig:AS-temps-rods} clearly shows an increase in the
-extracted temperature while increasing the temperature of the surrounding
-medium. The range of explored temperatures was from $296\K$, room temperature,
-up to $320\K$. This range is enough to observe a change in the anti-Stokes
-emission spectrum. At higher temperatures the stability of the setup
-plays a crucial role in maintaining the particle in focus during the spectra
-acquisition time. Longer exposure times and therefore lower excitation
-intensities can be obtained if particles are actively maintained in focus.
-
-Together with the excitation intensity, the plasmon position has a crucial role
-in the accuracy of the extracted temperature. The luminescence spectrum acquired
-with the $532\nm$ laser shows an asymmetric shape, due to a broadband
-contribution from gold added to the plasmonic emission. This makes the initial
-fitting needed for the SPR function of equation \ref{eqn:fitting} non univocally
-determined. For the particle shown in Fig. \ref{fig:spectra_rod}, changing the
-initial wavelength of the fit from $600\nm$ to $640\nm$ yields a significative
-difference in the obtained parameters of the lorentzian.
-
-\begin{figure}[htp] \centering
-\includegraphics[width=0.90\textwidth]{Figures/05_Estimation_error/05_estimation_error.png}
-\caption{Estimation of the error due to different fitting parameters of the
-plasmon spectrum. a) 2D grid of the difference in temperature obtained while
-varying both $P_2$ and $P_3$ parameters of the fit. b) Temperature dependence
-while keeping either $P_2$ or $P_3$ constant.}
-	\label{fig:estimation-error}
-\end{figure}
-
-Using the following expression for the SPR function in $\eV$, 
-\begin{equation*}
-\textrm{SPR}(E) = \frac{P_1}{(E-P_2)^2+P_3}
-\end{equation*}
-The different fitting ranges give values for $P_2$ between $1.940\eV$ and
-$1.955eV$, while the values of $P_3$ lie in between $5\cdot10^{-3}\eV^2$ and
-$8\cdot10^{-3}\eV^2$. Figure \ref{fig:estimation-error}.a shows the extracted
-temperature difference from the anti-Stokes spectra for all the possible
-parameter combinations in the range just mentioned. Figure \ref{fig:estimation-error}.b
-shows the temperature dependence while keeping either $P_2$ or $P_3$ constant.
-
-In this example it is possible to note that the extracted temperature is highly
-dependent on the fitted width of the plasmon spectrum but barely dependent on
-the extracted peak position. From the initial spectrum of the particle, it is
-possible to note that the wing of the plasmon coincides with the range of
-anti-Stokes emission. Therefore minute changes in the initial shape will yield
-higher changes in the extracted temperature.
-
-This assertion implies that there should be particles in which the extracted
-temperature wouldn't be too sensitive to the initial plasmon fit. To explore
-these possibilities, we calculated the anti-Stokes emission of different
-particles at $400\K$ by using equation \ref{eqn:fitting} and the results of ADDA
-calculations for the SPR function. We then extracted a temperature from these
-spectra while varying the lorentzian parameters as was done for the experimental
-results. In this way it is possible to study the expected error in temperature
-generated by the initial uncertainty in the fitting of the plasmon for different
-particles. 
-
-\begin{figure}[htp] \centering
-\includegraphics[width=0.45\textwidth]{Figures/06_Calculation_error/06_calculation_error.png}
-\caption{Calculated error in the temperature extraction due to the uncertainty
-in the plasmon parameters as a function of the resonance position of the
-particle. Clearly, when exciting at the blue wing of the plasmon, the effect of
-these uncertainties is much lower.}
-	\label{fig:calculated-error}
-\end{figure}
-
-Figure \ref{fig:calculated-error} shows the uncertainty in the extracted
-temperature as a function of the plasmon peak position. The uncertainty is
-defined as the difference of the maximum and the minimum extracted temperatures
-while varying $P_2$ by $10\%$ and $P_3$ by $30\%$. The vertical red line depicts
-the position of the laser. It is remarkable the difference for particles with a
-resonance red-shifted from the excitation laser to particles blue-shifted.
-Indeed, when the plasmon favors the anti-Stokes emission the correct modelling
-of the resonance is crucial for the extraction of temperatures. On the other
-hand, when the plasmon is red-shifted from the excitation, the induced error in
-the extracted temperature is much lower. The amount of collected light is
-another factor to keep into account. When the resonance is red-shifted
-from the laser, the anti-Stokes emission is much weaker and therefore
-accumulating enough photons in the spectrometers requires longer acquisition
-times.
-
-% It was not possible, however, to extrapolate to zero excitation power, since
-% only few spectra were clear enough as to proceed with the fitting.
+the eye. The Figure clearly shows an increase in the extracted temperature while
+increasing the temperature of the surrounding medium. The range of explored
+temperatures was from $296\K$, room temperature, up to $320\K$. This range is
+enough to observe a change in the anti-Stokes emission spectrum. At higher
+temperatures the stability of the setup plays a crucial role in maintaining the
+particle in focus during the spectra acquisition time. Longer exposure times and
+therefore lower excitation intensities can be obtained if particles are actively
+maintained in focus.
 
 It would be beneficial therefore to have particles that can withstand higher
-excitation powers and that have a plasmon resonance well defined. In principle
-gold nanospheres fulfill these requirements. They are known to withstand much
-higher excitation powers without reshaping nor melting\cite{Hou2015}. Moreover
-the plasmon resonance of spheres shifts only slightly with radius, therefore it
-is possible to predict it using Mie theory and eliminating the need of a second
-laser beam. Sphere samples however always show a shape distribution that cannot
-be neglected and that induces a deviation of the observed resonance from the
-predicted.
+excitation powers and that have a plasmon resonance well defined. In this way it
+would be possible to use a single wavelength and to reduce the exposure times to
+record the spectra. In principle gold nanospheres fulfill these requirements.
+They are known to withstand much higher excitation powers without reshaping nor
+melting\cite{Hou2015}. Moreover the plasmon resonance of spheres shifts only
+slightly with radius, therefore it is possible to predict it using Mie theory
+and eliminating the need of a second laser beam. Sphere samples however always
+show a shape distribution that cannot be neglected and that induces a deviation
+of the observed resonance from the predicted.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.90\textwidth]{Figures/07_Spheres/07_spheres.png}
@@ -539,16 +492,19 @@ be the more red-shifted. This is most likely due to small anisotropies in the
 sample, giving rise to slightly different plasmon resonances. The inset in Fig.
 \ref{fig:spheres}.a shows a detail of the anti-Stokes emission for the three
 spheres without any further normalization. It has to be pointed out, however,
-that the excitation intensity was $1.2\mW$, $2.0\mW$ and $3.6\mW$ to compensate
-for the lower cross sections of the smaller particles.
+that the excitation intensities were $1.2\mW$, $2.0\mW$ and $3.6\mW$ to
+compensate for the lower cross sections of the smaller particles.
 
 It has to be noted that spheres have not only a smaller cross section than
 nanorods of the same volume, but their quantum yield is also one order of
-magnitude lower than for rods and it holds true for the anti-Stokes emission.
-This can be compensated by increasing the excitation power up to either reaching
-a melting temperature of gold or a phase transition of the surrounding liquid
-that in turn would induce a shift in the plasmon resonance. This is why the
-powers employed with spheres are much higher than the ones employed with rods.
+magnitude lower than that of rods\cite{Yorulmaz2012}. The weaker emission from
+these particles can be compensated by increasing the excitation power. The
+limitation in power it is therefore given by either reaching the melting
+temperature of gold or by inducing a phase transition of the surrounding liquid.
+The first would induce an irreversible change in shape of the
+particles\cite{Zijlstra2009a} the latter would induce a change in the refractive
+index of the medium and therefore would induce a shift in the plasmon
+resonance\cite{Hou2015}.
 
 Figure \ref{fig:spheres}.b shows the extracted temperature of the three
 particles while increasing the medium temperature. It is possible to see that
@@ -560,7 +516,7 @@ from the heat equation, considering the absorption cross section given by Mie
 theory. An analysis on the error similar to the one performed with rods yields a
 relative tolerance of about $5\%$ in the extracted temperature, and therefore is
 not possible to conclude that the increase in the calculated temperature is in
-fact given by the increase in the medium\'s temperature.
+fact given by the increase in the medium's temperature.
 
 \section{Conclusions}
 Being able to control and monitor temperature at the nanoscale is of utmost
