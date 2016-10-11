@@ -38,7 +38,7 @@
 \newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
 \newcommand{\kCPS}{\ensuremath{\,\textrm{kCPS}}}
 \newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
-\newcommand{\deg}{\ensuremath{\,^o\textrm{C}}}
+\newcommand{\degree}{\ensuremath{\,^o\textrm{C}}}
 
 \author{Aquiles Carattino}
 \affiliation[Leiden]
@@ -55,9 +55,9 @@
 \begin{document}
 \maketitle
 
-\section{Determination of the error in the temperature extraction}
-Together with the excitation intensity, the plasmon position has a crucial role
-in the accuracy of the extracted temperature. The luminescence spectrum acquired
+\section{Determination of the error in the temperature
+extraction}\label{sec:discussion_errors} Together with the excitation intensity,
+the plasmon position has a crucial role in the accuracy of the extracted temperature. The luminescence spectrum acquired
 with the $532\nm$ laser shows an asymmetric shape, due to a broadband
 contribution from gold added to the plasmonic emission. This makes the initial
 fitting needed for the SPR function of equation \ref{eqn:fitting} non univocally
@@ -74,9 +74,9 @@ while keeping either $P_2$ or $P_3$ constant.}
 	\label{fig:estimation-error}
 \end{figure}
 
-Using the following expression for the SPR function in $\eV$, 
+Using the following expression for the $I_\textrm{SPR}$ function in $\eV$, 
 \begin{equation*}
-\textrm{SPR}(E) = \frac{P_1}{(E-P_2)^2+P_3}
+I_\textrm{SPR}(E) = \frac{P_1}{(E-P_2)^2+P_3}
 \end{equation*}
 The different fitting ranges give values for $P_2$ between $1.940\eV$ and
 $1.955eV$, while the values of $P_3$ lie in between $5\cdot10^{-3}\eV^2$ and
@@ -123,15 +123,16 @@ hand, when the plasmon is red-shifted from the excitation, the induced error in
 the extracted temperature is much lower. The amount of collected light is
 another factor to keep into account. When the resonance is red-shifted
 from the laser, the anti-Stokes emission is much weaker and therefore
-accumulating enough photons in the spectrometers requires longer acquisition
+accumulating enough photons in the spectrometer requires longer acquisition
 times.
 
 \section{Comparing Comsol and Simple approximation for temperature calculation}
 \begin{figure}[htp] \centering
-\includegraphics[width=0.5\textwidth]{Figures/Supporting/03_Compare_Comsol/03_Compare_Comsol.png}
+\includegraphics[width=0.5\textwidth]{Figures/Supplementary/03_Compare_Comsol/03_Compare_Comsol.png}
 \caption{Calculated temperature for a $21\nm\times 50\nm$ nanorod under
 different excitation intensities. The full line is the result of the simple
-model while the dots are the calculated values using Comsol.}
+model while the dots are the calculated values using Comsol. The circles are
+with the default heat conductivity and the diamonds are with a constant value.}
 	\label{fig:Compare-Comsol}
 \end{figure}
 
@@ -156,11 +157,21 @@ the equation (full line) and a finite element method calculation using Comsol
 and dissipated power was kept the same. The blue circles are the results given
 by using the built-in material properties of water, i.e. a thermal conductivity
 that depends on temperature. The diamonds are the results when the thermal
-conductivity is fixed to $0.61 \W(\m\K)^{-1}$. The difference is accentuated at
-higher temperatures.
+conductivity is fixed to $0.61 \W(\m\cdot\K)^{-1}$. The difference is
+accentuated at higher temperatures.
 
+\section{Luminescence power dependence}
+\begin{figure}[htp] \centering
+\includegraphics[width=0.45\textwidth]{Figures/Supplementary/01_AS_S_in_Log/01_AS_S_in_Log.png}
+\caption{Stokes and anti-Stokes emission as a function of excitation power. The
+linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
+ensuring the 1-photon nature of both kinds of emission.}
+	\label{fig:Log_Plot}
+\end{figure}
 
-
+Figure \ref{fig:Log_Plot} shows the power dependence of both the Stokes and
+anti-Stokes luminescence. The fit in logarithmic scale ensures that both
+processes are due to one photon absorption. 
 
 \bibliography{anti_stokes}
 \end{document}
