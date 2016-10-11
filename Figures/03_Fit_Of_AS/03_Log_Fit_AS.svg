@@ -771,11 +771,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.025025"
-     inkscape:cx="110.8857"
-     inkscape:cy="54.705123"
+     inkscape:zoom="1.5931457"
+     inkscape:cx="322.49192"
+     inkscape:cy="100.03439"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="987"
@@ -4680,7 +4680,8 @@
      id="layer3"
      inkscape:label="Legend"
      transform="translate(-2.9795609,7.079314)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#000000;fill-opacity:0.71573606;stroke:none;stroke-width:0.87519687;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect10599-8"
@@ -5357,115 +5358,7 @@
      id="layer4"
      inkscape:label="Inset 2"
      transform="translate(9.5898438e-8,8.4650896)"
-     sodipodi:insensitive="true">
-    <g
-       id="g5392"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5072"
-         y1="62.694996"
-         x2="181.71597"
-         x1="180.34004"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="61.063992" />
-      <line
-         id="line5074"
-         y1="61.063992"
-         x2="181.71597"
-         x1="180.34004"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="62.694996" />
-    </g>
-    <g
-       id="g5388"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5076"
-         y1="51.278015"
-         x2="194.88568"
-         x1="193.50974"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="49.647018" />
-      <line
-         id="line5078"
-         y1="49.647018"
-         x2="194.88568"
-         x1="193.50974"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="51.278015" />
-    </g>
-    <g
-       id="g5384"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5080"
-         y1="40.094048"
-         x2="208.25195"
-         x1="206.87602"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="38.463055" />
-      <line
-         id="line5082"
-         y1="38.463055"
-         x2="208.25195"
-         x1="206.87602"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="40.094048" />
-    </g>
-    <g
-       id="g5380"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5084"
-         y1="29.143066"
-         x2="221.42168"
-         x1="220.04572"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="27.512068" />
-      <line
-         id="line5086"
-         y1="27.512068"
-         x2="221.42168"
-         x1="220.04572"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="29.143066" />
-    </g>
-    <g
-       id="g5376"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5088"
-         y1="18.192087"
-         x2="234.78793"
-         x1="233.41199"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="16.561087" />
-      <line
-         id="line5090"
-         y1="16.561087"
-         x2="234.78793"
-         x1="233.41199"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="18.192087" />
-    </g>
-    <g
-       id="g5372"
-       transform="matrix(1,0,0,0.90274068,0,6.0976726)">
-      <line
-         id="line5092"
-         y1="7.4741101"
-         x2="247.95763"
-         x1="246.5817"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="5.8431163" />
-      <line
-         id="line5094"
-         y1="5.8431163"
-         x2="247.95763"
-         x1="246.5817"
-         style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#76ab2f;stroke-width:2.8066783;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         y2="7.4741101" />
-    </g>
+     style="display:inline">
     <g
        transform="translate(0,7.6293945e-6)"
        style="display:inline"
@@ -5724,7 +5617,8 @@
      id="layer7"
      inkscape:label="Container"
      transform="translate(4.7949219e-8,8.4650972)"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
