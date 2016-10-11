@@ -2291,11 +2291,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.80776064"
-     inkscape:cx="301.81668"
-     inkscape:cy="-109.97927"
+     inkscape:zoom="1.322077"
+     inkscape:cx="158.8837"
+     inkscape:cy="-19.469122"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1680"
      inkscape:window-height="987"
@@ -2353,16 +2353,15 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(0.41682911,-6.1742315)"
-     sodipodi:insensitive="true">
+     transform="translate(0.41682911,-6.1742315)">
     <text
-       x="117.61229"
+       x="100.00657"
        xml:space="preserve"
        y="217.81599"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:3.37199426;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text5440"
        transform="scale(0.99959126,1.0004089)"
-       sodipodi:linespacing="125%">Measured T (K)</text>
+       sodipodi:linespacing="125%">Water Temperature (K)</text>
     <line
        y2="195.36461"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -2488,13 +2487,13 @@
        transform="scale(0.99959125,1.0004089)"
        sodipodi:linespacing="125%">330</text>
     <text
-       x="-140.95259"
+       x="-160.53883"
        xml:space="preserve"
        y="8.7139978"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:125%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:3.37199426;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text5490"
-       transform="matrix(0,-1.0004089,0.99959124,0,0,0)"
-       sodipodi:linespacing="125%">Calculated T (K)</text>
+       transform="matrix(0,-1.0004089,0.99959125,0,0,0)"
+       sodipodi:linespacing="125%">Particle Temperature (K)</text>
     <line
        y2="11.667668"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -2691,6 +2690,6 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Inset"
-     style="display:inline"
+     style="display:none"
      transform="translate(0.41682911,-6.1742315)" />
 </svg>
