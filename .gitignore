@@ -3,3 +3,8 @@
 /anti_stokes.synctex.gz
 /paper/
 acs-*.bib
+*.bbl
+*.blg
+*.tps
+*.log
+*.aux
