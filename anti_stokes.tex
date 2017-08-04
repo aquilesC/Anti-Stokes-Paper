@@ -59,12 +59,12 @@ Nano-thermometry is a challenging field that can open the door
 to very intriguing questions ranging from biology and medicine to material sciences.
 Gold nanorods are excellent candidates to act as nanoprobes because they are
 reasonably bright emitters upon excitation with a monochromatic source.
-Moreover gold nanoparticles are already used in photothermal therapy as efficient
+Gold nanoparticles are commonly used in photothermal therapy as efficient
 transducers of electromagnetic radiation into heat. In this work we show that
 the spectrum of the anti-Stokes emission from gold nanorods irradiated in
-resonance can be used to measure the absolute temperature of the nanoparticles.
-The procedure does not require any previous calibration and can be easily
-implemented in any microscope capable of acquiring emission spectra. 
+resonance can be used to measure the \textit{absolute temperature} of the nanoparticles 
+\textit{without} the need of a previous calibration.
+The procedure can be easily implemented in any microscope capable of acquiring emission spectra. 
 
 %We show
 %that the luminescence spectrum of single gold nanorods closely follows
@@ -172,7 +172,7 @@ excitation light from reaching the detectors.
 In this work luminescence refers to the emission from nanoparticles observed at
 energies different from the excitation energy. Normally it is expected that
 after absorption of a photon, the electrons in the particle will relax and the
-emitted photon will appear at lower energies than the excitation. If this is the
+emitted photons will appear at lower energies than the excitation. If this is the
 case, the emission is called Stokes-shifted; however gold nanoparticles when
 excited in resonance also present a significant emission at higher energies
 called anti-Stokes emission\cite{He2015,Jiang2013,Carattino2016a}.
@@ -181,17 +181,18 @@ The mechanism we propose to explain the luminescence from gold nanoparticles is
 based on the radiative recombination of electrons and holes that are created
 upon the absorption of an incident photon\cite{Dulkeith2004,Mooradian1969}. The
 emission will be enhanced by the presence of the surface plasmon acting as an
-antenna\cite{Mohamed2000}. At the same time, the probability of the interaction
+antenna\cite{Mohamed2000}. At the same time, the interaction
 of the electron or hole with a thermal bath (a phonon or a carrier) before
 recombining can give rise to an emitted photon with a higher energy than the
-excitation photon's\cite{Hodak2000,Giri2015,Arbouet2003a}.
+excitation photon's\cite{Hodak2000,Giri2015,Arbouet2003a}. This effect can also
+be interpreted as secondary light emission \cite{Huang2014}.
 
 A monochromatic photon with energy $\hbar\omega_\textrm{L}$ incident on the
 particle will give rise to a collective oscillation of the gas of conduction
 electrons called plasmon. The lifetime of the oscillation can be measured in
-pulsed experiments or calculated from the inverse of the linewidth and is in the
-order of $10\fs$\cite{Sonnichsen2002}. The plasmon decays by forming a pair of
-hot electron and hole with an internal energy equal to the plasmon
+pulsed experiments or estimated from the inverse of the linewidth and is in the
+order of $10\fs$\cite{Sonnichsen2002} (assuming no pure dephasing time $T_2*$).
+The plasmon decays by forming a pair of hot electron and hole with an internal energy equal to the plasmon
 energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}.
 
 The hot electron and hole cool down by exchanging energy with the lattice on a
@@ -206,7 +207,7 @@ phonon or a thermally excited electron or hole, they may have lost or acquired
 energy before recombining.
 
 Electron and hole can interact with baths upon recombination, either by
-creation or annihilaton of a phonon. In both cases the energy available upon
+creation or annihilation of a phonon. In both cases the energy available upon
 recombination cannot much exceed $\hbar\omega_L+k_BT$. It has to be noted that
 in the hypothesis of a single-photon absorption at low excitation power, the
 temperature $T$ is that of the baths before absorption, i.e. the temperature of
@@ -223,7 +224,8 @@ Firstly the emission spectrum must follow the plasmon spectrum if the excitation
 laser is well above the plasmon resonance as shown in \mbox{Figure
 \ref{fig:spectra_intensity}}. If the excitation falls within the
 plasmon resonance, the spectrum is expected to follow the plasmon spectrum
-multiplied by a Bose-Einstein statistics factor arising from phonon population.
+multiplied by a Bose-Einstein statistics factor arising from phonon population
+(assuming phonon processes to dominate over carrier-carrier interactions).
 This factor should be proportional to $\bar{n}$ for anti-Stokes and $\bar{n}+1$
 for Stokes processes, where
 
@@ -236,16 +238,19 @@ for the longitudinal plasmon of gold nanorods this polarization coincides with
 the longitudinal axis of the particle\cite{He2015}. Moreover, the lifetime
 should be determined by the lifetime of hot electrons and holes and should be
 significantly shorter than the thermalization time of the carriers. If this was
-not the case, some interactions would be enough to reduce the carriers' energy
+not the case, a few interactions would be enough to reduce the carriers' energy
 and therefore the electron and hole wouldn't have enough energy to produce an
-optical photon. Finally, only the presence of hot carriers is required in the
-model. As the wavevectors are randomly distributed at all times, the
-recombination probability remains constant at all stages of relaxation.
-Therefore excitation well above the plasmon resonance should excite the
+optical photon. 
+Finally, only the presence of hot carriers is required in the
+model.
+One important assumption for this model is that the coupling 
+mechanism of electron-hole pairs with the plasmons is flat within the plasmon 
+energy band. Therefore excitation well above the plasmon resonance should excite the
 photoluminescence with nearly the same efficiency as just above the plasmon
-resonance\cite{Cheng2015}. Differences in the distribution of electrons and
-holes appear if the excitation energy allows interband
-transitions\cite{Sundararaman2014,Brown2016}. 
+resonance\cite{Cheng2015}.
+%Differences in the distribution of electrons and
+%holes appear if the excitation energy allows interband
+%transitions\cite{Sundararaman2014,Brown2016}. 
 
 Here we propose to use the anti-Stokes luminescence emission from gold
 nanoparticles to determine their temperature. According to the model just
@@ -260,10 +265,11 @@ described, the anti-Stokes emission follows the following form,
 photons, $\omega_\textrm{L}$ is the frequency of the laser, $\hbar$ is Planck's
 constant, $k_\textrm{B}$ the Boltzmann constant. $\textrm{I}_{\textrm{SPR}}$ is
 the surface plasmon resonance that can be obtained by exciting the particle at
-energies higher than the resonance or, ideally, by looking at the scattering
-spectrum. Even if these two spectra are not identical, they overlap in the range
-of wavelengths comprising the maximum of the emission and
-longer\cite{Yorulmaz2012}. The only remaining free parameter is the temperature $T$ (plus a
+energies higher than the resonance.% or, ideally, by looking at the scattering
+%spectrum. Even if these two spectra are not identical, they overlap in the range
+%of wavelengths comprising the maximum of the emission and
+%longer\cite{Yorulmaz2012}. 
+The only remaining free parameter is the temperature $T$ (plus a
 normalization constant not included in eqn.
 \ref{eqn:fitting}.) This means that carefully fitting the emission spectra
 excited at two frequencies ($\nu\gg\nu_{\textrm{SPR}}$ and
@@ -287,7 +293,7 @@ resonance around $650\nm$ were spin-coated onto clean
 coverslips, controlling the superficial concentration to obtain individual nanorods with the 
 diffraction-limited optical resolution.
 In addition, the samples were mounted in a flow cell that allowed us to increase the temperature of the medium
-up to $60\,^oC$ and to monitor it through a Pt100 resistance thermometer placed
+up to $60\,^o$C and to monitor it through a Pt100 resistance thermometer placed
 $1\mm$ away from the observation area. More details about the experimental
 setup are given in the supplementary information.
 
@@ -301,9 +307,9 @@ spectrometer. In this way complete data sets were acquired at different
 temperatures, including spectra while exciting at $532\nm$, at $633\nm$ with
 different laser intensities and the temperature measured by the Pt100. A
 spectrum with $532\nm$ laser excitation was taken after every cycle to ensure
-that the particle under study was not reshaping due to higher excitation powers.
+that the particle under study had not reshaped due to higher excitation powers.
 
-The intensity of the lasers was controlled via the voltage applied to an acusto-optic modulator in
+The intensity of the lasers was controlled via the voltage applied to an acousto-optic modulator in
 the optical path. Several accumulations of the spectra at the same laser
 intensity were recorded. This not only allowed us to lower the noise of the
 measurements because of a longer exposure time, but also allowed us to remove
@@ -324,7 +330,7 @@ excitation power.
 \begin{figure}[tp] \centering
 \includegraphics[width=78.4mm]{Figures/02_Several_Intensities/02_several_intensities.png}
 \caption{\textbf{Luminescence emission spectra of a single gold nanorod.} The green curve is the
-mesured luminescence emission under $532\nm$ excitation with a lorentzian fitting in red. The
+measured luminescence emission under $532\nm$ excitation with a Lorentzian fitting in red. The
 dashed part is the region that was not considered for the fitting. The other
 curves are the emission of the same particle under $633\nm$ irradiation at three 
 different powers indicated in the legend. The inset shows the anti-Stokes-to-Stokes ratio as a function
@@ -340,10 +346,10 @@ particle temperature. It has been shown that both scattering and luminescence
 spectra roughly overlap over a broad range of wavelengths\cite{Yorulmaz2012}. Therefore
 exciting gold nanorods with $532\nm$ allows us to record the longitudinal
 plasmon spectra, as shown in the green solid curve of Figure \ref{fig:spectra_intensity}. The
-peak was fitted by a single lorentzian, shown in red in the Figure; the dashed
+peak was fitted by a single Lorentzian, shown in red in the Figure; the dashed
 part of the curve is the spectral region that was not considered for the
 fitting. It has to be recalled that the luminescence spectrum is not a perfect
-lorentzian since there is a broadband contribution to the luminescence arising
+Lorentzian since there is a broadband contribution to the luminescence arising
 between the excitation wavelength and the plasmon peak\cite{Boyd1986}. This
 appears as an asymmetry in the emission spectrum, particularly visible for
 wavelengths smaller than $625\nm$. The results of this fitting will be employed
@@ -357,7 +363,7 @@ spectrum at longer wavelengths than the excitation shows the same shape as the
 plasmon emission observed under $532\nm$ excitation, apart from a normalization
 factor. From the figure it can readily be seen that the shape of the anti-Stokes
 emission, at shorter wavelengths than excitation, is exponential-like and
-doesn't follow the lorentzian shape of the Stokes emission. The dip between
+doesn't follow the Lorentzian shape of the Stokes emission. The dip between
 Stokes and anti-Stokes is caused by the notch filter that prevents direct
 excitation light from reaching the detectors.
 
@@ -398,7 +404,7 @@ Figure \ref{fig:ASS-ratio} also shows the results of numerical calculations as t
 triangles. A excellent overlap between the measured and the calculated data can
 be observed. The absorption cross section of several particles was calculated
 with the ADDA package\cite{Yurkin2011}. Each calculated absorption spectrum was
-fitted by a lorentzian and used as $\textrm{I}_{\textrm{SPR}}(\omega)$ in eqn.
+fitted by a Lorentzian and used as $\textrm{I}_{\textrm{SPR}}(\omega)$ in eqn.
 \ref{eqn:fitting}. Assuming a diffraction limited laser spot and using the
 calculated absorption cross section allowed us to calculate the temperature of
 the particle. This value was used in eqn. \ref{eqn:fitting} to compute the
@@ -450,11 +456,11 @@ $2\%$ accuracy.
 The accuracy of the obtained temperature depends to a great extent on the
 plasmon resonance. The first step in the fitting procedure is the determination
 of the term $I_\textrm{SPR}$ in equation \ref{eqn:fitting}. This is achieved by
-fitting a lorentzian to the emission spectrum obtained while irradiating with a
+fitting a Lorentzian to the emission spectrum obtained while irradiating with a
 $532\nm$ laser. In figure \ref{fig:spectra_intensity} it is possible to observe
-that the emission spectrum is not perfectly lorentzian and therefore the fitting
+that the emission spectrum is not perfectly Lorentzian and therefore the fitting
 results will be sensitive to the portion of the spectrum selected. Depending on
-the wavelength range selected, the parameters of the lorentzian fit (its width
+the wavelength range selected, the parameters of the Lorentzian fit (its width
 and peak position) can slightly change therefore giving rise to different
 temperatures when fitting the anti-Stokes emission spectrum.
 
@@ -463,7 +469,7 @@ shifted with respect to the $633\nm$ laser, the term $I_\textrm{SPR}$ will have
 a smaller effect on the temperature extracted. When the resonance is to the red
 of the laser, the term $I_\textrm{SPR}$ will slowly vary in the region where the
 anti-Stokes emission is observed. Therefore small changes in the parameters of
-the lorentzian fit will have a small effect on the temperature extracted.
+the Lorentzian fit will have a small effect on the temperature extracted.
 However, particles that are not in resonance with the excitation laser will
 present a lower emission due to a smaller absorption cross section and to a
 lower enhancement of the anti-Stokes emission (see for example figure
