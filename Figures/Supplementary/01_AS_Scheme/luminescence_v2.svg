@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="luminescence_v2.svg"
-   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\02_Scheme\luminescence_all_AS.png"
+   inkscape:export-filename="E:\Martin\Publications\anti-stokes\Figures\Supplementary\01_AS_Scheme\luminescence_all_AS.png"
    inkscape:export-xdpi="1200"
    inkscape:export-ydpi="1200">
   <defs
@@ -186,7 +186,7 @@
       <path
          inkscape:connector-curvature="0"
          transform="matrix(0.4,0,0,0.4,4,0)"
-         style="fill:#34f400;fill-opacity:1;fill-rule:evenodd;stroke:#34f400;stroke-width:1pt;stroke-opacity:1"
+         style="fill:#0027ff;fill-opacity:1;fill-rule:evenodd;stroke:#0027ff;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
          id="path9471" />
     </marker>
@@ -978,7 +978,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.5539369"
-     inkscape:cx="194.80272"
+     inkscape:cx="77.728563"
      inkscape:cy="118.35273"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"

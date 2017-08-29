@@ -131,20 +131,16 @@
 
 \section{Anti-stokes emission form gold nanorods}\label{sec:AS}
 
-Here we briefly describe the model of relaxation of optical excitation we use to explain the  
-observed photoluminescence from gold nanorods. In particular, we focus on the 
-mechanism to explain Anti-Stokes emission.
-
-A monocromatic 
-
+Figure \ref{fig:anti-Stokes-process} shows the energy-momentum representation
+of the photoluminescence processes in gold nanorods. 
 
 
 \begin{figure}[htp] \centering
-\includegraphics[width=0.5\textwidth]{Figures/Supplementary/AS_Scheme/luminescence_all_AS.png}
+\includegraphics[width=0.5\textwidth]{Figures/Supplementary/01_AS_Scheme/luminescence_all_AS.png}
 \caption{Schematic of the anti-Stokes luminescence process from a single gold
 nanorod in the energy-momentum space. 
 After excitation with monocrhomatic light of energy $\hbar \omega_L$, 
-a collective oscillation of electrons is generated, i.e. a plasmon. 
+a collective oscillation of electrons is generated, i.e. a surface plasmon (SPR). 
 Once the coherence is lost (dephsasing time $\sim$fs), the state can be described as an
 electron-hole pair. Then, three scenarios are possible: electron and hole may
 recombine radiatively after one or more interactions with the thermal baths of
@@ -162,24 +158,34 @@ most probable one.}
 
 \section{Experimental setup}\label{sec:setup}
 
+The experimental setup consisted on a home-made confocal microscope, schematically shown in figure
+\ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. It allows the detection of individual nanorods in the sample and the measurement of their photoluminescence spectra. 
 
+Additionally, the temperature of the sample can be controlled with a special holder that allows 
+water flow, a heater and a thermocouple to measure the temperature of the sample. 
+
+\begin{figure}[htp] \centering
+\includegraphics[width=0.5\textwidth]{Figures/Supplementary/02_Setup/setup.png}
+\caption{Scheme of the experimental setup. The sample has individual gold nanorods on glass. BS: beam splitter. NF: notch filter to remove excitation light and detect Stokes and anti-Stokes photoluminescence. L: lens. FM: flipper mirror. SPEC: spectrometer. APD: avalanche photodiode.}
+	\label{fig:setup}
+\end{figure}
 
 
 \section{Gold Nanorod temperature calculations} \label{sec:temp-calc}
 
 \begin{figure}[htp] \centering
-\includegraphics[width=0.5\textwidth]{Figures/Supplementary/03_Compare_Comsol/03_Compare_Comsol.png}
+\includegraphics[width=0.5\textwidth]{Figures/Supplementary/04_Compare_Comsol/04_Compare_Comsol.png}
 \caption{Calculated temperature for a $21\nm\times 50\nm$ nanorod under
 different excitation intensities. The full line is the result of the simple
-model while the dots are the calculated values using Comsol. The circles are
-with the default heat conductivity and the diamonds are with a constant value.}
+model while the dots are the calculated values using Comsol. The circles where obtained
+with the temperature-dependent heat conductivity and the diamonds with a constant value of $0.61 \W(\m\cdot\K)^{-1}$ .}
 	\label{fig:Compare-Comsol}
 \end{figure}
 
 Throughout the main text the temperature measured with the anti-Stokes emission
 is compared to the calculated temperature using a simple heat diffusion
-equation. For spheres, assuming a thermal conductivity much higher than the
-surrounding medium, the temperature increase is given by
+equation. For spheres, assuming an infinite thermal conductivity of the metal,
+the temperature increase is given by
 
 \begin{equation}
 	\Delta \textrm{T}(P) = \frac{P}{4\pi k_{\textrm{water}} R}
@@ -189,7 +195,7 @@ surrounding medium, the temperature increase is given by
 conductivity of water and $R$ is the radius of the particle. The dissipated power can be
 easily derived from the cross section of the particle at a given wavelength and
 the intensity of the focused laser beam. For nanorods we assumed an
-equivalent radius such that the total area is preserved.
+equivalent sphere with radius such that the total rod area is preserved.
 
 Figure \ref{fig:Compare-Comsol} shows the difference between the results from
 the equation (full line) and a finite element method calculation using Comsol
@@ -202,8 +208,8 @@ accentuated at higher temperatures.
 
 \section{Luminescence power dependence}
 \begin{figure}[htp] \centering
-\includegraphics[width=0.45\textwidth]{Figures/Supplementary/01_AS_S_in_Log/01_AS_S_in_Log.png}
-\caption{Stokes and anti-Stokes emission as a function of excitation power. The
+\includegraphics[width=0.45\textwidth]{Figures/Supplementary/03_AS_S_in_Log/01_AS_S_in_Log.png}
+\caption{Stokes and anti-Stokes integrated emission as a function of excitation power. The
 linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
 ensuring the 1-photon nature of both kinds of emission.}
 	\label{fig:Log_Plot}
@@ -213,12 +219,14 @@ Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
 anti-Stokes (blue) emission for several excitation powers. In both cases the
 linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
 Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
-are single-photon processes. The behavior is independent of the plasmon
+are single-photon processes. We speculate that the anti-Stokes has a 
+lower slope due to dependence on T in the 
+equation 2 in the main text. The behavior is independent of the plasmon
 resonance position. It is important to note that the excitation intensity cannot
 be increased much beyond what is shown because nanorods would start reshaping
-towards a more spherical shape at higher laser powers.
+towards more spherical shapes at higher laser powers.
 
-\section{Anti-stokes luminescence form nanospheres}
+%\section{Anti-stokes luminescence form nanospheres}
 
  %\begin{figure}[tp] \centering
  %\includegraphics[width=80mm]{Figures/04_Extracted_Temp/04_extracted_temp.png}
@@ -240,85 +248,85 @@ towards a more spherical shape at higher laser powers.
  %therefore lower excitation intensities can be employed if particles are actively
  %maintained in focus.
  
- Particles that can withstand higher excitation powers and that have a
- well-defined plasmon resonance are of great interest, because they would allow
- to employ a single wavelength and also to reduce the exposure times to record
- the spectra. A well defined plasmon resonance also lowers the uncertainties
- associated with the initial lorentzian fit needed for the term $I_\textrm{SPR}$
- in equation \ref{eqn:fitting}. In principle gold nanospheres fulfill these
- requirements. They are known to withstand much higher excitation powers without
- reshaping nor melting\cite{Hou2015}. Moreover the plasmon resonance of spheres
- shifts only slightly with radius, therefore it is possible to predict it using
- Mie theory and to eliminate the need of a second laser beam. Sphere samples
- however always show a shape distribution that cannot be neglected\cite{Lee2013}
- and that induces deviations of the observed resonance from Mie's model.
- 
- \begin{figure}[tp] \centering
- \includegraphics[width=85.2mm]{Figures/07_Spheres/07_spheres.png}
- \caption{Normalized luminescence spectra of spheres with diameters of $60\nm$,
- $40\nm$ and $30\nm$ under $532\nm$ excitation. The inset shows the detail of the anti-Stokes emission without normalization.
- The excitation powers for the three particles were $1.2\mW$, $2.0\mW$ and
- $3.6\mW$ respectively.}
- 	\label{fig:spheres}
- \end{figure}
- 
- Figure \ref{fig:spheres} shows the normalized luminescence spectra of three
- nanospheres of diameters $60\nm$, $40\nm$ and $30\nm$ under $532\nm$ excitation.
- As for the nanorods, two very distinctive parts of the spectrum are
- distinguishable, the Stokes spectrum at longer wavelengths and the anti-Stokes
- spectrum at shorter ones. From Mie theory we would have expected a blue
- shift of the resonance with decreasing radius of the particles; however the
- $30\nm$ sphere seems to be the most red-shifted. This is most likely due to small anisotropies of the
- particles, giving rise to slightly different plasmon resonances. The inset in
- Fig.\ref{fig:spheres} shows a detail of the anti-Stokes emission for the three
- spheres without any further normalization. It has to be pointed out, however,
- that the excitation intensities were $1.2\mW$, $2.0\mW$ and $3.6\mW$ to
- compensate for the lower cross sections of the smaller particles.
- 
- Spheres not only have a smaller cross section than nanorods of the same volume,
- but their quantum yield is also one order of magnitude lower than that of
- rods\cite{Yorulmaz2012}. The weaker emission from these particles can be
- compensated by increasing the excitation power. The maximum power that can be
- employed is given by either reaching the melting temperature of gold or by
- inducing a phase transition of the surrounding liquid. The first would induce an
- irreversible change in shape of the particles\cite{Zijlstra2009a} the latter
- would induce a change in the refractive index of the medium and therefore would
- induce a shift in the plasmon resonance\cite{Hou2015}.
- 
- \begin{figure}[tp] \centering
- \includegraphics[width=82.7mm]{Figures/07_Spheres/07_spheres_02.png}
- \caption{Extracted temperature from the same particles as in fig.
- \ref{fig:spheres} at different medium temperatures. }
- 	\label{fig:spheres_temp}
- \end{figure}
- 
- Figure \ref{fig:spheres_temp} shows the extracted temperature of the three
- particles while increasing the medium temperature. It is possible to see that
- the small $30\nm$ diameter sphere is $150\K$ hotter than both the $40\nm$ and
- $60\nm$. The three curves show an increasing trend, but in this case the
- variation of medium temperature amounts to less than $5\%$ the temperature of
- the particles. The extracted temperature is several tens of degrees above what
- would be expected from the heat equation, considering the absorption cross
- section given by Mie theory. The reason for the discrepancies between the
- measured values and the expected values can be accounted for by the computation
- of the plasmon resonance term $I_\textrm{SPR}$ in eqn. \ref{eqn:fitting}.
- 
- As explained earlier for nanorods, the fitting of the anti-Stokes emission is
- highly sensitive to the plasmon position relative to the laser employed. In the
- case of nanospheres, the resonance is slightly shifted to the red from the
- $532\nm$ laser. Small errors in the determination of the plasmon resonance will
- generate larger errors in the temperature extracted. The differences between the
- plasmon observed in fig. \ref{fig:spheres} and the results of Mie scattering
- calculations most likely are due to particles that are not spherical. If this
- was the case, the calculated cross section and plasmon resonance will not
- coincide with the particles under study, leading to larger errors.
- 
- The use of spheres would be beneficial for some applications that require higher
- excitation powers or smaller particles. The intrinsic heterogeneity of the
- samples, however, prevents the use of a single wavelength for the measurements.
- Ideally, white light scattering of single gold nanospheres would provide the
- information on the plasmon resonance needed for the correct fitting of the
- anti-Stokes emission. 
+ %Particles that can withstand higher excitation powers and that have a
+ %well-defined plasmon resonance are of great interest, because they would allow
+ %to employ a single wavelength and also to reduce the exposure times to record
+ %the spectra. A well defined plasmon resonance also lowers the uncertainties
+ %associated with the initial lorentzian fit needed for the term $I_\textrm{SPR}$
+ %in equation \ref{eqn:fitting}. In principle gold nanospheres fulfill these
+ %requirements. They are known to withstand much higher excitation powers without
+ %reshaping nor melting\cite{Hou2015}. Moreover the plasmon resonance of spheres
+ %shifts only slightly with radius, therefore it is possible to predict it using
+ %Mie theory and to eliminate the need of a second laser beam. Sphere samples
+ %however always show a shape distribution that cannot be neglected\cite{Lee2013}
+ %and that induces deviations of the observed resonance from Mie's model.
+ %
+ %\begin{figure}[tp] \centering
+ %\includegraphics[width=85.2mm]{Figures/07_Spheres/07_spheres.png}
+ %\caption{Normalized luminescence spectra of spheres with diameters of $60\nm$,
+ %$40\nm$ and $30\nm$ under $532\nm$ excitation. The inset shows the detail of the anti-Stokes emission without normalization.
+ %The excitation powers for the three particles were $1.2\mW$, $2.0\mW$ and
+ %$3.6\mW$ respectively.}
+ 	%\label{fig:spheres}
+ %\end{figure}
+ %
+ %Figure \ref{fig:spheres} shows the normalized luminescence spectra of three
+ %nanospheres of diameters $60\nm$, $40\nm$ and $30\nm$ under $532\nm$ excitation.
+ %As for the nanorods, two very distinctive parts of the spectrum are
+ %distinguishable, the Stokes spectrum at longer wavelengths and the anti-Stokes
+ %spectrum at shorter ones. From Mie theory we would have expected a blue
+ %shift of the resonance with decreasing radius of the particles; however the
+ %$30\nm$ sphere seems to be the most red-shifted. This is most likely due to small anisotropies of the
+ %particles, giving rise to slightly different plasmon resonances. The inset in
+ %Fig.\ref{fig:spheres} shows a detail of the anti-Stokes emission for the three
+ %spheres without any further normalization. It has to be pointed out, however,
+ %that the excitation intensities were $1.2\mW$, $2.0\mW$ and $3.6\mW$ to
+ %compensate for the lower cross sections of the smaller particles.
+ %
+ %Spheres not only have a smaller cross section than nanorods of the same volume,
+ %but their quantum yield is also one order of magnitude lower than that of
+ %rods\cite{Yorulmaz2012}. The weaker emission from these particles can be
+ %compensated by increasing the excitation power. The maximum power that can be
+ %employed is given by either reaching the melting temperature of gold or by
+ %inducing a phase transition of the surrounding liquid. The first would induce an
+ %irreversible change in shape of the particles\cite{Zijlstra2009a} the latter
+ %would induce a change in the refractive index of the medium and therefore would
+ %induce a shift in the plasmon resonance\cite{Hou2015}.
+ %
+ %\begin{figure}[tp] \centering
+ %\includegraphics[width=82.7mm]{Figures/07_Spheres/07_spheres_02.png}
+ %\caption{Extracted temperature from the same particles as in fig.
+ %\ref{fig:spheres} at different medium temperatures. }
+ 	%\label{fig:spheres_temp}
+ %\end{figure}
+ %
+ %Figure \ref{fig:spheres_temp} shows the extracted temperature of the three
+ %particles while increasing the medium temperature. It is possible to see that
+ %the small $30\nm$ diameter sphere is $150\K$ hotter than both the $40\nm$ and
+ %$60\nm$. The three curves show an increasing trend, but in this case the
+ %variation of medium temperature amounts to less than $5\%$ the temperature of
+ %the particles. The extracted temperature is several tens of degrees above what
+ %would be expected from the heat equation, considering the absorption cross
+ %section given by Mie theory. The reason for the discrepancies between the
+ %measured values and the expected values can be accounted for by the computation
+ %of the plasmon resonance term $I_\textrm{SPR}$ in eqn. \ref{eqn:fitting}.
+ %
+ %As explained earlier for nanorods, the fitting of the anti-Stokes emission is
+ %highly sensitive to the plasmon position relative to the laser employed. In the
+ %case of nanospheres, the resonance is slightly shifted to the red from the
+ %$532\nm$ laser. Small errors in the determination of the plasmon resonance will
+ %generate larger errors in the temperature extracted. The differences between the
+ %plasmon observed in fig. \ref{fig:spheres} and the results of Mie scattering
+ %calculations most likely are due to particles that are not spherical. If this
+ %was the case, the calculated cross section and plasmon resonance will not
+ %coincide with the particles under study, leading to larger errors.
+ %
+ %The use of spheres would be beneficial for some applications that require higher
+ %excitation powers or smaller particles. The intrinsic heterogeneity of the
+ %samples, however, prevents the use of a single wavelength for the measurements.
+ %Ideally, white light scattering of single gold nanospheres would provide the
+ %information on the plasmon resonance needed for the correct fitting of the
+ %anti-Stokes emission. 
 
 
 \bibliography{anti_stokes}
