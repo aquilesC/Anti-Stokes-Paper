@@ -131,14 +131,10 @@
 
 \section{Anti-stokes emission form gold nanorods}\label{sec:AS}
 
+We model the photoluminsecence generation in gold nanorods with succesive 
+steps taking place between absoprtion of light and re-emission of luminescence. 
 Figure \ref{fig:anti-Stokes-process} shows the energy-momentum representation
 of the photoluminescence processes in gold nanorods. 
-
-
-\begin{figure}[htp] \centering
-\includegraphics[width=0.5\textwidth]{Figures/Supplementary/01_AS_Scheme/luminescence_all_AS.png}
-\caption{Schematic of the anti-Stokes luminescence process from a single gold
-nanorod in the energy-momentum space. 
 After excitation with monocrhomatic light of energy $\hbar \omega_L$, 
 a collective oscillation of electrons is generated, i.e. a surface plasmon (SPR). 
 Once the coherence is lost (dephsasing time $\sim$fs), the state can be described as an
@@ -151,7 +147,12 @@ electron and hole transiently increase their energy difference at the bath's
 expense before recombining radiatively, we observe anti-Stokes emission; iii) if
 electron and hole recombine non radiatively, their energy difference is
 transferred to the baths and no photon is emitted. The latter process is the
-most probable one.}
+most probable one.
+
+\begin{figure}[htp] \centering
+\includegraphics[width=0.5\textwidth]{Figures/Supplementary/01_AS_Scheme/luminescence_all_AS.png}
+\caption{\textbf{anti-Stokes luminescence process from a single gold
+nanorod.} }
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
@@ -159,7 +160,11 @@ most probable one.}
 \section{Experimental setup}\label{sec:setup}
 
 The experimental setup consisted on a home-made confocal microscope, schematically shown in figure
-\ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. It allows the detection of individual nanorods in the sample and the measurement of their photoluminescence spectra. 
+\ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. It allows the detection of individual nanorods in the sample and the measurement of their photo luminescence spectra. 
+We use continuous wave lasers at 532nm or 633nm to excite  the transverse and longitudinal plasmon resonances, respectively. Both lasers are reflected at a 50/50 beam splitter that allows the simultaneous detection of the anti-Stokes and Stokes emission of the particles.
+We employ an objective lens to focus the excitation beam into a diffraction 
+limited spot and we collect the emitted photoluminescence using the same objective in an epi-configuration. 
+A confocal pinhole of 50$\mu$m is place between a pair of lenses with 10cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectra, respectively. We reject the laser light with appropriate notch filters.
 
 Additionally, the temperature of the sample can be controlled with a special holder that allows 
 water flow, a heater and a thermocouple to measure the temperature of the sample. 
@@ -169,6 +174,29 @@ water flow, a heater and a thermocouple to measure the temperature of the sample
 \caption{Scheme of the experimental setup. The sample has individual gold nanorods on glass. BS: beam splitter. NF: notch filter to remove excitation light and detect Stokes and anti-Stokes photoluminescence. L: lens. FM: flipper mirror. SPEC: spectrometer. APD: avalanche photodiode.}
 	\label{fig:setup}
 \end{figure}
+
+
+\section{Luminescence power dependence}
+
+\begin{figure}[htp] \centering
+\includegraphics[width=0.45\textwidth]{Figures/Supplementary/03_AS_S_in_Log/03_AS_S_in_Log.png}
+\caption{Stokes and anti-Stokes integrated emission as a function of excitation power. The
+linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
+ensuring the 1-photon nature of both kinds of emission.}
+	\label{fig:Log_Plot}
+\end{figure}
+
+Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
+anti-Stokes (blue) emission for several excitation powers. In both cases the
+linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
+Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
+are single-photon processes. We speculate that the anti-Stokes has a 
+lower slope due to dependence on T in the 
+equation 2 in the main text. The behavior is independent of the plasmon
+resonance position. It is important to note that the excitation intensity cannot
+be increased much beyond what is shown because nanorods would start reshaping
+towards more spherical shapes at higher laser powers.
+
 
 
 \section{Gold Nanorod temperature calculations} \label{sec:temp-calc}
@@ -205,26 +233,6 @@ by using the built-in material properties of water, i.e. a thermal conductivity
 that depends on temperature. The diamonds are the results when the thermal
 conductivity is fixed to $0.61 \W(\m\cdot\K)^{-1}$. The difference is
 accentuated at higher temperatures.
-
-\section{Luminescence power dependence}
-\begin{figure}[htp] \centering
-\includegraphics[width=0.45\textwidth]{Figures/Supplementary/03_AS_S_in_Log/01_AS_S_in_Log.png}
-\caption{Stokes and anti-Stokes integrated emission as a function of excitation power. The
-linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
-ensuring the 1-photon nature of both kinds of emission.}
-	\label{fig:Log_Plot}
-\end{figure}
-
-Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
-anti-Stokes (blue) emission for several excitation powers. In both cases the
-linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
-Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
-are single-photon processes. We speculate that the anti-Stokes has a 
-lower slope due to dependence on T in the 
-equation 2 in the main text. The behavior is independent of the plasmon
-resonance position. It is important to note that the excitation intensity cannot
-be increased much beyond what is shown because nanorods would start reshaping
-towards more spherical shapes at higher laser powers.
 
 %\section{Anti-stokes luminescence form nanospheres}
 

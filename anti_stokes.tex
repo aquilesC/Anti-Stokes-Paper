@@ -178,7 +178,7 @@ A monochromatic photon with energy $\hbar\omega_\textrm{L}$ incident on the
 particle will give rise to a collective oscillation of the gas of conduction
 electrons called plasmon. The lifetime of the oscillation can be measured in
 pulsed experiments or estimated from the inverse of the linewidth and is in the
-order of $10\fs$\cite{Sonnichsen2002} (assuming no pure dephasing time $T_2*$).
+order of $10\fs$\cite{Sonnichsen2002} (assuming no pure dephasing time $T_2^*$).
 The plasmon decays by forming a pair of hot electron and hole with an internal energy equal to the plasmon
 energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}.
 
@@ -260,12 +260,13 @@ calibration.
 %\section{Experimental method}
 
 All the measurements in this work were performed with a home-built confocal
-microscope equipped a spectrometer (Acton 500i) in the emission path. We focused
+microscope equipped a spectrometer (Acton 500i) in the emission path.  We focused
 our lasers to a diffraction-limited spot using a $60X$, NA $1.4$ oil immersion
 objective (Olympus) and collected the emitted photons through the same
 objective. This provided high excitation and collection efficiency.
 We employed a $532\nm$ (CNI) laser for characterizing the nanorods' plasmon and
 a $633\nm$ HeNe (Thorlabs) was employed to excite the nanorods in resonance.
+We give more experimental details in the Supplementary Information.
 
 Wet chemically sensitized nanorods\cite{Nikoobakht2003} with average dimensions
 of $21\nm\times50\nm$ and a plasmon resonance around $650\nm$ were spin-coated
@@ -349,11 +350,14 @@ possible to see that even with a linear behavior, the anti-Stokes intensity
 increases more rapidly with laser excitation power than the Stokes emission.
 We already exploited this phenomenon to image gold nanorods in high-background
 conditions\cite{Carattino2016a}. Moreover it shows that the anti-Stokes emission
-depends on laser excitation power differently than its Stokes counterpart. 
+depends on laser excitation power differently than its Stokes counterpart. For more 
+information on the power dependence of both the anti-Stokes and Stokes luminescence, 
+please refer to the Supplementary Information. 
 
 \begin{figure}[tp] \centering
-\includegraphics[width=75.5mm]{Figures/Supplementary/02_AS_vs_S_SPR/02_AS_vs_S_SPR.png}
-\caption{Ratio of the anti-Stokes to Stokes emission under $633\nm$ excitation
+\includegraphics[width=75.5mm]{Figures/02_AS_vs_S_SPR/02_AS_vs_S_SPR.png}
+\caption{\textbf{Characterization of anti-Stokes emission for different SPR.} 
+Ratio of the anti-Stokes to Stokes emission under $633\nm$ excitation
 as function of the resonance wavelength of each particle.
 The blue circles are experimental results, while the red triangles are the
 results of the calculations with equation \ref{eqn:BE}. There is a very
@@ -395,10 +399,11 @@ the filters.
 
 \begin{figure}[tp] \centering
 \includegraphics[width=78.4mm]{Figures/03_Fit_Of_AS/03_Log_Fit_AS.png}
-\caption{Anti-Stokes emission at different irradiation powers with the
-corresponding fits by equation \ref{eqn:fitting}. There is an excellent
-agreement between data and model. The inset shows the extracted
-temperature at each power (blue dots) and a linear extrapolation of the data to $0\uW$ excitation power.
+\caption{\textbf{Anti-Stokes emission at different irradiation powers.} We used 
+the model from equation \ref{eqn:fitting} to fit the experimental data. 
+There is an excellent agreement between data and model. The inset shows the extracted
+temperature at each power (blue dots) and a linear 
+extrapolation of the data to $0\uW$ excitation power.
 The value obtained for room temperature was $293\K$ while the measured value was
 $296\K$.}
 	\label{fig:AS_in_Log}
@@ -413,8 +418,8 @@ fits; there is an excellent agreement between data and model. For every
 anti-Stokes measurement we have also acquired the full plasmon spectrum while
 exciting with a $532\nm$ laser before and after the temperature extraction.
 The full plasmon spectrum is necessary to calculate the parameters of
-$I_\textrm{SPR}$ from equation \ref{eqn:fitting} and also to verify that the
-particle didn't reshape while being excited at resonance. 
+$I_\textrm{SPR}(\omega)$ from equation \ref{eqn:fitting} and also to verify that the
+particle did not reshape while being excited at resonance. 
 
 The inset in Figure \ref{fig:AS_in_Log} shows the temperatures resulting from
 the fits at different irradiation intensities (blue dots). It has to be noted
@@ -430,7 +435,7 @@ is $293\pm 6 \K$, while room temperature was $296\K$, a $2\%$ accuracy.
 
 The accuracy of the obtained temperature depends to a great extent on the
 plasmon resonance. The first step in the fitting procedure is the determination
-of the term $I_\textrm{SPR}$ in equation \ref{eqn:fitting}. This is achieved by
+of the term $I_\textrm{SPR}(\omega)$ in equation \ref{eqn:fitting}. This is achieved by
 fitting a Lorentzian to the emission spectrum obtained while irradiating with a
 $532\nm$ laser. In figure \ref{fig:spectra_intensity} it is possible to observe
 that the emission spectrum is not perfectly Lorentzian and therefore the fitting
@@ -440,7 +445,7 @@ and peak position) can slightly change therefore giving rise to different
 temperatures when fitting the anti-Stokes emission spectrum.
 
 Equation \ref{eqn:fitting} shows that when the resonance is to the red
-of the laser, the term $I_\textrm{SPR}$ will slowly vary in the region where the
+of the laser, the term $I_\textrm{SPR}(\omega)$ will slowly vary in the region where the
 anti-Stokes emission is observed. Therefore small changes in the parameters of
 the Lorentzian fit will have a small effect on the temperature extracted.
 However, particles that are not in resonance with the excitation laser will
@@ -469,7 +474,8 @@ during the experiment.
 
 \begin{figure}[tp] \centering
 \includegraphics[width=88.4mm]{Figures/03_Fit_Of_AS/03_Log_Fit_AS_02.png}
-\caption{Anti-stokes-luminescence extracted temperatures for an individual nanorod
+\caption{\textbf{Calibration-free temperature measurement.}
+Anti-stokes-luminescence extracted temperatures for an individual nanorod
 at different excitation powers and at different sample temperatures. 
 The full lines are the results of the calculated temperatures. The inset shows the extrapolated temperature at zero
 excitation power (circles) and a line with unit slope as a guide to the eye.}
@@ -524,15 +530,19 @@ emission towards shorter wavelengths. The trade-off between both effects and
 the possibility to fully characterize the plasmon resonance, will determine the
 specific particles that are better suited for each application.
 
-A possible improvement for this technique would be the use of nanospheres.
-Since these particles do not reshape under higher excitation powers it is
-possible to compensate their lower cross section by increasing the irradiation
-intensity. However, their quantum yield is at least one order of magnitude
-smaller than that of rods, giving an overall lower photoluminescence intensity.
-Samples with a narrow shape distribution such as gold
-bipyramids\cite{Pelton2009} would be ideal candidates to temperature extraction
-since their plasmon can be measured or determined from theory, avoiding the need
-of a second excitation source and thus reducing the main source of inaccuracies.
+A possible improvement for this technique would be the use nanostructures with 
+%of nanospheres.
+%Since these particles do not reshape under higher excitation powers it is
+%possible to compensate their lower cross section by increasing the irradiation
+%intensity. However, their quantum yield is at least one order of magnitude
+%smaller than that of rods, giving an overall lower photoluminescence intensity.
+%Samples 
+with a narrow shape distribution such as gold
+bipyramids\cite{Pelton2009}. Such structures would be ideal candidates for 
+temperature extraction since they present negligible size dispersion and thus 
+their plasmon can be measured in bulk or determined from theory, avoiding the need
+of a second excitation source. This would reduce the main source of inaccuracies for the
+method. 
 
 The proposed method doesn't require any calibration, since the only free
 parameter of the model is the absolute temperature of the nanoparticle under
@@ -560,11 +570,8 @@ Scientific Research (NWO).
 %% suppinfo environment.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{suppinfo}
-
-Details concerning the experimental setup. Gold Nanorod temperature calculations.
-Luminescence power dependence. Anti-stokes luminescence form nanospheres.
-
-
+Scheme for the Au NR luminescenec mechanism.  Details concerning the experimental setup. 
+Luminescence power dependence. Gold Nanorod temperature calculations.
 \end{suppinfo}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
