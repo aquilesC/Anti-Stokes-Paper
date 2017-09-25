@@ -104,6 +104,8 @@ Treal = [293 313 333];
 Tmea = [p1(2) p2(2) p3(2)];
 sTmea = 7*ones(size(Tmea));
 
+
+
 v = [283 343];
 figure(4)
 set(gcf,'units','centimeters')
@@ -125,3 +127,28 @@ yticks(280:15:360)
 
 saveas(gcf,'Inset','fig')
 saveas(gcf,'Inset','pdf')
+%% from aquiles
+p1a =[0.71225756  298.08501504]
+p2a =[0.71225756  316.62098401]
+p3a =[0.71225756  340.344689644]
+Tmea_a = [298.08501504  316.62098401  340.34468964]
+figure(4)
+set(gcf,'units','centimeters')
+set(gcf,'position',[10 20 25*5 18*5]/10)
+clf
+errorbar(Treal,Tmea_a,sTmea,'s','linewidth',2,'color',[0 0 204]/255,'markersize',ms,'MarkerEdgeColor',[0 0 204]/255,...
+    'MarkerFaceColor',[0 0 204]/255)
+hold all
+plot(v,v,'r','linewidth',2)
+xlim(v)
+ylim([280 360])
+
+% xlabel('Temperature flow cell [T]','FontSize',20)
+% ylabel('Extracted Temperature [T]','FontSize',20)
+set(gca,'linewidth',3)
+set(gca,'fontsize',16)
+xticks(290:15:345)
+yticks(280:15:360)
+
+saveas(gcf,'Inset_a','fig')
+saveas(gcf,'Inset_a','pdf')
