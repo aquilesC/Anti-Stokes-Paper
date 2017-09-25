@@ -76,6 +76,10 @@ x = 100:10:250;
 ms = 10;
 % plot
 figure(3)
+clf
+set(gcf,'units','centimeters')
+set(gcf,'position',[10 20 85*3 55*3]/10)
+
 plot(I1,T1,'or','color',[255 165 0]/255,'linewidth',2,'markersize',ms)
 hold all
 plot(I2,T2,'x','color',[0 204 0]/255,'linewidth',2,'markersize',ms)
@@ -84,29 +88,40 @@ ylim([380 500])
 plot(x,polyval(p1,x),'--','color',[255 165 0]/255,'linewidth',2)
 plot(x,polyval(p2,x),'--','color',[0 204 0]/255,'linewidth',2)
 plot(x,polyval(p3,x),'--','color',[0 0 204]/255,'linewidth',2)
-xlabel('Laser power [\muW]','FontSize',20)
-ylabel('Temperature [T]','FontSize',20)
+% xlabel('Laser power [\muW]','FontSize',20)
+% ylabel('Temperature [T]','FontSize',20)
 set(gca,'linewidth',3)
 set(gca,'fontsize',16)
 lll=legend('20 ^oC','40 ^oC','60 ^oC');
 set(lll,'location','northwest')
 
+saveas(gcf,'TvsInt','fig')
+saveas(gcf,'TvsInt','pdf')
+
+
 %% 
 Treal = [293 313 333];
-Tmea = [p1(2) p2(2) p3(2)]
+Tmea = [p1(2) p2(2) p3(2)];
 sTmea = 7*ones(size(Tmea));
 
 v = [283 343];
 figure(4)
+set(gcf,'units','centimeters')
+set(gcf,'position',[10 20 25*5 18*5]/10)
 clf
-errorbar(Treal,Tmea,sTmea,'o','linewidth',2,'markersize',ms)
+errorbar(Treal,Tmea,sTmea,'s','linewidth',2,'color',[0 0 204]/255,'markersize',ms,'MarkerEdgeColor',[0 0 204]/255,...
+    'MarkerFaceColor',[0 0 204]/255)
 hold all
-plot(v,v,'linewidth',2)
+plot(v,v,'r','linewidth',2)
 xlim(v)
 ylim([280 360])
-xlabel('Temperature flow cell [T]','FontSize',20)
-ylabel('Extracted Temperature [T]','FontSize',20)
+
+% xlabel('Temperature flow cell [T]','FontSize',20)
+% ylabel('Extracted Temperature [T]','FontSize',20)
 set(gca,'linewidth',3)
 set(gca,'fontsize',16)
+xticks(290:15:345)
+yticks(280:15:360)
 
-
+saveas(gcf,'Inset','fig')
+saveas(gcf,'Inset','pdf')
