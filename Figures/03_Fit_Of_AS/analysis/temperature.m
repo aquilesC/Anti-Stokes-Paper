@@ -132,16 +132,18 @@ p1a =[0.71225756  298.08501504];
 p2a =[0.71225756  316.62098401];
 p3a =[0.71225756  340.344689644];
 Tmea_a = [298.08501504  316.62098401  340.34468964];
-sTmea_a = [7 7 6];
+sTmea_a = [4 4 3.5];
 
 figure(4)
 set(gcf,'units','centimeters')
 set(gcf,'position',[10 20 25*5 18*5]/10)
 clf
-errorbar(Treal,Tmea_a,sTmea_a,'s','linewidth',2,'color',[0 0 204]/255,'markersize',ms,'MarkerEdgeColor',[0 0 204]/255,...
-    'MarkerFaceColor',[0 0 204]/255)
+plot(v,v+mean(Tmea_a-Treal),'--','linewidth',2')
 hold all
 plot(v,v,'r','linewidth',2)
+errorbar(Treal,Tmea_a,sTmea_a,'s','linewidth',2,'color',[0 0 204]/255,'markersize',ms,'MarkerEdgeColor',[0 0 204]/255,...
+    'MarkerFaceColor',[0 0 204]/255)
+
 xlim(v)
 ylim([280 360])
 
