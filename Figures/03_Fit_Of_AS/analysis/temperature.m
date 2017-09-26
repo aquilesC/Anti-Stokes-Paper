@@ -106,7 +106,7 @@ sTmea = 7*ones(size(Tmea));
 
 
 
-v = [283 343];
+v = [280 343];
 figure(4)
 set(gcf,'units','centimeters')
 set(gcf,'position',[10 20 25*5 18*5]/10)
@@ -131,29 +131,34 @@ saveas(gcf,'Inset','pdf')
 p1a =[0.71225756  298.08501504];
 p2a =[0.71225756  316.62098401];
 p3a =[0.71225756  340.344689644];
-Tmea_a = [298.08501504  316.62098401  340.34468964];
-sTmea_a = [4 4 3.5];
+% Tmea_a = [298.08501504  316.62098401  340.34468964]; %witout specifiy tol
+% with tol 1e-3 in the jupyter program
+Tmea_a = [296  315  339]
+sTmea_a = [4 4 4];
+ori = mean(Tmea_a-Treal)
+
+Treal
 
 figure(4)
 set(gcf,'units','centimeters')
 set(gcf,'position',[10 20 25*5 18*5]/10)
 clf
-plot(v,v+mean(Tmea_a-Treal),'--','linewidth',2')
+plot(v,v+ori,'--','linewidth',2')
 hold all
 plot(v,v,'r','linewidth',2)
 errorbar(Treal,Tmea_a,sTmea_a,'s','linewidth',2,'color',[0 0 204]/255,'markersize',ms,'MarkerEdgeColor',[0 0 204]/255,...
     'MarkerFaceColor',[0 0 204]/255)
 
-xlim(v)
-ylim([280 360])
+
 
 % xlabel('Temperature flow cell [T]','FontSize',20)
 % ylabel('Extracted Temperature [T]','FontSize',20)
 set(gca,'linewidth',3)
 set(gca,'fontsize',16)
-xticks(290:15:345)
-yticks(280:15:360)
-
+xticks(280:20:340)
+yticks(280:20:360)
+xlim(v)
+ylim([280 360])
 saveas(gcf,'Inset_a','fig')
 saveas(gcf,'Inset_a','pdf')
 
