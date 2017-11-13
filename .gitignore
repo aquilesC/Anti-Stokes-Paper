@@ -8,3 +8,4 @@ acs-*.bib
 *.tps
 *.log
 *.aux
+.metadata
