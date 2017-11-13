@@ -51,7 +51,7 @@
 \affiliation[Leiden]
 {Huygens-Kamerlingh Onnes Lab, 2300RA Leiden, The Netherlands}
 
-\title{Gold nanoparticles as nano-thermometers}
+\title{Gold nanoparticles as absolute nano-thermometers}
 
 \keywords{Gold nanorods, Plasmon, Anti-Stokes, Sensing, Temperature}
 
@@ -129,10 +129,10 @@
 % accumulating enough photons in the spectrometer requires longer acquisition
 % times.
 
-\section{Anti-stokes emission form gold nanorods}\label{sec:AS}
+\section{Anti-Stokes emission form gold nanorods}\label{sec:AS}
 
-We model the photoluminsecence generation in gold nanorods with succesive 
-steps taking place between absoprtion of light and re-emission of luminescence. 
+We model the photoluminescence generation in gold nanorods with successive 
+steps taking place between absorption of light and re-emission of luminescence\cite{Carattino2016a}. 
 Figure \ref{fig:anti-Stokes-process} shows the energy-momentum representation
 of the photoluminescence processes in gold nanorods. 
 After excitation with monocrhomatic light of energy $\hbar \omega_L$, 
@@ -147,12 +147,11 @@ electron and hole transiently increase their energy difference at the bath's
 expense before recombining radiatively, we observe anti-Stokes emission; iii) if
 electron and hole recombine non radiatively, their energy difference is
 transferred to the baths and no photon is emitted. The latter process is the
-most probable one.
+most probable one, explaining the low yields of luminescence in gold. 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.5\textwidth]{Figures/Supplementary/01_AS_Scheme/luminescence_all_AS.png}
-\caption{\textbf{anti-Stokes luminescence process from a single gold
-nanorod.} }
+\caption{Anti-Stokes luminescence process from a single gold nanorod. }
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
@@ -160,18 +159,19 @@ nanorod.} }
 \section{Experimental setup}\label{sec:setup}
 
 The experimental setup consisted on a home-made confocal microscope, schematically shown in figure
-\ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. It allows the detection of individual nanorods in the sample and the measurement of their photo luminescence spectra. 
+\ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. The microscope allows 
+the detection of individual nanorods in the sample and the measurement of their photoluminescence spectra. 
 We use continuous wave lasers at 532nm or 633nm to excite  the transverse and longitudinal plasmon resonances, respectively. Both lasers are reflected at a 50/50 beam splitter that allows the simultaneous detection of the anti-Stokes and Stokes emission of the particles.
 We employ an objective lens to focus the excitation beam into a diffraction 
 limited spot and we collect the emitted photoluminescence using the same objective in an epi-configuration. 
-A confocal pinhole of 50$\mu$m is place between a pair of lenses with 10cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectra, respectively. We reject the laser light with appropriate notch filters.
+A confocal pinhole of 50 $\mu$m is placed between a pair of lenses with 10 cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectrum, respectively. We reject the laser light with appropriate notch filters.
 
 Additionally, the temperature of the sample can be controlled with a special holder that allows 
 water flow, a heater and a thermocouple to measure the temperature of the sample. 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.5\textwidth]{Figures/Supplementary/02_Setup/setup.png}
-\caption{Scheme of the experimental setup. The sample has individual gold nanorods on glass. BS: beam splitter. NF: notch filter to remove excitation light and detect Stokes and anti-Stokes photoluminescence. L: lens. FM: flipper mirror. SPEC: spectrometer. APD: avalanche photodiode.}
+\caption{Scheme of the experimental setup. The sample consists of individual gold nanorods immobilized on glass. BS: beam splitter. NF: notch filter to remove excitation light and detect Stokes and anti-Stokes photoluminescence. L: lens. FM: flip mirror. SPEC: spectrometer. APD: avalanche photodiode.}
 	\label{fig:setup}
 \end{figure}
 
@@ -182,7 +182,7 @@ water flow, a heater and a thermocouple to measure the temperature of the sample
 \includegraphics[width=0.45\textwidth]{Figures/Supplementary/03_AS_S_in_Log/03_AS_S_in_Log.png}
 \caption{Stokes and anti-Stokes integrated emission as a function of excitation power. The
 linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
-ensuring the 1-photon nature of both kinds of emission.}
+confirming the 1-photon nature of both kinds of emission.}
 	\label{fig:Log_Plot}
 \end{figure}
 
@@ -190,8 +190,7 @@ Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
 anti-Stokes (blue) emission for several excitation powers. In both cases the
 linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
 Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
-are single-photon processes. We speculate that the anti-Stokes has a 
-lower slope due to dependence on T in the 
+are single-photon processes. The anti-Stokes has a higher slope due to dependence on T in the 
 equation 2 in the main text. The behavior is independent of the plasmon
 resonance position. It is important to note that the excitation intensity cannot
 be increased much beyond what is shown because nanorods would start reshaping
@@ -203,30 +202,32 @@ towards more spherical shapes at higher laser powers.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.5\textwidth]{Figures/Supplementary/04_Compare_Comsol/04_Compare_Comsol.png}
-\caption{Calculated temperature for a $21\nm\times 50\nm$ nanorod under
-different excitation intensities. The full line is the result of the simple
-model while the dots are the calculated values using Comsol. The circles where obtained
-with the temperature-dependent heat conductivity and the diamonds with a constant value of $0.61 \W(\m\cdot\K)^{-1}$ .}
+\caption{Calculated temperature for a nanosphere (full line) and 
+for a $21\,\nm\times 50\,\nm$ nanorod (dots) under different excitation intensities. 
+The dots are numerically calculated values using COMSOL Multiphysics commercial software. 
+The circles where obtained with the temperature-dependent heat conductivity of water 
+and the diamonds with a constant value of $0.61 \W(\m\cdot\K)^{-1}$ .}
 	\label{fig:Compare-Comsol}
 \end{figure}
 
 Throughout the main text the temperature measured with the anti-Stokes emission
-is compared to the calculated temperature using a simple heat diffusion
-equation. For spheres, assuming an infinite thermal conductivity of the metal,
-the temperature increase is given by
+is compared to the calculated temperature using the heat diffusion
+equation. For spheres in an homogeneous water environment and assuming an infinite
+thermal conductivity for the metal, the temperature increase is given by
 
 \begin{equation}
 	\Delta \textrm{T}(P) = \frac{P}{4\pi k_{\textrm{water}} R}
 \end{equation}
 
 \noindent where $P$ is the dissipated power, $k_{\textrm{water}}$ is the heat
-conductivity of water and $R$ is the radius of the particle. The dissipated power can be
+conductivity of water and $R$ is the radius of the particle.\cite{Baffou2013} 
+The dissipated power can be
 easily derived from the cross section of the particle at a given wavelength and
 the intensity of the focused laser beam. For nanorods we assumed an
 equivalent sphere with radius such that the total rod area is preserved.
 
 Figure \ref{fig:Compare-Comsol} shows the difference between the results from
-the equation (full line) and a finite element method calculation using Comsol
+the sphere (full line) and a finite element method calculation
 (dots) for a nanorod of length $50\nm$ and diameter $21\nm$. The cross section
 and dissipated power were kept the same. The blue circles are the results given
 by using the built-in material properties of water, i.e. a thermal conductivity
