@@ -5,6 +5,9 @@
 \usepackage{amssymb}
 \usepackage{subfigure}
 \usepackage{xr}
+%% This is to use color to hihglight the changes introduced for the revised version
+\usepackage{color}
+\newcommand{\HI}[1]{\textcolor{blue}{#1}} % use to add anything to the main text.
 %%% This is for adding a footer with the time of the compilation of the file.
 %%% Useful for versioning of printed copies.
 \usepackage{datetime}
@@ -61,9 +64,10 @@ Gold nanorods are excellent candidates to act as nanoprobes because they are
 reasonably bright emitters upon excitation with a monochromatic source.
 Gold nanoparticles are commonly used in photothermal therapy as efficient
 transducers of electromagnetic radiation into heat. In this work we show that
-the spectrum of the anti-Stokes emission from gold nanorods irradiated in
+the spectrum of the anti-Stokes emission from \HI{bare} gold nanorods irradiated in
 resonance can be used to measure the \textit{absolute temperature} of the nanoparticles 
-\textit{without} the need of a previous calibration.
+\textit{without} the need of a previous calibration. \HI{We show a $6$\%  relative error for 
+the determination of the particle temperature. }
 The procedure can be easily implemented in any microscope capable of acquiring emission spectra. 
 
 %We show
@@ -162,8 +166,14 @@ after absorption of a photon, the electrons in the particle will relax and the
 emitted photons will appear at lower energies than the excitation. If this is the
 case, the emission is called Stokes-shifted; however gold nanoparticles when
 excited in resonance also present a significant emission at higher energies
-called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}.
+called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}\HI{\cite{xie2016thermometry}}.
 
+\HI{Here we present a simple model and experimental results to show that the absolute 
+temperature of optically excited gold nanorods can be determined by measuring the blue-shifted 
+photoluminescence emission spectra with an accuracy of $6$\%. 
+Moreover, we can measure the temperature of the medium surrounding the nanorods with an accuracy of $2$\%.}
+
+\HI{\textbf{Model for the luminescence emission.}} 
 The mechanism we propose to explain the luminescence from gold nanoparticles is
 based on the radiative recombination of electrons and holes that are created
 upon the absorption of an incident photon\cite{Dulkeith2004,Mooradian1969}. The
@@ -175,13 +185,14 @@ excitation photon's\cite{Hodak2000,Giri2015,Arbouet2003a}. This effect gives ris
 to secondary light emission, but can also be interpreted in part as a Raman scattering
 process.\cite{Huang2014}
 
-A monochromatic photon with energy $\hbar\omega_\textrm{L}$ incident on the
-particle will give rise to a collective oscillation of the gas of conduction
-electrons called plasmon. The lifetime of the oscillation can be measured in
+\HI{When we resonatly excite with mocromatic light a gold nanorod with 
+resonance frequency  $\omega_\textrm{L}$ a collective oscillation of the gas of conduction
+electrons called plasmon is generated.} The lifetime of this oscillation can be measured in
 pulsed experiments or estimated from the inverse of the linewidth and is in the
 order of $10\fs$\cite{Sonnichsen2002} (neglecting any dephasing time $T_2^*$).
 The plasmon decays by forming a pair of hot electron and hole with an internal energy equal to the plasmon
-energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}.
+energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}, i.e. 
+$E_{e-h}=\hbar \omega_\textrm{L}$, where $\hbar$ is the Planck constant divided by $2\pi$.
 
 The hot electron and hole cool down by exchanging energy with the lattice on a
 timescale of $\tau\approx1\ps$\cite{Pustovalov2005}. Before this happens,
