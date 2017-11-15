@@ -67,7 +67,7 @@ transducers of electromagnetic radiation into heat. In this work we show that
 the spectrum of the anti-Stokes emission from \HI{bare} gold nanorods irradiated in
 resonance can be used to measure the \textit{absolute temperature} of the nanoparticles 
 \textit{without} the need of a previous calibration. \HI{We show a $6$\%  relative error for 
-the determination of the particle temperature. }
+the determination of the particle temperature and  $2$\% for the determination of the surrounding media temperature.}
 The procedure can be easily implemented in any microscope capable of acquiring emission spectra. 
 
 %We show
@@ -141,8 +141,8 @@ reached\cite{Donner2013} can only be estimated from models\cite{Zhao2014a} or
 from an ad-hoc calibration. Therefore a method that allows simultaneously to
 increase and to monitor the local temperature will be of great interest in a
 broad range of fields. In this paper we show that the anti-Stokes luminescence
-of gold nanorods can be used to measure their temperature with relatively high
-accuracy and without the need for previous calibration.
+of gold nanorods can be used to measure their temperature \HI{with less than 6\% relative error 
+and the temperature of the surrounding media with less than 2\%.}
 
 Luminescence of metallic nanoparticles has been the subject of extensive study in
 recent years. Since the first observation of luminescence from bulk
@@ -166,14 +166,30 @@ after absorption of a photon, the electrons in the particle will relax and the
 emitted photons will appear at lower energies than the excitation. If this is the
 case, the emission is called Stokes-shifted; however gold nanoparticles when
 excited in resonance also present a significant emission at higher energies
-called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}\HI{\cite{xie2016thermometry}}.
+called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}.
 
-\HI{Here we present a simple model and experimental results to show that the absolute 
-temperature of optically excited gold nanorods can be determined by measuring the blue-shifted 
-photoluminescence emission spectra with an accuracy of $6$\%. 
-Moreover, we can measure the temperature of the medium surrounding the nanorods with an accuracy of $2$\%.}
+\HI{The anti-Stokes emission is very sensitive to temperature changes and thus 
+it can be used for thermometry\cite{xie2016thermometry}. In this letter we present 
+a simple model for the anti-Stokes luminescence emission that we use to experimentally 
+access the absolute temperature of optically excited gold nanorods without the need of 
+any temperature calibration. We show that we can determine the particle temperature 
+in-situ with an accuracy of $6$\% recording a single anti-Stokes spectra. 
+Moreover, by performing this measurement at different excitation power 
+we can measure the temperature of the surrounding media 
+of the nanorods with an accuracy of $2$\%.}
 
-\HI{\textbf{Model for the luminescence emission.}} 
+\HI{\textbf{Model for the luminescence emission.} 
+In a nutshel, we model the luminescence emission as the radiative recombination of
+electron-hole pairs created by the decay of the plasmon. Before the recombination,
+the carriers may interact with the phonon bath a certain number of times and
+change their energy, leading to secondary light emission at a different energy. 
+The anti-Stokes spectral part comes from interactions that transfer the energy 
+from a phonon into the carrier, effectively increasing their energy, while the Stokes
+part involves the inverse case. Naturally, the emission process will also 
+be enhanced by the presence of the plasmon, thus leading to the luminescence spectra
+that with the plasmon shape.}
+
+
 The mechanism we propose to explain the luminescence from gold nanoparticles is
 based on the radiative recombination of electrons and holes that are created
 upon the absorption of an incident photon\cite{Dulkeith2004,Mooradian1969}. The
@@ -181,18 +197,18 @@ emission will be enhanced by the presence of the surface plasmon acting as an
 antenna\cite{Mohamed2000}. At the same time, the interaction
 of the electron or hole with a thermal bath (a phonon or another charge carrier) before
 recombining can give rise to an emitted photon with a higher energy than the
-excitation photon's\cite{Hodak2000,Giri2015,Arbouet2003a}. This effect gives rise
-to secondary light emission, but can also be interpreted in part as a Raman scattering
-process.\cite{Huang2014}
+excitation photon's\cite{Hodak2000,Giri2015,Arbouet2003a}.
+This effect gives rise to secondary light emission, but can also be interpreted in part as a Raman scattering
+process.\cite{Huang2014} \HI{MORE EXPLANATION HERE}
 
-\HI{When we resonatly excite with mocromatic light a gold nanorod with 
-resonance frequency  $\omega_\textrm{L}$ a collective oscillation of the gas of conduction
+\HI{When we resonantly excite with monochromatic light a gold nanorod with 
+resonance frequency  $\omega_\textrm{SPR}$ a collective oscillation of the gas of conduction
 electrons called plasmon is generated.} The lifetime of this oscillation can be measured in
 pulsed experiments or estimated from the inverse of the linewidth and is in the
 order of $10\fs$\cite{Sonnichsen2002} (neglecting any dephasing time $T_2^*$).
 The plasmon decays by forming a pair of hot electron and hole with an internal energy equal to the plasmon
-energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}, i.e. 
-$E_{e-h}=\hbar \omega_\textrm{L}$, where $\hbar$ is the Planck constant divided by $2\pi$.
+energy\cite{Sundararaman2014,Brongersma2015,AlejandroManjavacasJunG.LiuVikramKulkarni2014}, i.e. \HI{
+$E_{e-h}=\hbar \omega_\textrm{L}$, where $\hbar$ is the Planck constant divided by $2\pi$.}
 
 The hot electron and hole cool down by exchanging energy with the lattice on a
 timescale of $\tau\approx1\ps$\cite{Pustovalov2005}. Before this happens,
@@ -208,9 +224,10 @@ energy before recombining.
 Electron and hole can interact with baths before or upon recombination, either by
 creation or annihilation of phonons or interact with thermally excited charge
 carriers. In both cases the energy available upon
-recombination cannot much exceed $\hbar\omega_L+k_BT$. It has to be noted that
-in the hypothesis of a single-photon absorption at low excitation power, the
-temperature $T$ is that of the baths before absorption, i.e. the temperature of
+recombination cannot much exceed $\hbar\omega_L+k_\textrm{B}T$, \HI{where $k_\textrm{B}$ 
+represents Boltzmann's constant and $T$ the absolute temperature.} 
+It has to be noted that in the hypothesis of a single-photon absorption at low 
+excitation power, the temperature $T$ is that of the baths before absorption, i.e. the temperature of
 the medium surrounding the particle. This is different from pulsed experiments,
 in which the electron gas temperature can be orders thousands of K higher than
 room temperature\cite{Baffou2013a}. 
@@ -223,16 +240,17 @@ acting as an antenna. Supplementary figure S1 shows a schematic representation
 of the described processes. With this model the following predictions can be made.
 Firstly the emission spectrum must follow the plasmon spectrum if the excitation
 laser is well above the plasmon resonance as shown in \mbox{Figure
-\ref{fig:spectra_intensity}}. If the excitation falls within the
+\ref{fig:spectra_intensity}}, \HI{green line}. If the excitation falls within the
 plasmon resonance, the spectrum is expected to follow the plasmon spectrum
 multiplied by a Bose-Einstein statistics factor arising from phonon population
 (assuming phonon processes to dominate over carrier-carrier interactions).
-This factor should be proportional to $\bar{n}$ for anti-Stokes and $\bar{n}+1$
-for Stokes processes, where
+This factor should be proportional to the phonon occupation number
+$\bar{n}$ for anti-Stokes and $\bar{n}+1$ for Stokes processes, with
 
 \begin{equation}\label{eqn:BE}
-	\bar{n}=\left(\exp\frac{\hbar\omega}{k_BT}-1\right)^{-1}.
+	\bar{n}=\left(\exp\frac{\hbar\omega}{k_\textrm{B}T}-1\right)^{-1}\,,
 \end{equation}
+\HI{where $\hbar\omega$ is the photon energy.}
 
 With this model, it can also be predicted that the emission should be polarized;
 for the longitudinal plasmon of gold nanorods this polarization coincides with
@@ -248,7 +266,7 @@ energy band. Therefore excitation well above the plasmon resonance should excite
 electron-hole pairs with nearly the same efficiency as just above the plasmon
 resonance\cite{Cheng2015}. 
 
-Here we propose to use the anti-Stokes luminescence emission from gold
+\HI{\textbf{Application to nanothermometry.}} We use the anti-Stokes luminescence emission from gold
 nanoparticles to determine their temperature. According to the model just
 described, the anti-Stokes emission follows the following form,
 
@@ -258,21 +276,23 @@ described, the anti-Stokes emission follows the following form,
 \end{equation}
 
 \noindent where $I(\omega) $ is the emitted intensity, $\omega$ is the angular frequency
-of the photons, $\omega_\textrm{L}$ is the frequency of the laser, $\hbar$ is
-Planck's constant, $k_\textrm{B}$ Boltzmann's constant.
+of the photons and $\omega_\textrm{L}$ is the frequency of the laser.
+%, $\hbar$ is Planck's constant, $k_\textrm{B}$ Boltzmann's constant.
 $\textrm{I}_{\textrm{SPR}}(\omega) $ is the surface plasmon resonance that can be
 obtained by exciting the particle at energies higher than the resonance. The
-only remaining free parameter is the temperature $T$ (plus a normalization
+only remaining free parameter is the temperature $T$ (plus an irrelevant normalization
 constant not included in eqn. \ref{eqn:fitting}.) This means that carefully
 fitting the emission spectra excited at two frequencies
-($\nu\gg\nu_{\textrm{SPR}}$ and $\nu\approx\nu_{\textrm{SPR}}$) allows us to
+($\omega\gg\omega_{\textrm{SPR}}$ and $\omega\approx\omega_{\textrm{SPR}}$) allows us to
 extract the absolute temperature of the particles without any previous
 calibration.
 
+\HI{We emphasize that our method is not simply using the anti-Stokes to Stokes intensity ratio to 
+obtain the temperature of the particle, as it is commonly done with Raman lines for molecules 
+\cite{krishnan1928influence,zondervan2006single}, but modeling the many excited carrier interactions
+with the phonon bath with a Bose-Einstein statistic modulated by the plasmonic resonance of the particle.}
 
-%\section{Experimental method}
-
-All the measurements in this work were performed with a home-built confocal
+\HI{\textbf{Experimental method.}} All the measurements in this work were performed with a home-built confocal
 microscope equipped a spectrometer (Acton 500i) in the emission path.  We focused
 our lasers to a diffraction-limited spot using a $60X$, NA $1.4$ oil immersion
 objective (Olympus) and collected the emitted photons through the same
