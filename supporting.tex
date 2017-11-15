@@ -95,8 +95,9 @@ the detection of individual nanorods in the sample and the measurement of their 
 We use continuous wave lasers at 532 nm or 633 nm to excite the transverse and longitudinal plasmon resonances, respectively. The  532 nm is a DPSS laser (CNI) and the 633 nm is a HeNe (Thorlabs). Both lasers are reflected at a 50/50 beam splitter that allows the simultaneous detection of the anti-Stokes and Stokes emission of the particles.
 We employ an objective lens to focus the excitation beam into a diffraction 
 limited spot and we collect the emitted photoluminescence using the same objective in an epi-configuration. 
-The 532 nm laser is focused down by our 60x NA1.4 objective to a waist of 228 nm, with a power of $200 \mu$W reaching the sample, leading to an intensity of $1.23$ mW $\mu$m$^2$. For the HeNe laser, the maximum power used was $100$ $\mu$W which 
-corresponds to $0.43$ mW $\mu$m$^2$. 
+The 532 nm laser is focused down by our 60x NA1.4 objective to a waist of 228 nm, with a power of $200 \mu$W reaching the sample, leading to an intensity of $1.23$ mW$\mu$m$^{-2}$. 
+For the HeNe laser, the maximum power used was $100$ $\mu$W which 
+corresponds to $0.43$ mW$\mu$m$^{-2}$. This is equivalent to $1.37\times10^{15}$ photons s$^{-1}$ $\mu$m$^{-2}$, which leads to a fluence of $\approx 82$ photons$\mu$m$^{-2}$ in one minute integration time used for the spectra acquisition. 
 A confocal pinhole of 50 $\mu$m is placed between a pair of lenses with 10 cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectrum, respectively. We reject the laser light with appropriate notch filters.
 
 Additionally, the temperature of the sample can be controlled with a special holder that allows 
@@ -111,10 +112,15 @@ water flow, a heater and a thermocouple to measure the temperature of the sample
 
 \section{Gold nanorod sample characterization}
 
-We synthesized gold nanorods using the seed-mediate grwoth method \cite{} and characterized their size by performing
-TEM imaging on a dropped cast sample on a silicon substrate. Figure \ref{fg:nr-char} (a) shows the image where the cilindrical with sperical cups shape can be seen and the width is 23 nm while the length is 50 nm, 
+We synthesized gold nanorods using the seed-mediate grwoth method \cite{nikoobakht2003preparation} 
+and characterized their size by performing TEM imaging on a dropped cast sample on a silicon substrate. 
+Figure \ref{fg:nr-char} (a) shows the image where the cilindrical with sperical cups shape can be seen 
+and the width is 23 nm while the length is 50 nm, 
 leading to a mean aspect ratio of 2.17. Naturally, there is some
-dispersion in the size due to the fabrication procedure, that leads to a broad bulk extinction spectra, shown in (b). The transverse plasmon resonance is located at 525 nm while the more intense longitudinal plasmon resonance is at 630 nm. We also show the wavelegnths of the lasers used for our study as vertical lines. 
+dispersion in the size due to the fabrication procedure, that leads to a broad bulk extinction 
+spectra, shown in (b). The transverse plasmon resonance is located at 525 nm while the more intense 
+longitudinal plasmon resonance is at 630 nm. We also show the wavelegnths of the lasers used for 
+our study as vertical lines. 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.8\textwidth]{Figures/Supplementary/07_GNRs_Characterization_TEM/GNRs_characterization.png}
@@ -122,8 +128,8 @@ dispersion in the size due to the fabrication procedure, that leads to a broad b
 	\label{fg:nr-char}
 \end{figure}
 
-\section{Determination of the error in the temperature
-extraction}\label{sec:discussion_errors} 
+
+\section{Determination of the error in the temperature extraction}\label{sec:discussion_errors} 
 
 The temperature extracted from the anti-Stokes spectrum depends on the initial fit of the plasmon resonance. The luminescence spectrum acquired with the $532\nm$ laser, shows an asymmetric shape due to a broadband contribution from gold added to the plasmonic emission. Therefore, the fitting of the SPR function ($I_\textrm{SPR}(E)$) of equation \ref{eqn:fitting} is not univocally determined; it will depend on the range of wavelengths selected for the fit. Therefore, the error of the method for temperature extraction can be estimated by studying the dependency of the final value with the intermediate parameters (i.e. the parameters of the lorentizan fit).
 
@@ -171,8 +177,9 @@ Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
 anti-Stokes (blue) emission for several excitation powers. In both cases the
 linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
 Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
-are single-photon processes. The anti-Stokes has a higher slope due to dependence on T in the 
-equation 2 in the main text. The behavior is independent of the plasmon
+are single-photon processes. The anti-Stokes has a higher slope due to dependence on $T$ of the 
+anti-Stokes emission: the higher the power, the higher the temperature of the particle and the 
+higher the anti-Stokes signal is. This behavior is independent of the plasmon
 resonance position. It is important to note that the excitation intensity cannot
 be increased much beyond what is shown because nanorods would start reshaping
 towards more spherical shapes at higher laser powers.
