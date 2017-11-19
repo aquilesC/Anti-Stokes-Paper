@@ -55,7 +55,33 @@
 \keywords{Gold nanorods, Plasmon, Anti-Stokes, Sensing, Temperature}
 
 \begin{document}
-\maketitle
+%\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The "tocentry" environment can be used to create an entry for the
+%% graphical table of contents. It is given here as some journals
+%% require that it is printed as part of the abstract page. It will
+%% be automatically moved as appropriate.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tocentry}
+
+Some journals require a graphical entry for the Table of Contents.
+This should be laid out ``print ready'' so that the sizing of the
+text is correct.
+
+Inside the \texttt{tocentry} environment, the font used is Helvetica
+8\,pt, as required by \emph{Journal of the American Chemical
+Society}.
+
+The surrounding frame is 9\,cm by 3.5\,cm, which is the maximum
+permitted for  \emph{Journal of the American Chemical Society}
+graphical table of content entries. The box will not resize if the
+content is too big: instead it will overflow the edge of the box.
+
+This box and the associated title will always be printed on a
+separate page at the end of the document.
+
+\end{tocentry}
 
 \begin{abstract}
 Nano-thermometry is a challenging field that can open the door
@@ -67,9 +93,8 @@ transducers of electromagnetic radiation into heat. In this work we show that
 the spectrum of the anti-Stokes emission from gold nanorods irradiated in
 resonance can be used to measure the \textit{absolute temperature} of the nanoparticles \HI{and their
 surrounding media} \textit{without} the need of a previous calibration. 
-\HI{We show a $10$ K  accuracy for the temperature determination of an individual gold nanorod 
-with an integration time of 180 s (single measurement) and $4$ K accuracy for the determination
-of the temperature of the sorrounding media (several measurements).}
+\HI{We show a $4$ K accuracy for the determination
+of the temperature of the sorrounding media with 6 spectral measurements of 180 s integration time.}
 This procedure can be easily implemented in any microscope capable of acquiring emission spectra \HI{and it
 is not limited any specific shape of the nanoparticles.} 
 
@@ -86,8 +111,7 @@ temperature. Together with the miniaturization of devices and the advent of
 nanotechnology the need for measuring temperature with high spatial accuracy
 started to emerge. Notably in biology\cite{Yang2011a,Hrelescu2010} and
 medicine\cite{Li2013c} \HI{measuring and controlling temperature at a sub-cellular scale
-still remains a challenge and it will 
-also contribute to a better understanding of the mechanisms involved in
+still remains a challenge and it may also contribute to a better understanding of the mechanisms involved in
 new therapies such as photothermal tumor ablation\cite{Gobin2007} or controlled
 drug delivery\cite{Huang2006,Huo2014}.}
 
@@ -123,7 +147,7 @@ nanoparticles in a dark-field scattering configuration\cite{Hu2008} or via
 photothermal imaging\cite{boyer2002photothermal, Berciaud2006}.
 Alternatively, detecting gold nanoparticles through their
 luminescence\cite{Tcherniak2011} is also possible; their low quantum
-yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015}, in the order of $10^{-5}$,
+yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015}, \HI{in the between $10^{-6}$ and $10^{-5}$,}	
 is compensated by the enhanced cross section at the surface plasmon resonance
 (SPR). The luminescence signal is stable over time; gold nanoparticles do not
 blink nor bleach, therefore are useful labeling agents for processes that
@@ -144,18 +168,20 @@ reached\cite{Donner2013} can only be estimated from models\cite{Zhao2014a} or
 from an ad-hoc calibration. Therefore a method that allows simultaneously to
 increase and to monitor the local temperature will be of great interest in a
 broad range of fields. In this paper we show that the anti-Stokes luminescence
-of gold nanorods can be used to measure their temperature \HI{with less than 6\% relative error 
-and the temperature of the surrounding media with less than 2\%.}
+of \HI{single} gold nanorods can be used to measure their temperature 
+\HI{upon resonant CW-mild irradiation with less than $10$ K error with $180$ s of acquisition time 
+and with a set of such measurements the temperature of the surrounding media can be 
+measured with with less than $4$ K accuracy.}
 
 Luminescence of metallic nanoparticles has been the subject of extensive study in
 recent years. Since the first observation of luminescence from bulk
 gold\cite{Mooradian1969}, different groups have tried to quantitatively describe
-the observed properties\cite{Mohamed2000,Beversluis2003a}, such as the quantum
-yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015,Dulkeith2004} and the
+the observed properties\cite{Mohamed2000,Beversluis2003a} \HI{\cite{Huang2014, hugall2015demonstrating,mertens2017light}}, 
+such as the quantum yield\cite{Fang2012,Rao2015,Yorulmaz2012,Cheng2015,Dulkeith2004} and the
 emission spectrum\cite{Link2010}. In particular, gold nanorods present two distinct
 resonance energies, namely the transverse and the longitudinal plasmon
 resonances. These particles can therefore be excited efficiently at one of those
-energies; the transverse resonance corresponds to a wavelength of about $532\,\nm$ and will give
+energies; the transverse resonance corresponds to a wavelength of about $530\,\nm$ and will give
 rise to a broad luminescence emission with a peak at the longitudinal plasmon energy.
 Conversely it is possible to excite the particles with a wavelength matching
 the longitudinal plasmon resonance. In this case the excitation benefits from
@@ -163,13 +189,13 @@ an enhanced absorption cross section, but the emission that overlaps the plasmon
 resonance will be mostly blocked by the filters needed to prevent direct
 excitation light from reaching the detectors.
 
-In this work luminescence refers to the emission from nanoparticles observed at
-energies different from the excitation energy. Normally it is expected that
-after absorption of a photon, the electrons in the particle will relax and the
-emitted photons will appear at lower energies than the excitation. If this is the
-case, the emission is called Stokes-shifted; however gold nanoparticles when
-excited in resonance also present a significant emission at higher energies
-called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}.
+%In this work luminescence refers to the emission from nanoparticles observed at
+%energies different from the excitation energy. Normally it is expected that
+%after absorption of a photon, the electrons in the particle will relax and the
+%emitted photons will appear at lower energies than the excitation. If this is the
+%case, the emission is called Stokes-shifted; however gold nanoparticles when
+%excited in resonance also present a significant emission at higher energies
+%called anti-Stokes emission\cite{Jiang2013,He2015,Carattino2016a}.
 
 \HI{The anti-Stokes emission is very sensitive to temperature changes and thus 
 it can be used for thermometry\cite{xie2016thermometry}. In this letter we present 
@@ -607,6 +633,8 @@ show the most favorable plasmon resonance; by determining the plasmon resonance
 through white-light scattering, avoiding the uncertainty in the fit; by
 increasing the exposure times to increase the signal-to-noise ratio.
 
+The authors declare no competing financial interest.
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% % The
 % "Acknowledgement" section can be given in all manuscript % classes.  This
 % should be given within the "acknowledgement" % environment, which will make
@@ -622,9 +650,18 @@ This work has been financed by FOM, which is part of the Netherlands Organisatio
 %% suppinfo environment.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{suppinfo}
-Scheme for the Au NR luminescence mechanism.  Details concerning the experimental setup. 
-Luminescence power dependence. Gold Nanorod temperature calculations.
+The Supporting Information is available free of charge on the
+ACS Publications website with the following sections:
+\begin{itemize}
+  \item Section: Anti-Stokes emission form gold nanorods
+  \item Section: Experimental setup
+	\item Section: Gold nanorods sample characterization
+	\item Section: Determination of the error in the temperature extraction
+	\item Section: Gold Nanorod temperature numerical calculations
+\end{itemize}
+
 \end{suppinfo}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The appropriate \bibliography command should be placed here.
