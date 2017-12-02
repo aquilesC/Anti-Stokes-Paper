@@ -9,3 +9,4 @@ acs-*.bib
 *.log
 *.aux
 .metadata
+.ipynb_checkpoints/
