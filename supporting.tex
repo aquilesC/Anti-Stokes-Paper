@@ -140,37 +140,44 @@ our study as vertical lines.
 
 \section{Determination of the error in the temperature extraction}\label{sec:discussion_errors} 
 
-The temperature extracted from the anti-Stokes spectrum depends on the initial fit of the plasmon resonance. The luminescence spectrum acquired with the $532\,\nm$ laser, shows an asymmetric shape due to a broadband contribution from gold added to the plasmonic emission. Therefore, the fitting of the SPR function ($I_\textrm{SPR}(E)$) of equation \ref{eqn:fitting} is not univocally determined; it will depend on the range of wavelengths selected for the fit. Therefore, the error of the method for temperature extraction can be estimated by studying the dependency of the final value with the intermediate parameters (i.e. the parameters of the lorentizan fit).
 
-For the particle shown in Fig. \ref{fig:spectra_intensity}, changing the initial wavelength of the fit from $600\nm$ to $640\nm$ yields a significative difference in the obtained parameters of the lorentzian. Using the following expression for the $I_\textrm{SPR}$ function in $\eV$, 
 
-\begin{equation*}
-I_\textrm{SPR}(E) = \frac{P_1}{(E-P_2)^2+P_3}
-\end{equation*}
 
-We find that the values of $P_2$ lie between $1.940\eV$ and $1.955\eV$ and $P_3$ values between $8\cdot10^{-3}\eV^2$ and $8\cdot10^{-3}\eV^2$ for the different wavelength ranges. The value of $P_1$ is not relevant for the analyzis because it is only a normalization factor.
 
-\begin{figure}[htp] \centering
-\includegraphics[width=0.90\textwidth]{Figures/Supplementary/05_Estimation_error/05_estimation_error.png}
-\caption{Estimation of the error due to different fitting parameters of the plasmon spectrum. a) 2D grid of the difference in temperature obtained while varying both $P_2$ and $P_3$ parameters of the fit. b) Temperature dependence while keeping either $P_2$ or $P_3$ constant.}
-	\label{fig:estimation-error}
-\end{figure}
 
-To study the impact that these different parameters have on the final result, we calculate the extracted temperature for all the combinations of $P_2$ and $P_3$, as is shown in Figure \ref{fig:estimation-error}.a. The color scale encodes the difference in temperature extracted compared to the value obtained with the parameters at the center of the range. Figure \ref{fig:estimation-error}.b shows two cross cuts of the temperature, while keeping either $P_2$ or $P_3$ constant.
 
-In this example it is possible to note that the measured temperature is highly dependent on the fitted width of the plasmon spectrum ($P_3$) but barely dependent on its peak position ($P_2$). From the spectrum of the particle, it is possible to note that the wing of the plasmon coincides with the range of the anti-Stokes emission. Therefore, minute changes in the shape of the resonance will yield higher changes in the extracted temperature.
 
-This assertion also implies that there should be particles in which the extracted temperature through the anti-Stokes fit wouldn't be too sensitive to the initial plasmon fit. To explore these possibilities, we calculated the anti-Stokes emission of different particles at $400\K$ by using equation \ref{eqn:fitting} and the results of ADDA calculations for the SPR function. From these data, we extracted the  temperature while varying the lorentzian parameters, exactly in the same way as what was done for the experimental results. We can therefore study the error in temperature for particles with different plasmonic resonances.
-
-\begin{figure}[htp] \centering
-\includegraphics[width=0.45\textwidth]{Figures/Supplementary/06_Calculation_error/06_calculation_error.png}
-\caption{Calculated error in the temperature extraction due to the uncertainty in the plasmon parameters as a function of the resonance position of the particle. Clearly, when exciting at the blue wing of the plasmon, the effect of these uncertainties is much lower.}
-	\label{fig:calculated-error}
-\end{figure}
-
-Figure \ref{fig:calculated-error} shows the uncertainty in the extracted temperature as a function of the plasmon peak position. The uncertainty is defined as the difference between the maximum and the minimum extracted temperatures while varying $P_2$ by $10\%$ and $P_3$ by $30\%$. The vertical red line depicts the wavelength of the laser. It is remarkable that particles with a resonance red-shifted from the excitation laser present a much lower uncertanty in temperature as compared to particles with a resonance to the blue of the laser.
-
-When the plasmon favors the anti-Stokes emission the correct modelling of the resonance is crucial for the extraction of temperatures. On the other hand, when the plasmon is red-shifted from the excitation, the induced error in the extracted temperature is much lower. However, the amount of collected light is another factor to keep into account. When the resonance is red-shifted from the laser, the anti-Stokes emission is much weaker and therefore accumulating enough photons in the spectrometer requires longer acquisition times. 
+%The temperature extracted from the anti-Stokes spectrum depends on the initial fit of the plasmon resonance. The luminescence spectrum acquired with the $532\,\nm$ laser, shows an asymmetric shape due to a broadband contribution from gold added to the plasmonic emission. Therefore, the fitting of the SPR function ($I_\textrm{SPR}(E)$) of equation \ref{eqn:fitting} is not univocally determined; it will depend on the range of wavelengths selected for the fit. Therefore, the error of the method for temperature extraction can be estimated by studying the dependency of the final value with the intermediate parameters (i.e. the parameters of the lorentizan fit).
+%
+%For the particle shown in Fig. \ref{fig:spectra_intensity}, changing the initial wavelength of the fit from $600\nm$ to $640\nm$ yields a significative difference in the obtained parameters of the lorentzian. Using the following expression for the $I_\textrm{SPR}$ function in $\eV$, 
+%
+%\begin{equation*}
+%I_\textrm{SPR}(E) = \frac{P_1}{(E-P_2)^2+P_3}
+%\end{equation*}
+%
+%We find that the values of $P_2$ lie between $1.940\eV$ and $1.955\eV$ and $P_3$ values between $8\cdot10^{-3}\eV^2$ and $8\cdot10^{-3}\eV^2$ for the different wavelength ranges. The value of $P_1$ is not relevant for the analyzis because it is only a normalization factor.
+%
+%\begin{figure}[htp] \centering
+%\includegraphics[width=0.90\textwidth]{Figures/Supplementary/05_Estimation_error/05_estimation_error.png}
+%\caption{Estimation of the error due to different fitting parameters of the plasmon spectrum. a) 2D grid of the difference in temperature obtained while varying both $P_2$ and $P_3$ parameters of the fit. b) Temperature dependence while keeping either $P_2$ or $P_3$ constant.}
+	%\label{fig:estimation-error}
+%\end{figure}
+%
+%To study the impact that these different parameters have on the final result, we calculate the extracted temperature for all the combinations of $P_2$ and $P_3$, as is shown in Figure \ref{fig:estimation-error}.a. The color scale encodes the difference in temperature extracted compared to the value obtained with the parameters at the center of the range. Figure \ref{fig:estimation-error}.b shows two cross cuts of the temperature, while keeping either $P_2$ or $P_3$ constant.
+%
+%In this example it is possible to note that the measured temperature is highly dependent on the fitted width of the plasmon spectrum ($P_3$) but barely dependent on its peak position ($P_2$). From the spectrum of the particle, it is possible to note that the wing of the plasmon coincides with the range of the anti-Stokes emission. Therefore, minute changes in the shape of the resonance will yield higher changes in the extracted temperature.
+%
+%This assertion also implies that there should be particles in which the extracted temperature through the anti-Stokes fit wouldn't be too sensitive to the initial plasmon fit. To explore these possibilities, we calculated the anti-Stokes emission of different particles at $400\K$ by using equation \ref{eqn:fitting} and the results of ADDA calculations for the SPR function. From these data, we extracted the  temperature while varying the lorentzian parameters, exactly in the same way as what was done for the experimental results. We can therefore study the error in temperature for particles with different plasmonic resonances.
+%
+%\begin{figure}[htp] \centering
+%\includegraphics[width=0.45\textwidth]{Figures/Supplementary/06_Calculation_error/06_calculation_error.png}
+%\caption{Calculated error in the temperature extraction due to the uncertainty in the plasmon parameters as a function of the resonance position of the particle. Clearly, when exciting at the blue wing of the plasmon, the effect of these uncertainties is much lower.}
+	%\label{fig:calculated-error}
+%\end{figure}
+%
+%Figure \ref{fig:calculated-error} shows the uncertainty in the extracted temperature as a function of the plasmon peak position. The uncertainty is defined as the difference between the maximum and the minimum extracted temperatures while varying $P_2$ by $10\%$ and $P_3$ by $30\%$. The vertical red line depicts the wavelength of the laser. It is remarkable that particles with a resonance red-shifted from the excitation laser present a much lower uncertanty in temperature as compared to particles with a resonance to the blue of the laser.
+%
+%When the plasmon favors the anti-Stokes emission the correct modelling of the resonance is crucial for the extraction of temperatures. On the other hand, when the plasmon is red-shifted from the excitation, the induced error in the extracted temperature is much lower. However, the amount of collected light is another factor to keep into account. When the resonance is red-shifted from the laser, the anti-Stokes emission is much weaker and therefore accumulating enough photons in the spectrometer requires longer acquisition times. 
 
 \section{Luminescence power dependence}
 
