@@ -1,0 +1,13 @@
+The file labeled with aS is the spectra form the data 
+in folder 
+
+\anti-stokes\Figures\Supplementary\09_Error_vs_Wavelength\
+
+The rest of the nanorods come from the folder
+
+\\data02\pi-orrit\Aquiles\Data\Background-Free\2014-06-05
+
+labeled with the number that comes when runing the file
+
+analyze_spectra.m
+
