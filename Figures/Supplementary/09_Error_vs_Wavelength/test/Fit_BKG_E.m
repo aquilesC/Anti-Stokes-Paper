@@ -220,7 +220,33 @@ for N=1:size(s,2)
     
 end
 
+%% prepare figure for SI
+to_plot = [4 78 33];
+
+figure(4)
+clf
+set(gcf,'position',[408   329   647   487])
+
+for n=1:length(to_plot)
+    clear a
+    figure(4)
+    plot(E,s(:,find(NR==to_plot(n)))./max(s(:,find(NR==to_plot(n)))),'linewidth',lw)
+    hold all
+    
+end
 
 
+xlim([1.6 2.4])
+ylim([0 1])
+plot([1239.8/532 1239.8/532],[0 1],'--','linewidth',lw,'color',[0,153,51]/255)
+% ylabel('Norm intensity')
+% xlabel('Wavelength [nm]')
+grid on
+set(gca,'FontSize',FS)
+set(gca,'Linewidth',BW)
+set(gca,'XMinorGrid','off')
+set(gca,'YMinorGrid','off')
 
+saveas(gcf,'Normalized_spectra_532nm.fig','fig')
+saveas(gcf,'Normalized_spectra_532nm.pdf','pdf')
 
