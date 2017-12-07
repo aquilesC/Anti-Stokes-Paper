@@ -235,7 +235,89 @@ set(gca,'YMinorGrid','off')
 
 
 %% plot for the SI
+close all
+
+figure(1)
+clf
+set(gcf,'position',[30  400  260  260])
+plot(E1,S1,'o','MarkerSize',5,'MarkerFaceColor','w')
+hold all
+plot(E1,fun(beta,E1),'--k','linewidth',lw)
+xlabel('E [eV]')
+
+ylim([0 max(S1)])
+xlim([1.6 2.3])
+grid on
+set(gca,'FontSize',FS)
+set(gca,'Linewidth',BW)
+set(gca,'XMinorGrid','off')
+set(gca,'YMinorGrid','off')
 
 
+saveas(gcf,'PL_spectra.fig','fig')
+saveas(gcf,'PL_spectra.pdf','pdf')
+
+%%
+figure(2)
+clf
+MAR=['^','o','s']
+aux = [1,3,6];
+range = find(E>2.01);
+x=E(range);
+for n=1:size(aux,2)
+    figure(2)
+    pl(n) = plot(E,s(:,aux(n)),MAR(n),'MarkerSize',6,'MarkerFaceColor','w');
+%     set(gca,'yscale','log')
+    hold all
+    legd{n} = strcat('P = ',num2str(floor(pw(aux(n)))),' mW');
+end
+
+for n=1:size(aux,2)
+       plot(x,model([N0(aux(n)) T(aux(n))],x),'-','linewidth',lw,'Color',pl(n).Color)
+end
+
+% figure
+% for n=1:size(aux,2)
+%     plot(x,model([N0(aux(n)) T(aux(n))],x),'--','linewidth',lw,'Color',pl(n).Color)
+%     hold all
+% end
 
 
+ylim([0 600])
+xlim([1.95 2.3])
+grid on
+set(gca,'FontSize',FS)
+set(gca,'Linewidth',BW)
+set(gca,'XMinorGrid','off')
+set(gca,'YMinorGrid','off')
+legend(legd{1:length(aux)})
+
+clear aux
+
+
+saveas(gcf,'AS_spectra.fig','fig')
+saveas(gcf,'AS_spectra.pdf','pdf')
+
+%%
+x_lim = [50 110];
+figure(3)
+set(gcf,'position',[966.6000  333.8000  560.0000  420.0000])
+clf
+plot(x_lim,polyval(P,x_lim),'-k','linewidth',lw)
+hold all
+errorbar(pw,T,eT,'s','MarkerSize',10,'linewidth',lw,'MarkerFaceColor','w')
+set(gca,'XTick',[50:15:115])
+
+xlim(x_lim)
+grid on
+xlabel('Power [mW]')
+ylabel('Temperature [K]')
+set(gca,'FontSize',FS)
+set(gca,'Linewidth',BW)
+set(gca,'XMinorGrid','off')
+set(gca,'YMinorGrid','off')
+
+disp(strcat('T_{room}=',num2str(floor(P(2))),'(',num2str(floor(delta)),' )K'))
+
+saveas(gcf,'TvsPower.fig','fig')
+saveas(gcf,'TvsPower.pdf','pdf')
