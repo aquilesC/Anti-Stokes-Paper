@@ -60,7 +60,6 @@ Supporting information}
 \maketitle
 
 
-
 \section{Anti-Stokes emission form gold nanorods}\label{sec:AS}
 
 We model the photoluminescence generation in gold nanorods with successive 
@@ -92,6 +91,7 @@ after iterating with the baths, leading to high energy (anti-Stokes) or low ener
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
+\pagebreak
 
 \section{Experimental setup}\label{sec:setup}
 
@@ -102,7 +102,7 @@ We use continuous wave lasers at 532 nm or 633 nm to excite the transverse and l
 
 We employ an objective lens to focus the excitation beam into a diffraction-limited 
 spot and we collect the emitted photoluminescence using the same objective in an epi-configuration. 
-The 532 nm laser is focused down by our 60x NA1.4 objective to a waist of 228 nm, with a power of $200 \mu$W reaching the sample, leading to an intensity of $1.23$ mW$\mu$m$^{-2}$. 
+The 532 nm laser is focused down by our 60x NA1.4 objective to a waist of 228 nm, with a power of $200\, \mu$W reaching the sample, leading to an intensity of $1.23$ mW$\mu$m$^{-2}$. 
 For the HeNe laser, the maximum power used was $100$ $\mu$W which 
 corresponds to $0.43$ mW$\mu$m$^{-2}$. This is equivalent to $1.37\times10^{15}$ photons s$^{-1}$ $\mu$m$^{-2}$, which leads to a fluence of $\approx 240$ photons$\mu$m$^{-2}$ in three minutes integration time used for the spectra acquisition. 
 A confocal pinhole of 50 $\mu$m is placed between a pair of lenses with 10 cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectrum, respectively. We reject the laser light with appropriate notch filters.
@@ -118,6 +118,7 @@ particle under study.
 	\label{fig:setup}
 \end{figure}
 
+\pagebreak
 
 \section{Gold nanorods sample characterization}
 
@@ -138,20 +139,22 @@ our study as vertical lines.
 \end{figure}
 
 
+\pagebreak
 \section{Determination of the error in the temperature extraction}\label{sec:discussion_errors} 
 
-The phenomenological model we use to extract the temperature from the anti-Stokes spectrum depends on the prior determination of shape and position of the surface plasmon resonance (SPR). In our case, we measure the photoluminescence emission spectrum 
-when a single nanorod is excited with a $532\,\nm$ CW laser. Figure 1 in the main text shows an example of such spectra for an  individual nanorod. An asymmetric shape is measured, due to a broadband contribution from  gold added to the plasmonic emission. This leads to a complication to determine the SPR since a simple Lorentzian shape does not fit this data. 
-We present in the following two ways to circumvent this problem that lead to similar quantitative results. 
+As we mentioned in the main text, the phenomenological model we use to extract the temperature from the anti-Stokes spectrum depends on the prior determination of shape and position of the surface plasmon resonance (SPR). 
+In this paper, we measure the photoluminescence emission spectrum 
+when a single nanorod is excited with a $532\,\nm$ CW laser to obtain the SPR. 
+Figure 1 in the main text shows an example of such spectra for an individual nanorod. 
+An asymmetric shape is measured, due to some plasmonic-unrelated contribution from gold added to the plasmonic emission. 
+This complicates the determination of the SPR from the measured spectra, since a simple 
+Lorentzian shape does not fit this data. 
+We present here the way we analyzed the data to circumvent this problem and the error analysis for the 
+extracted temperature. 
+We first determine this background contribution phenomenologically with independent experiments and then 
+we take it into account for the SPR determination. 
 
-The first one consist on determining the background phenomenologically with independent experiments and take it into account
-for the SPR determination. The second one consists on fitting a portion of the photoluminescence spectra to a Lorentzian to extract
-the correct SPR. In both cases we analyze the errors and compare the results, obtaining quantitatively equivalent results.
-
-
-\subsection*{Background subtraction\label{sec:bkg}}
-
-In this case we modeled this emission spectra taken with the $532$ nm laser with the following phenomenological form
+We modeled this emission spectra taken with the $532$ nm laser with the following phenomenological form
 
 \begin{equation}
 I_{\textrm{PL}}(E) = A_1 B(E;\Delta) + A_2 I_\textrm{SPR}(E)\,,
@@ -168,53 +171,76 @@ I_{\textrm{SPR}}(E) = \frac{\left( \Gamma/2 \right)^2}{\left( E-E_\textrm{SPR}\r
 \label{eq:ISPR}
 \end{equation}
 
-Figure \ref{fig:PL_spectra}(a) presents some individual gold nanorods spectra with size similar to the ones presented in the main
-text, i.e. a bulk SPR around $635$ nm. We use this set of spectra to empiricaly obtain the shape of the background.
-Figure \ref{fig:PL_spectra}(b) shows an example of the fitted function and the extracted function $B(E;\Delta)$. We 
-performed this fit on five different nanorods and we averaged the values for $\Delta$, obtaining $\Delta=(0.120\pm0.02)$ eV.
-We then fix this parameter, which defines our background model and analyze an independent set of data from a single nanorod
-to retrieve the temperature with the procedure we present in this paper.
+Figure \ref{fig:PL_spectra}(a) presents some individual gold nanorods spectra with 
+size similar to the ones presented in the main text, i.e. a bulk SPR around $635$ nm. 
+We use this set of spectra to empirically obtain the shape of the background.
+Figure \ref{fig:PL_spectra}(b) shows an example of the fitted function and the extracted 
+function $B(E;\Delta)$. We performed this fit on five different nanorods and we averaged 
+the values for $\Delta$, obtaining $(0.120\pm0.02)$ eV.
+We then fix this parameter, which defines our background model and analyze an independent 
+set of data from a single nanorod to retrieve the temperature with the procedure we 
+present in this paper.
 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.90\textwidth]{Figures/Supplementary/09_Error_vs_Wavelength/532nm_spectra_and_bkg.png}
-\caption{\textbf{Photoluminescence spectra of individual gold nanorods.} (a) Normalized emission spectra of three different
-individual nanorods, all of which present an asymmetric shape due to the bulk emission contribution. The vertical dash line shows the excitation laser energy and the abrupt cut close to $2.2$eV is due to the notch filter used to prevent laser detection.(b) Example of the fit to extract the function $B(E;\Delta)$. The blue solid line is the spectra of an individual nanorod and the black dotted line is the fitted function from \ref{eq:spectra_model}. The red solid line shows the obtained function $B(E;\Delta)$. The integration time in the spectra acquisition for these spectra was $20$ s.}
+\caption{\textbf{Photoluminescence spectra of individual gold nanorods.} 
+(a) Normalized emission spectra of three different individual nanorods, all of which present 
+an asymmetric shape due to the bulk emission contribution. The vertical dash line shows the 
+excitation laser energy and the abrupt cut close to $2.2$eV is due to the notch filter used 
+to prevent laser detection. (b) Example of the fit to extract the function $B(E;\Delta)$. 
+The blue solid line is the spectra of an individual nanorod and the black dotted line is the 
+fitted function from equation (\ref{eq:spectra_model}). The red solid line shows the obtained bacground 
+function $B(E;\Delta)$, with $\Delta = 0.12$ eV. 
+The integration time in the spectra acquisition for these spectra was $20$ s.}
 \label{fig:PL_spectra}
 \end{figure}
 
-The first step in our protocol is to find $I_{\textrm{SPR}}(E)$. We did that by fitting photoluminescence spectra
-recorded with $532$ \nm laser excitation of the nanorod under study with the function \ref{eq:spectra_model} with $\Delta$ as a fixed 
-taken from our previous analysis. The inset in figure \ref{fig:as_fit} (a) shows the spectra and the fit, which provides the parameters that characterize the SPR, i.e. SPR $(E_\textrm{SPR},\Gamma)$. Then we fit the anti-Stokes part of the spectra obtained
-with nearly resonant excitation of $633$ \nm, obtaining the curves shown in figure \ref{fig:as_fit} (a). With the obtained
-temperature values for each laser power we construct the plot in figure \ref{fig:as_fit} (b), where the error bars correspond to the square root of the variance of the temperature, estimated by the fitting algorithm.
-Note that the higher the power, the smaller the error, due to the higher photon counts in the spectra. We emphasize that
-a single spectra leads to a temperature value with a relative error of 2\% for powers larger than $70$ mW.
+The first step in our protocol (presented in the main text) is to find $I_{\textrm{SPR}}(E)$. 
+We did that by fitting photoluminescence spectra recorded with $532$ \nm laser excitation 
+of the nanorod under study with the function from equation (\ref{eq:spectra_model}) with $\Delta$ fixed 
+from our previous analysis. The inset in figure \ref{fig:as_fit} (a) shows the spectra and 
+the fit, which provides the parameters that characterize the SPR, i.e. SPR 
+$(E_\textrm{SPR},\Gamma)$. Then we fit the anti-Stokes part of the spectra obtained with 
+nearly resonant excitation of $633$ \nm, obtaining the curves shown in figure \ref{fig:as_fit} (a). 
+With the obtained temperature values for each laser power we construct the plot in figure 
+\ref{fig:as_fit} (b), where the error bars correspond to the square root of the variance of 
+the temperature, estimated by the fitting algorithm.
+Note that the higher the power, the smaller the error, due to the higher photon counts in 
+the spectra. We emphasize that a single spectra leads to a temperature value with a 
+relative error of $2\%$ for powers larger than $70$ mW.
 
 Additionally, we performed a linear fit to these temperature values and extrapolated to 
-zero laser power, which corresponds to room temperature. 
-We obtained a value of $T_r = (297 \pm 13)$ K, consistent with independent measurements and a $4\%$ relative accuracy.
+zero laser power, to obtain the value for the room temperature $T_R$. 
+We obtained $T_R = (297 \pm 13)$ K, consistent with independent measurements and a $4\%$ relative accuracy.
 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.90\textwidth]{Figures/Supplementary/09_Error_vs_Wavelength/Temp_error.png}
-\caption{\textbf{Temperature extraction from the anti-Stokes emission.} (a) Anti-Stokes spectra for three different $633$ nm-excitation power: $107$ mW in blue triangles, $88$ mW in yellow squares and $63$ mW in red circles. The solid lines correspond
-to the fit using our model from equation 2 in the main text, with $T$ as a free parameter. 
-The inset shows the photoluminescence spectra of the same nanorod excited with $532$ nm (blue circles) and the fit using the equation 
-\ref{eq:spectra_model} with a fixed value for $\Delta$ (dashed black line), from which we obtained $E_\textrm{SPR}=2.04$ eV and $\Gamma=0.175$ eV.
-(b) Temperature extracted from the spectra in (a) for different laser excitation power. The solid black line corresponds to a 
-linear fit that gives a room temperature value $T_r = (297 \pm 13)$ K.}
+\caption{\textbf{Temperature extraction from the anti-Stokes emission.} 
+(a) Anti-Stokes spectra for three different $633$ nm-excitation power: $107$ mW in 
+blue triangles, $88$ mW in yellow squares and $63$ mW in red circles. 
+The solid lines correspond to the fit using our model from equation (2) in the main text, 
+with $T$ as a free parameter. The inset shows the photoluminescence spectra of the same 
+nanorod excited with $532$ nm (blue circles) and the fit using the equation 
+(\ref{eq:spectra_model}) with a fixed value for $\Delta$ (dashed black line), from which 
+we obtained $E_\textrm{SPR}=2.04$ eV and $\Gamma=0.175$ eV. The abrupt cut at $E<2$ eV is due to the
+notch filter used to prevent laser detection.  
+(b) Temperature extracted from the spectra in (a) for different laser excitation power. 
+The solid black line corresponds to a linear fit that gives a room temperature value $T_R = (297 \pm 13)$ K.}
 \label{fig:as_fit}
 \end{figure}
 
+The analysis presented in this section and the errors treatment was used to obtain the results presented in
+the main text. 
 
-\subsection{Fit a Lorentzian in a restricted range\label{sec:wcut}}
-
-In this case we model the emission with $532$ nm excitation with a simple Lorentzian (see equation \ref{eq:ISPR}),
-but we take a minimum wavelength for the fitting. This avoids the contribution of the background, which is significantly higher at 
-the low-wavelength part of the spectra. Due to the presence of this cut, the fitting of the SPR function of equation is not univocally determined; it will depend on the cut wavelength $\lambda_c$ used for the fit. Therefore, we need to evaluate
-the error that such a procedure introduces for the temperature extraction. We use the same data as in section \ref{sec:bkg} 
-to provide a proper comparison on the data analysis.
+%\subsection{Fit a Lorentzian in a restricted range\label{sec:wcut}}
+%
+%In this case we model the emission with $532$ nm excitation with a simple Lorentzian (see equation \ref{eq:ISPR}),
+%but we take a minimum wavelength for the fitting. This avoids the contribution of the background, which is significantly higher at 
+%the low-wavelength part of the spectra. Due to the presence of this cut, the fitting of the SPR function of equation is not univocally determined; it will depend on the cut wavelength $\lambda_c$ used for the fit. Therefore, we need to evaluate
+%the error that such a procedure introduces for the temperature extraction. We use the same data as in section \ref{sec:bkg} 
+%to provide a proper comparison on the data analysis.
 
 %For the particle shown in Fig. \ref{fig:spectra_intensity}, changing the initial wavelength of the fit from $600\nm$ to $640\nm$ yields a significative difference in the obtained parameters of the lorentzian. Using the following expression for the $I_\textrm{SPR}$ function in $\eV$, 
 %
@@ -246,6 +272,8 @@ to provide a proper comparison on the data analysis.
 %
 %When the plasmon favors the anti-Stokes emission the correct modelling of the resonance is crucial for the extraction of temperatures. On the other hand, when the plasmon is red-shifted from the excitation, the induced error in the extracted temperature is much lower. However, the amount of collected light is another factor to keep into account. When the resonance is red-shifted from the laser, the anti-Stokes emission is much weaker and therefore accumulating enough photons in the spectrometer requires longer acquisition times. 
 
+
+\pagebreak
 \section{Luminescence power dependence}
 
 \begin{figure}[htp] \centering
@@ -256,21 +284,25 @@ confirming the $1$-photon nature of both kinds of emission.}
 	\label{fig:Log_Plot}
 \end{figure}
 
-Figure \ref{fig:Log_Plot} shows the intensity of the Stokes (red) and
+Figure \ref{fig:Log_Plot} shows the spectrally-integrated intensity of the Stokes (red) and
 anti-Stokes (blue) emission for several excitation powers. In both cases the
 linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
-Stokes and $1.20$ for the anti-Stokes, confirming that both types of emission
-are single-photon processes. 
+Stokes and $1.20$ for the anti-Stokes. 
 The anti-Stokes band has a higher slope due to dependence on $T$ of the 
-anti-Stokes emission and to nanorod heating at higher power:
- the higher the power, the higher the temperature of the particle and the 
-higher the anti-Stokes signal is. This behavior is independent of the plasmon
-resonance position. It is important to note that the excitation intensity cannot
+anti-Stokes emission, in agreement with the fact that to achieve high-energy
+emission some energy from the thermal baths has to be taken. Since most 
+excitations decay non-radiatively, the energy provided by previous excitations
+changes the energy content of the bath in a power dependence manner, thus leading
+to a higher slope in plot \ref{fig:Log_Plot}. In other words, the higher the power, 
+the higher the temperature of the particle and the higher the anti-Stokes signal is. 
+This behavior is independent of the plasmon resonance position. 
+It is important to note that the excitation intensity cannot
 be increased much beyond what is shown because nanorods would start reshaping
 towards more spherical shapes at higher laser powers.
 
 
 
+\pagebreak
 \section{Gold Nanorod temperature numerical calculations} \label{sec:temp-calc}
 
 \begin{figure}[htp] \centering

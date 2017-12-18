@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="01_AS_S_in_Log.svg"
-   inkscape:export-filename="03_AS_S_in_Log.png"
+   inkscape:export-filename="D:\Martin\Publications\anti-stokes\Figures\Supplementary\03_AS_S_in_Log\03_AS_S_in_Log.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <defs
@@ -25,7 +25,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile2" />
+       id="color-profile3" />
     <defs
        id="defs1">
       <clipPath
@@ -339,16 +339,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.303849"
-     inkscape:cx="135.74816"
-     inkscape:cy="101.5237"
+     inkscape:zoom="2.3214319"
+     inkscape:cx="156.70306"
+     inkscape:cy="168.50769"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3066"
-     inkscape:window-height="1689"
-     inkscape:window-x="134"
-     inkscape:window-y="55"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="false"
      fit-margin-top="0"
@@ -363,7 +363,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Aquiles Carattino</dc:title>
@@ -700,12 +700,12 @@
        y1="-5.8746943"
        id="line6270" />
     <text
-       x="111.96886"
+       x="120.45067"
        xml:space="preserve"
        y="190.69557"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text6274"
-       transform="scale(1.000193,0.99980703)">Laser intensity (μW)</text>
+       transform="scale(1.000193,0.99980703)">Laser power (μW)</text>
     <line
        y2="169.15614"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -763,14 +763,14 @@
        y1="-5.8746943"
        id="line6292" />
     <text
-       x="139.88615"
+       x="142.71252"
        xml:space="preserve"
        y="180.97626"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text6296"
        transform="scale(1.000193,0.99980703)">50</text>
     <text
-       x="216.7692"
+       x="220.40311"
        xml:space="preserve"
        y="180.97626"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -1176,5 +1176,12 @@
          x="216.74957"
          y="118.48923"
          style="font-size:9.25px;line-height:1.25">slope: 1.20</tspan></text>
+    <text
+       transform="scale(1.000193,0.99980703)"
+       id="text995"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
+       y="180.97626"
+       xml:space="preserve"
+       x="61.328384">10</text>
   </g>
 </svg>

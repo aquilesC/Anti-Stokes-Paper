@@ -14,9 +14,9 @@
    viewBox="0 0 180 80"
    version="1.1"
    id="svg8"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="Temp_error.svg"
-   inkscape:export-filename="C:\Users\Martin\Documents\PD\Publications\anti-stokes\Figures\Supplementary\09_Error_vs_Wavelength\Temp_error.png"
+   inkscape:export-filename="D:\Martin\Publications\anti-stokes\Figures\Supplementary\09_Error_vs_Wavelength\Temp_error.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600">
   <defs
@@ -85,14 +85,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6964691"
-     inkscape:cx="318.89764"
-     inkscape:cy="141.73228"
+     inkscape:zoom="2.1298958"
+     inkscape:cx="340.15748"
+     inkscape:cy="151.1811"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1536"
-     inkscape:window-height="811"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -104,7 +104,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -326,7 +326,7 @@
              id="g44953">
             <text
                id="text44955"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-size:30px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-8.5,31)">
               <tspan
                  id="tspan44957"
@@ -342,13 +342,14 @@
              id="g44961">
             <text
                id="text44963"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-21,31)">
               <tspan
                  id="tspan44965"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 25.02">2.1</tspan>
+                 x="0 16.68 25.02"
+                 style="font-size:30px;line-height:1.25">2.1</tspan>
             </text>
           </g>
         </g>
@@ -359,13 +360,14 @@
              id="g44969">
             <text
                id="text44971"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-21,31)">
               <tspan
                  id="tspan44973"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 25.02">2.2</tspan>
+                 x="0 16.68 25.02"
+                 style="font-size:30px;line-height:1.25">2.2</tspan>
             </text>
           </g>
         </g>
@@ -376,13 +378,14 @@
              id="g44977">
             <text
                id="text44979"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-21,31)">
               <tspan
                  id="tspan44981"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 25.02">2.3</tspan>
+                 x="0 16.68 25.02"
+                 style="font-size:30px;line-height:1.25">2.3</tspan>
             </text>
           </g>
         </g>
@@ -537,7 +540,7 @@
              id="g45049">
             <text
                id="text45051"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;font-size:30px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-17,12)">
               <tspan
                  id="tspan45053"
@@ -553,13 +556,14 @@
              id="g45057">
             <text
                id="text45059"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45061"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">100</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">100</tspan>
             </text>
           </g>
         </g>
@@ -570,13 +574,14 @@
              id="g45065">
             <text
                id="text45067"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45069"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">200</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">200</tspan>
             </text>
           </g>
         </g>
@@ -587,13 +592,14 @@
              id="g45073">
             <text
                id="text45075"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45077"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">300</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">300</tspan>
             </text>
           </g>
         </g>
@@ -604,13 +610,14 @@
              id="g45081">
             <text
                id="text45083"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45085"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">400</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">400</tspan>
             </text>
           </g>
         </g>
@@ -621,13 +628,14 @@
              id="g45089">
             <text
                id="text45091"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45093"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">500</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">500</tspan>
             </text>
           </g>
         </g>
@@ -638,13 +646,14 @@
              id="g45097">
             <text
                id="text45099"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan45101"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">600</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">600</tspan>
             </text>
           </g>
         </g>
@@ -13374,21 +13383,19 @@
       </g>
     </g>
     <text
-       sodipodi:linespacing="125%"
        id="text3013"
        y="221.84473"
        x="3.8509328"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="stroke-width:0.75px"
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75px"
          y="221.84473"
          x="3.8509328"
          id="tspan3011"
          sodipodi:role="line">(a)</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="92.795036"
        y="221.84473"
        id="text3017"><tspan
@@ -13396,47 +13403,44 @@
          id="tspan3015"
          x="92.795036"
          y="221.84473"
-         style="stroke-width:0.75px">(b)</tspan></text>
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75px">(b)</tspan></text>
     <text
        id="text1478-3-7"
        y="4.768343"
        x="-276.07108"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="125%"><tspan
-         style="stroke-width:0.75px"
+       transform="rotate(-90)"><tspan
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75px"
          y="4.768343"
          x="-276.07108"
          id="tspan1476-5-0"
          sodipodi:role="line">Intensity [cts/20s]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="123.73311"
        y="294.96704"
-       id="text1474-8"
-       sodipodi:linespacing="125%"><tspan
+       id="text1474-8"><tspan
          sodipodi:role="line"
          id="tspan1472-7"
          x="123.73311"
          y="294.96704"
-         style="stroke-width:0.75000006px">Laser power [mW]</tspan></text>
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75000006px">Laser power [µW]</tspan></text>
     <text
        id="text1478-5"
        y="224.30492"
        x="31.063839"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       sodipodi:linespacing="125%"><tspan
-         style="stroke-width:0.75000006px"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75000006px"
          y="224.30492"
          x="31.063839"
          id="tspan1476-9"
          sodipodi:role="line">Wavelength [nm]</tspan></text>
     <text
        id="text1448-9"
-       style="font-variant:normal;font-weight:normal;font-size:3.81135631px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
+       style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
        x="21.96895"
        y="229.61568">
       <tspan
@@ -13444,16 +13448,15 @@
          sodipodi:role="line"
          x="21.96895"
          y="229.61568"
-         style="stroke-width:0.41303802">619</tspan>
+         style="font-size:3.81135607px;line-height:1.25;stroke-width:0.41303802">619</tspan>
     </text>
     <text
-       sodipodi:linespacing="125%"
        id="text13651"
        y="295.7276"
        x="41.985653"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75000006px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="stroke-width:0.75000006px"
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75000006px"
          y="295.7276"
          x="41.985653"
          id="tspan13653"
@@ -13567,7 +13570,7 @@
            style="fill:none;stroke:#262626;stroke-width:0.42323565;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="m 132.48424,238.38705 0,0.29584" />
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13761"
            x="104.46"
            y="270.17206">
@@ -13575,10 +13578,11 @@
              x="104.46 106.57787 107.63681"
              y="270.17206"
              sodipodi:role="line"
-             id="tspan13763">1.6</tspan>
+             id="tspan13763"
+             style="font-size:3.80912089px;line-height:1.25">1.6</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13769"
            x="112.91262"
            y="270.17206">
@@ -13586,10 +13590,11 @@
              x="112.91262 115.03049 116.08942"
              y="270.17206"
              sodipodi:role="line"
-             id="tspan13771">1.8</tspan>
+             id="tspan13771"
+             style="font-size:3.80912089px;line-height:1.25">1.8</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13777"
            x="122.95237"
            y="270.17206">
@@ -13600,7 +13605,7 @@
              style="fill:#000000;fill-opacity:1">2</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13785"
            x="129.81786"
            y="270.17206">
@@ -13608,7 +13613,8 @@
              x="129.81786 131.93573 132.99466"
              y="270.17206"
              sodipodi:role="line"
-             id="tspan13787">2.2</tspan>
+             id="tspan13787"
+             style="font-size:3.80912089px;line-height:1.25">2.2</tspan>
         </text>
         <path
            inkscape:connector-curvature="0"
@@ -13661,7 +13667,7 @@
            style="fill:none;stroke:#262626;stroke-width:0.42323565;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
            d="m 136.71055,243.77655 -0.29584,0" />
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13841"
            x="103.78282"
            y="266.57455">
@@ -13672,7 +13678,7 @@
              style="fill:#000000;fill-opacity:1">0</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13849"
            x="99.465813"
            y="259.48309">
@@ -13680,10 +13686,11 @@
              x="99.465813 101.58369 103.70155"
              y="259.48309"
              sodipodi:role="line"
-             id="tspan13851">100</tspan>
+             id="tspan13851"
+             style="font-size:3.80912089px;line-height:1.25">100</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13857"
            x="99.465813"
            y="252.39165">
@@ -13691,10 +13698,11 @@
              x="99.465813 101.58369 103.70155"
              y="252.39165"
              sodipodi:role="line"
-             id="tspan13859">200</tspan>
+             id="tspan13859"
+             style="font-size:3.80912089px;line-height:1.25">200</tspan>
         </text>
         <text
-           style="font-variant:normal;font-weight:normal;font-size:3.80912089px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text13865"
            x="99.465813"
            y="245.30022">
@@ -13702,7 +13710,8 @@
              x="99.465813 101.58369 103.70155"
              y="245.30022"
              sodipodi:role="line"
-             id="tspan13867">300</tspan>
+             id="tspan13867"
+             style="font-size:3.80912089px;line-height:1.25">300</tspan>
         </text>
         <path
            inkscape:connector-curvature="0"
@@ -22141,10 +22150,9 @@
            d="m 135.98522,259.19638 -0.0465,0.001 -0.0465,7.1e-4 -0.0464,1.2e-4 -0.0464,-3.5e-4 -0.0463,-10e-4 -0.0463,-0.001 -0.0463,-0.002 -0.0464,-0.002 -0.0462,-0.003 -0.0461,-0.004 -0.0461,-0.004 -0.046,-0.005 -0.046,-0.005 -0.0459,-0.006 -0.0459,-0.006 -0.0459,-0.007 -0.0458,-0.007 -0.0457,-0.008 -0.0457,-0.009 -0.0457,-0.009 -0.0457,-0.01 -0.0456,-0.0102 -0.0456,-0.0107 -0.0455,-0.0113 -0.0455,-0.0118 -0.0454,-0.0124 -0.0455,-0.013 -0.0453,-0.0136 -0.0453,-0.0142 -0.0453,-0.0147 -0.0452,-0.0153 -0.0452,-0.0159 -0.0451,-0.0165 -0.0451,-0.0171 -0.045,-0.0177 -0.045,-0.0183 -0.0449,-0.0189 -0.0449,-0.0195 -0.0449,-0.0201 -0.0448,-0.0208 -0.0448,-0.0214 -0.0447,-0.022 -0.0447,-0.0226 -0.0446,-0.0233 -0.0446,-0.0239 -0.0446,-0.0246 -0.0445,-0.0252 -0.0445,-0.0259 -0.0444,-0.0265 -0.0444,-0.0272 -0.0444,-0.0279 -0.0443,-0.0285 -0.0443,-0.0292 -0.0442,-0.0299 -0.0442,-0.0306 -0.0442,-0.0313 -0.0441,-0.032 -0.0441,-0.0328 -0.0439,-0.0333 -0.044,-0.0342 -0.0439,-0.0349 -0.0439,-0.0357 -0.0439,-0.0364 -0.0438,-0.0372 -0.0438,-0.038 -0.0437,-0.0387 -0.0437,-0.0395 -0.0437,-0.0403 -0.0436,-0.0411 -0.0436,-0.0419 -0.0435,-0.0427 -0.0435,-0.0435 -0.0435,-0.0443 -0.0434,-0.0452 -0.0434,-0.046 -0.0433,-0.0469 -0.0433,-0.0477 -0.0431,-0.0484 -0.0432,-0.0495 -0.0432,-0.0504 -0.0431,-0.0513 -0.0431,-0.0522 -0.043,-0.0531 -0.043,-0.054 -0.043,-0.055 -0.0429,-0.0559 -0.0429,-0.0569 -0.0428,-0.0578 -0.0428,-0.0588 -0.0426,-0.0596 -0.0427,-0.0608 -0.0427,-0.0618 -0.0427,-0.0628 -0.0426,-0.0638 -0.0426,-0.0649 -0.0425,-0.0659 -0.0425,-0.067 -0.0425,-0.0681 -0.0422,-0.0689 -0.0424,-0.0702 -0.0424,-0.0713 -0.0423,-0.0725 -0.0423,-0.0736 -0.0422,-0.0747 -0.0422,-0.0759 -0.0421,-0.077 -0.0419,-0.0779 -0.0421,-0.0794 -0.042,-0.0806 -0.042,-0.0818 -0.042,-0.083 -0.0419,-0.0842 -0.0419,-0.0855 -0.0417,-0.0864 -0.0418,-0.088 -0.0418,-0.0893 -0.0417,-0.0905 -0.0417,-0.0919 -0.0417,-0.0931 -0.0416,-0.0945 -0.0414,-0.0954 -0.0415,-0.0971 -0.0415,-0.0985 -0.0415,-0.0998 -0.0414,-0.10118 -0.0414,-0.10256 -0.0412,-0.10353 -0.0413,-0.1053 -0.0413,-0.10672 -0.0412,-0.10812 -0.0412,-0.10951 -0.041,-0.11051 -0.0411,-0.11237 -0.0411,-0.1138 -0.041,-0.11521 -0.041,-0.11667 -0.0408,-0.11764 -0.0409,-0.11955 -0.0409,-0.12097 -0.0409,-0.12245 -0.0408,-0.12389 -0.0406,-0.12485 -0.0407,-0.12676 -0.0407,-0.12823 -0.0407,-0.12968 -0.0406,-0.13108 -0.0404,-0.13202 -0.0406,-0.13397 -0.0405,-0.1354 -0.0405,-0.13677 -0.0403,-0.13766 -0.0404,-0.13959 -0.0404,-0.14097 -0.0403,-0.14231 -0.0403,-0.14369 -0.0401,-0.14445 -0.0402,-0.14632 -0.0402,-0.1476 -0.0402,-0.14889 -0.04,-0.14955 -0.0401,-0.15136 -0.0401,-0.15253 -0.04,-0.15372 -0.0398,-0.15424 -0.04,-0.15595 -0.0399,-0.15699 -0.0399,-0.15804 -0.0397,-0.15839 -0.0398,-0.15997 -0.0398,-0.16083 -0.0397,-0.16172 -0.0395,-0.16187 -0.0397,-0.16327 -0.0396,-0.16396 -0.0394,-0.16394 -0.0396,-0.16513 -0.0395,-0.16568 -0.0395,-0.16612 -0.0393,-0.16585 -0.0394,-0.16677 -0.0394,-0.16705 -0.0392,-0.16654 -0.0393,-0.16728 -0.0393,-0.16724 -0.0393,-0.16719 -0.0391,-0.16635 -0.0392,-0.16675 -0.0391,-0.16634 -0.039,-0.16531 -0.0391,-0.16534 -0.039,-0.16473 -0.0389,-0.16332 -0.039,-0.1631 -0.0389,-0.16211 -0.0388,-0.16045 -0.0389,-0.15984 -0.0388,-0.15856 -0.0388,-0.15711 -0.0386,-0.15503 -0.0387,-0.15392 -0.0387,-0.15217 -0.0385,-0.1497 -0.0386,-0.14826 -0.0386,-0.14609 -0.0384,-0.14333 -0.0385,-0.14144 -0.0385,-0.13897 -0.0383,-0.13579 -0.0384,-0.13357 -0.0382,-0.13018 -0.0383,-0.12766 -0.0383,-0.12457 -0.0381,-0.12084 -0.0383,-0.11797 -0.0382,-0.11447 -0.038,-0.11048 -0.0382,-0.10717 -0.0381,-0.10338 -0.0379,-0.0991 -0.0381,-0.0954 -0.0379,-0.091 -0.038,-0.0871 -0.038,-0.0828 -0.0378,-0.0781 -0.0379,-0.0739 -0.0379,-0.0694 -0.0377,-0.0645 -0.0378,-0.06 -0.0376,-0.0551 -0.0377,-0.0505 -0.0377,-0.0456 -0.0375,-0.0406 -0.0376,-0.0358 -0.0375,-0.0307 -0.0376,-0.0258 -0.0375,-0.0207 -0.0374,-0.0156 -0.0375,-0.0106 -0.0373,-0.005 -0.0374,-3.6e-4 -0.0374,0.005 -0.0372,0.01 -0.0373,0.0147 -0.0371,0.0196 -0.0373,0.0246 -0.0371,0.0294 -0.0372,0.0344 -0.0372,0.0392 -0.037,0.0438 -0.0371,0.0487 -0.0369,0.0532 -0.037,0.0579 -0.0369,0.0622 -0.037,0.0668 -0.0369,0.0712 -0.0368,0.0751 -0.0369,0.0796 -0.0367,0.0833 -0.0368,0.0876 -0.0366,0.0911 -0.0367,0.0952 -0.0366,0.0985 -0.0367,0.10244 -0.0365,0.10546 -0.0366,0.10921 -0.0366,0.11239 -0.0364,0.11508 -0.0365,0.11847 -0.0363,0.12088 -0.0365,0.12411 -0.0363,0.12624 -0.0364,0.12927 -0.0362,0.13113 -0.0363,0.13395 -0.0362,0.13557 -0.0363,0.13817 -0.0361,0.13956 -0.0362,0.1419 -0.0361,0.14312 -0.0361,0.14523 -0.036,0.14618 -0.0361,0.14816 -0.0359,0.14885 -0.036,0.15063 -0.0359,0.15111 -0.036,0.1527 -0.0358,0.15298 -0.0359,0.15439 -0.0357,0.15447 -0.0358,0.15567 -0.0357,0.15565 -0.0358,0.15663 -0.0356,0.1564 -0.0357,0.15731 -0.0356,0.15688 -0.0357,0.15763 -0.0355,0.15706 -0.0356,0.15767 -0.0354,0.15696 -0.0354,0.15682 -0.0355,0.15722 -0.0353,0.15633 -0.0354,0.15662 -0.0353,0.15562 -0.0354,0.15576 -0.0352,0.15473 -0.0353,0.15474 -0.0352,0.15357 -0.0351,0.15299 -0.0352,0.15286 -0.0351,0.15161 -0.0352,0.1514 -0.035,0.15005 -0.0351,0.14984 -0.035,0.14839 -0.0351,0.14811 -0.0349,0.14661 -0.0349,0.14569 -0.035,0.1453 -0.0348,0.14376 -0.0349,0.14332 -0.0348,0.14174 -0.0347,0.1407 -0.0348,0.14019 -0.0347,0.13858 -0.0348,0.13803 -0.0346,0.13639 -0.0347,0.13579 -0.0346,0.13419 -0.0345,0.13303 -0.0346,0.13239 -0.0345,0.13077 -0.0346,0.13008 -0.0344,0.12846 -0.0344,0.12728 -0.0345,0.12658 -0.0343,0.12497 -0.0343,0.12377 -0.0344,0.12306 -0.0343,0.12146 -0.0343,0.1207 -0.0342,0.11908 -0.0342,0.11794 -0.0343,0.11719 -0.0341,0.11561 -0.0341,0.11442 -0.0342,0.11368 -0.034,0.11214 -0.0341,0.11137 -0.034,0.10981 -0.0339,0.1087 -0.034,0.10794 -0.0339,0.10641 -0.0339,0.10532 -0.0339,0.10457 -0.0338,0.10309 -0.0338,0.10197 -0.0339,0.10126 -0.0337,0.0998 -0.0337,0.0987 -0.0338,0.098 -0.0336,0.0966 -0.0336,0.0955 -0.0337,0.0948 -0.0335,0.0935 -0.0335,0.0924 -0.0336,0.0918 -0.0335,0.0904 -0.0335,0.0894 -0.0336,0.0888 -0.0334,0.0874 -0.0333,0.0865 -0.0333,0.0855 -0.0335,0.0849 -0.0333,0.0836 -0.0332,0.0827 -0.0333,0.0821 -0.0332,0.0809 -0.0332,0.08 -0.0333,0.0794 -0.0331,0.0782 -0.0331,0.0773 -0.0331,0.0765 -0.0332,0.0759 -0.033,0.0748 -0.033,0.0739 -0.0331,0.0734 -0.0329,0.0723 -0.0329,0.0715 -0.0329,0.0707 -0.033,0.0702 -0.0328,0.0691 -0.0328,0.0683 -0.0328,0.0676 -0.0329,0.0671 -0.0327,0.0661 -0.0327,0.0653 -0.0328,0.0649 -0.0326,0.0639 -0.0326,0.0632 -0.0326,0.0625 -0.0327,0.062 -0.0325,0.0611 -0.0325,0.0605 -0.0325,0.0598 -0.0326,0.0593 -0.0324,0.0585 -0.0324,0.0578 -0.0323,0.0572 -0.0324,0.0566 -0.0325,0.0562 -0.0323,0.0553 -0.0323,0.0547 -0.0323,0.0541 -0.0323,0.0537 -0.0322,0.053 -0.0322,0.0524 -0.0321,0.0518 -0.0321,0.0513 -0.0322,0.0509 -0.0321,0.0502 -0.032,0.0496 -0.032,0.0491 -0.032,0.0486 -0.0321,0.0482 -0.0319,0.0476 -0.0319,0.047 -0.0319,0.0465 -0.0319,0.046 -0.032,0.0457 -0.0318,0.0451 -0.0318,0.0446 -0.0318,0.0441 -0.0317,0.0437 -0.0318,0.0434 -0.0317,0.0428 -0.0316,0.0423 -0.0316,0.0419 -0.0316,0.0414 -0.0316,0.041 -0.0317,0.0407 -0.0315,0.0402 -0.0315,0.0397 -0.0315,0.0394 -0.0315,0.0389 -0.0314,0.0385 -0.0315,0.0383 -0.0314,0.0378 -0.0314,0.0374 -0.0313,0.037 -0.0313,0.0366 -0.0313,0.0362 -0.0313,0.0359 -0.0314,0.0357 -0.0312,0.0352 -0.0312,0.0348 -0.0311,0.0345 -0.0311,0.0342 -0.0311,0.0338 -0.0311,0.0334 -0.0311,0.0331 -0.0311,0.0329 -0.031,0.0325 -0.031,0.0321 -0.031,0.0319 -0.0309,0.0315 -0.0309,0.0312 -0.0309,0.0309 -0.0309,0.0306 -0.031,0.0304 -0.0308,0.03 -0.0308,0.0297 -0.0308,0.0295 -0.0307,0.0292 -0.0307,0.0289 -0.0307,0.0286 -0.0307,0.0284 -0.0307,0.0281 -0.0306,0.0278 -0.0306,0.0276 -0.0307,0.0274 -0.0306,0.0271 -0.0305,0.0268 -0.0305,0.0265 -0.0305,0.0263 -0.0304,0.026 -0.0305,0.0258 -0.0304,0.0256 -0.0304,0.0253 -0.0304,0.0251 -0.0303,0.0249 -0.0303,0.0246 -0.0303,0.0244 -0.0303,0.0242 -0.0302,0.024 -0.0303,0.0238 -0.0302,0.0235 -0.0302,0.0233 -0.0302,0.0231 -0.0301,0.0229 -0.0301,0.0227 -0.0301,0.0225 -0.0301,0.0223 -0.03,0.0221 -0.03,0.0219 -0.03,0.0217 -0.0299,0.0215 -0.0299,0.0213 -0.0299,0.0212 -0.0299,0.021 -0.0299,0.0208 -0.0299,0.0206 -0.0298,0.0204 -0.0298,0.0202 -0.0298,0.0201 -0.0297,0.0199 -0.0297,0.0197 -0.0297,0.0196 -0.0297,0.0194 -0.0297,0.0192 -0.0296,0.019 -0.0296,0.0189 -0.0296,0.0187 -0.0296,0.0186 -0.0296,0.0184 -0.0295,0.0183 -0.0295,0.0181 -0.0295,0.018 -0.0295,0.0178 -0.0294,0.0177 -0.0294,0.0175 -0.0294,0.0174 -0.0294,0.0172 -0.0293,0.0171 -0.0293,0.0169 -0.0293,0.0168 -0.0293,0.0167 -0.0293,0.0166 -0.0292,0.0164 -0.0292,0.0163 -0.0292,0.0162 -0.0292,0.016 -0.0291,0.0159 -0.0291,0.0157 -0.029,0.0155 -0.0291,0.0155 -0.0291,0.0154 -0.029,0.0152 -0.029,0.0151 -0.029,0.015 -0.029,0.0149 -0.029,0.0148 -0.0289,0.0147 -0.0289,0.0145 -0.0289,0.0144 -0.0289,0.0143 -0.0288,0.0142 -0.0288,0.0141 -0.0288,0.014 -0.0287,0.0138 -0.0288,0.0138 -0.0287,0.0136 -0.0287,0.0136 -0.0287,0.0135 -0.0287,0.0134 -0.0286,0.0133 -0.0286,0.0132 -0.0286,0.0131 -0.0286,0.0129 -0.0284,0.0128 -0.0285,0.0128 -0.0285,0.0127 -0.0285,0.0126 -0.0285,0.0125 -0.0284,0.0124 -0.0284,0.0123 -0.0284,0.0122 -0.0284,0.0121 -0.0282,0.012 -0.0283,0.0119 -0.0283,0.0119 -0.0283,0.0117 -0.0283,0.0117 -0.0282,0.0116 -0.0282,0.0115 -0.0282,0.0114 -0.0281,0.0113 -0.0281,0.0113 -0.0282,0.0112 -0.0281,0.0111 -0.0281,0.011 -0.0281,0.0109 -0.0281,0.0109 -0.0279,0.0107 -0.0281,0.0107 -0.028,0.0106 -0.028,0.0105 -0.028,0.0105 -0.0279,0.0104 -0.0278,0.0103 -0.0279,0.0102 -0.0279,0.0102 -0.0279,0.0101 -0.0278,0.0101 -0.0278,0.01 -0.0277,0.01 -0.0278,0.01 -0.0278,0.01 -0.0277,0.01 -0.0277,0.01 -0.0276,0.01 -0.0277,0.009 -0.0277,0.009 -0.0277,0.009 -0.0276,0.009 -0.0275,0.009 -0.0276,0.009 -0.0275,0.009 -0.0275,0.009 -0.0275,0.009 -0.0274,0.009 -0.0275,0.009 -0.0275,0.009 -0.0274,0.009 -0.0274,0.009 -0.0273,0.009 -0.0274,0.009 -0.0273,0.009 -0.0273,0.008 -0.0272,0.008 -0.0273,0.008 -0.0273,0.008 -0.0272,0.008 -0.0271,0.008 -0.0272,0.008 -0.0272,0.008 -0.0272,0.008 -0.0272,0.008 -0.027,0.008 -0.0271,0.008 -0.0271,0.008 -0.0271,0.008 -0.0269,0.008 -0.027,0.008 -0.027,0.008 -0.0269,0.008 -0.027,0.008 -0.0269,0.007 -0.0269,0.007 -0.0268,0.007 -0.0269,0.007 -0.0269,0.007 -0.0268,0.007 -0.0267,0.007 -0.0268,0.007 -0.0268,0.007 -0.0267,0.007 -0.0267,0.007 -0.0267,0.007 -0.0267,0.007 -0.0266,0.007 -0.0267,0.007 -0.0267,0.007 -0.0265,0.007 -0.0266,0.007 -0.0266,0.007 -0.0265,0.007 -0.0266,0.007 -0.0265,0.007 -0.0265,0.007 -0.0264,0.006 -0.0265,0.006 -0.0264,0.006 -0.0264,0.006 -0.0264,0.006 -0.0264,0.006 -0.0263,0.006 -0.0263,0.006 -0.0264,0.006 -0.0262,0.006 -0.0263,0.006 -0.0263,0.006 -0.0262,0.006 -0.0263,0.006 -0.0262,0.006 -0.0261,0.006 -0.0262,0.006 -0.0262,0.006 -0.026,0.006 -0.0261,0.006 -0.026,0.006 -0.0261,0.006 -0.0261,0.006 -0.026,0.006 -0.026,0.006 -0.026,0.006 -0.0259,0.006 -0.026,0.006 -0.026,0.006 -0.0259,0.005 -0.0259,0.005 -0.0258,0.005 -0.0259,0.005 -0.0258,0.005 -0.0258,0.005 -0.0258,0.005 -0.0257,0.005 -0.0258,0.005 -0.0258,0.005 -0.0257,0.005 -0.0258,0.005 -0.0256,0.005 -0.0257,0.005 -0.0257,0.005 -0.0256,0.005 -0.0256,0.005 -0.0255,0.005 -0.0256,0.005 -0.0256,0.005 -0.0255,0.005 -0.0256,0.005 -0.0254,0.005 -0.0255,0.005 -0.0254,0.005 -0.0255,0.005 -0.0255,0.005 -0.0254,0.005 -0.0254,0.005 -0.0253,0.005 -0.0254,0.005 -0.0253,0.005 -0.0254,0.005 -0.0254,0.005 -0.0252,0.005 -0.0253,0.005 -0.0252,0.004 -0.0253,0.004 -0.0252,0.004 -0.0252,0.004 -0.0251,0.004 -0.0252,0.004 -0.0251,0.004 -0.0252,0.004 -0.0251,0.004 -0.0251,0.004 -0.0251,0.004 -0.025,0.004 -0.0251,0.004 -0.025,0.004 -0.025,0.004 -0.0249,0.004 -0.025,0.004 -0.0249,0.004 -0.025,0.004 -0.0249,0.004 -0.0249,0.004 -0.0248,0.004 -0.0249,0.004 -0.0248,0.004 -0.0249,0.004 -0.0248,0.004 -0.0248,0.004 -0.0247,0.004 -0.0248,0.004 -0.0247,0.004 -0.0248,0.004 -0.0247,0.004 -0.0247,0.004 -0.0246,0.004 -0.0247,0.004 -0.0246,0.004 -0.0247,0.004 -0.0246,0.004 -0.0246,0.004 -0.0246,0.004 -0.0245,0.004 -0.0246,0.004 -0.0245,0.004 -0.0246,0.004 -0.0244,0.004 -0.0245,0.004 -0.0244,0.004 -0.0245,0.004 -0.0244,0.004 -0.0243,0.004 -0.0244,0.004 -0.0243,0.004 -0.0244,0.004 -0.0243,0.004 -0.0243,0.004 -0.0242,0.004 -0.0243,0.004 -0.0242,0.004 -0.0242,0.003 -0.0243,0.003 -0.0242,0.003 -0.0242,0.003 -0.0241,0.003 -0.0242,0.003 -0.0241,0.003 -0.0241,0.003 -0.0242,0.003 -0.024,0.003 -0.0241,0.003 -0.024,0.003 -0.024,0.003 -0.0241,0.003 -0.0239,0.003 -0.024,0.003 -0.0239,0.003 -0.0239,0.003 -0.024,0.003 -0.0239,0.003 -0.0238,0.003 -0.0239,0.003 -0.0238,0.003 -0.0239,0.003 -0.0238,0.003 -0.0238,0.003 -0.0238,0.003 -0.0237,0.003 -0.0238,0.003 -0.0237,0.003 -0.0237,0.003 -0.0238,0.003 -0.0237,0.003 -0.0236,0.003 -0.0237,0.003 -0.0236,0.003 -0.0236,0.003 -0.0237,0.003 -0.0236,0.003 -0.0236,0.003 -0.0236,0.003 -0.0235,0.003 -0.0235,0.003 -0.0236,0.003 -0.0235,0.003 -0.0235,0.003 -0.0235,0.003 -0.0234,0.003 -0.0234,0.003 -0.0235,0.003 -0.0233,0.003 -0.0234,0.002 -0.0234,0.002 -0.0233,0.002 -0.0233,0.002 -0.0234,0.002 -0.0233,0.002 -0.0233,0.002 -0.0233,0.002 -0.0233,0.002 -0.0232,0.002 -0.0232,0.002 -0.0233,0.002 -0.0232,0.002 -0.0231,0.002 -0.0232,0.002 -0.0232,0.002 -0.0231,0.002 -0.0232,0.002 -0.0231,0.002 -0.0231,0.002 -0.023,0.002 -0.0231,0.002 -0.023,0.002 -0.023,0.002 -0.023,0.002 -0.0231,0.002 -0.0229,0.002 -0.0229,0.002 -0.0229,0.002 -0.023,0.002 -0.0229,0.002 -0.0229,0.002 -0.0229,0.002 -0.0229,0.002 -0.0228,0.002 -0.0228,0.002 -0.0229,0.002 -0.0228,0.002 -0.0228,0.002 -0.0228,0.002 -0.0227,0.002 -0.0228,0.002 -0.0227,0.002 -0.0143,10e-4" />
       </g>
       <text
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"
+         transform="rotate(-90)"
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.58378077px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-255.33058"
          y="48.3964"
          id="text44138"><tspan
@@ -22152,11 +22160,10 @@
            id="tspan44140"
            x="-255.33058"
            y="48.3964"
-           style="stroke-width:0.75px">Intensity [cts/20s]</tspan></text>
+           style="font-size:2.583781px;line-height:1.25;stroke-width:0.75px">Intensity [cts/20s]</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.58378077px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="68.28894"
          y="264.30634"
          id="text44138-2"><tspan
@@ -22164,7 +22171,7 @@
            id="tspan44140-6"
            x="68.28894"
            y="264.30634"
-           style="stroke-width:0.75px">E [eV]</tspan></text>
+           style="font-size:2.583781px;line-height:1.25;stroke-width:0.75px">E [eV]</tspan></text>
     </g>
     <g
        transform="matrix(0.39254753,0,0,-0.39254753,34.369775,455.48673)"
@@ -22406,13 +22413,14 @@
              id="g44314">
             <text
                id="text44316"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-17,31)">
               <tspan
                  id="tspan44318"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68">50</tspan>
+                 x="0 16.68"
+                 style="font-size:30px;line-height:1.25">50</tspan>
             </text>
           </g>
         </g>
@@ -22423,13 +22431,14 @@
              id="g44322">
             <text
                id="text44324"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-17,31)">
               <tspan
                  id="tspan44326"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68">65</tspan>
+                 x="0 16.68"
+                 style="font-size:30px;line-height:1.25">65</tspan>
             </text>
           </g>
         </g>
@@ -22440,13 +22449,14 @@
              id="g44330">
             <text
                id="text44332"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-17,31)">
               <tspan
                  id="tspan44334"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68">80</tspan>
+                 x="0 16.68"
+                 style="font-size:30px;line-height:1.25">80</tspan>
             </text>
           </g>
         </g>
@@ -22457,13 +22467,14 @@
              id="g44338">
             <text
                id="text44340"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-17,31)">
               <tspan
                  id="tspan44342"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68">95</tspan>
+                 x="0 16.68"
+                 style="font-size:30px;line-height:1.25">95</tspan>
             </text>
           </g>
         </g>
@@ -22474,13 +22485,14 @@
              id="g44346">
             <text
                id="text44348"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-25.5,31)">
               <tspan
                  id="tspan44350"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">110</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">110</tspan>
             </text>
           </g>
         </g>
@@ -22617,13 +22629,14 @@
              id="g44418">
             <text
                id="text44420"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44422"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">320</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">320</tspan>
             </text>
           </g>
         </g>
@@ -22634,13 +22647,14 @@
              id="g44426">
             <text
                id="text44428"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44430"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">340</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">340</tspan>
             </text>
           </g>
         </g>
@@ -22651,13 +22665,14 @@
              id="g44434">
             <text
                id="text44436"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44438"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">360</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">360</tspan>
             </text>
           </g>
         </g>
@@ -22668,13 +22683,14 @@
              id="g44442">
             <text
                id="text44444"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44446"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">380</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">380</tspan>
             </text>
           </g>
         </g>
@@ -22685,13 +22701,14 @@
              id="g44450">
             <text
                id="text44452"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44454"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">400</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">400</tspan>
             </text>
           </g>
         </g>
@@ -22702,13 +22719,14 @@
              id="g44458">
             <text
                id="text44460"
-               style="font-variant:normal;font-weight:normal;font-size:30px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none"
                transform="translate(-51,12)">
               <tspan
                  id="tspan44462"
                  sodipodi:role="line"
                  y="0"
-                 x="0 16.68 33.360001">420</tspan>
+                 x="0 16.68 33.360001"
+                 style="font-size:30px;line-height:1.25">420</tspan>
             </text>
           </g>
         </g>
@@ -23039,10 +23057,9 @@
       </g>
     </g>
     <text
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-273.11224"
        y="93.698952"
        id="text44825"><tspan
@@ -23050,14 +23067,14 @@
          id="tspan44827"
          x="-273.11224"
          y="93.698952"
-         style="stroke-width:0.75px">Temperature [K]</tspan></text>
+         style="font-size:3.96875px;line-height:1.25;stroke-width:0.75px">Temperature [K]</tspan></text>
     <text
        y="229.61568"
        x="41.765625"
-       style="font-variant:normal;font-weight:normal;font-size:3.81135631px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
+       style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
        id="text44829">
       <tspan
-         style="stroke-width:0.41303802"
+         style="font-size:3.81135607px;line-height:1.25;stroke-width:0.41303802"
          y="229.61568"
          x="41.765625"
          sodipodi:role="line"
@@ -23065,7 +23082,7 @@
     </text>
     <text
        id="text44833"
-       style="font-variant:normal;font-weight:normal;font-size:3.81135631px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
+       style="font-variant:normal;font-weight:normal;line-height:0%;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.41303802"
        x="61.063221"
        y="229.61568">
       <tspan
@@ -23073,7 +23090,7 @@
          sodipodi:role="line"
          x="61.063221"
          y="229.61568"
-         style="stroke-width:0.41303802">563</tspan>
+         style="font-size:3.81135607px;line-height:1.25;stroke-width:0.41303802">563</tspan>
     </text>
   </g>
 </svg>
