@@ -23,7 +23,7 @@
   <defs
      id="defs2">
     <color-profile
-       id="color-profile1375"
+       id="color-profile2"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <defs
@@ -1704,7 +1704,7 @@
          id="glyph1868" />
     </font>
     <color-profile
-       id="color-profile6547"
+       id="color-profile337"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <defs
@@ -3350,16 +3350,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="88.858869"
-     inkscape:cy="116.21251"
+     inkscape:zoom="4.2597917"
+     inkscape:cx="170.07874"
+     inkscape:cy="66.141732"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="3066"
-     inkscape:window-height="1689"
-     inkscape:window-x="134"
-     inkscape:window-y="55"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -3377,7 +3377,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3759,8 +3759,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Spectra"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        x="19.985819"
        xml:space="preserve"
@@ -4177,7 +4176,7 @@
          y2="35.6978" />
     </g>
     <text
-       x="-28.30162"
+       x="-29.171186"
        xml:space="preserve"
        y="5.627039"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.24310473;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -7133,17 +7132,18 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="AS"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke-width:0.25599951;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect20316"
        width="28.624609"
        height="7.8465495"
-       x="29.964062"
-       y="3.671679" />
+       x="31.26841"
+       y="-11.110929" />
     <g
        id="g12460"
-       transform="matrix(0.48898569,0,0,0.48898569,49.928251,-1.4796295)">
+       transform="matrix(0.48898569,0,0,0.48898569,51.232599,-16.262238)">
       <path
          inkscape:connector-curvature="0"
          d="m -29.837834,17.466772 h 7.511949 m -8.754541,-6.806384 c 3.178468,20.256053 6.497623,21.997819 9.997173,0"
@@ -7157,7 +7157,7 @@
     </g>
     <g
        id="g11126"
-       transform="matrix(0.13800263,0,0,0.13800263,23.46283,-6.1348305)">
+       transform="matrix(0.13800263,0,0,0.13800263,24.767178,-20.917439)">
       <path
          inkscape:connector-curvature="0"
          id="path6498-65"
@@ -7213,7 +7213,7 @@
     </g>
     <g
        id="g12481"
-       transform="matrix(0.48898569,0,0,0.48898569,50.596296,-1.5842125)">
+       transform="matrix(0.48898569,0,0,0.48898569,51.900644,-16.366821)">
       <path
          sodipodi:nodetypes="cccccccccccccccc"
          inkscape:connector-curvature="0"
@@ -7237,7 +7237,7 @@
     </g>
     <g
        id="g11049"
-       transform="matrix(0.17930282,0,0,0.18108539,11.368137,3.5871814)">
+       transform="matrix(0.17930282,0,0,0.18108539,12.672485,-11.195427)">
       <text
          id="text5818"
          y="34.184944"
@@ -7272,7 +7272,7 @@
     </g>
     <g
        id="g11072"
-       transform="matrix(0.13800263,0,0,0.13800263,22.430681,3.4134721)">
+       transform="matrix(0.13800263,0,0,0.13800263,23.735029,-11.369137)">
       <path
          inkscape:connector-curvature="0"
          id="path6498-65-6"
@@ -7343,7 +7343,7 @@
     </g>
     <g
        id="g12476"
-       transform="matrix(0.48898569,0,0,0.48898569,49.824372,-1.5842125)">
+       transform="matrix(0.48898569,0,0,0.48898569,51.12872,-16.366821)">
       <path
          inkscape:connector-curvature="0"
          id="path5519"
@@ -7367,7 +7367,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Legend">
+     inkscape:label="Legend"
+     sodipodi:insensitive="true">
     <rect
        style="display:inline;opacity:1;fill:#000000;fill-opacity:0.71573606;stroke:none;stroke-width:0.16098246;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect10599-8"
