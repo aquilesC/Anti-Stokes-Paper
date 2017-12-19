@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{subfigure}
 \usepackage{xr}
+\usepackage{upgreek}
 %%This is for adding a footer with the time of the compilation of the file.
 %%Useful for versioning of printed copies.
 %\usepackage{datetime}
@@ -22,11 +23,11 @@
 \newcommand{\K}{\ensuremath{\,\textrm{K}}}
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\mm}{\ensuremath{\,\textrm{mm}}}
-\newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
+\newcommand{\um}{\ensuremath{\,\upmu\textrm{m}}}
 \newcommand{\m}{\ensuremath{\,\textrm{m}}}
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
-\newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
-\newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
+\newcommand{\uM}{\ensuremath{\,\upmu\textrm{M}}}
+\newcommand{\uW}{\ensuremath{\,\upmu\textrm{W}}}
 \newcommand{\mW}{\ensuremath{\,\textrm{mW}}}
 \newcommand{\W}{\ensuremath{\,\textrm{W}}}
 \newcommand{\pM}{\ensuremath{\,\textrm{pM}}}
@@ -60,18 +61,18 @@ Supporting Information}
 \maketitle
 
 
-\section{Anti-Stokes emission form gold nanorods}\label{sec:AS}
+\section{Anti-Stokes emission from gold nanorods}\label{sec:AS}
 
 We model the photoluminescence generation in gold nanorods with successive 
 steps taking place between absorption of light and re-emission of luminescence\cite{Carattino2016a}. 
 Figure \ref{fig:anti-Stokes-process} shows the energy-momentum representation
 of the photoluminescence processes in gold nanorods. 
-After excitation with monocrhomatic light of energy $\hbar \omega_L$, 
+After excitation with monochromatic light of energy $\hbar \omega_L$, 
 a collective oscillation of electrons is generated, i.e. a surface plasmon (SPR). 
 Once the plasmon coherence is lost (dephasing time $\sim$fs), the state can be described as an
 electron-hole pair. Then, different scenarios are possible: recombination 
-without energy exchange, elastic recombination (leading to Rayleigh scattering) or 
-recombination with energy exchange. In this case, three scenarios are possible: electron and hole may
+without energy exchange, (i.e. elastic recombination leading to Rayleigh scattering) or 
+recombination with energy exchange. In the latter case, three scenarios are possible: electron and hole may
 recombine radiatively after one or more interactions with the thermal baths of
 lattice phonons and charge carrier thermal excitations: i) if the energy
 difference between electron and hole states is lower than the initial one after
@@ -85,32 +86,118 @@ most probable one, explaining the low yield of luminescence in gold ($\sim 10^{-
 \begin{figure}[htp] \centering
 \includegraphics[width=0.5\textwidth]{Figures/Supplementary/01_AS_Scheme/luminescence_all_AS.png}
 \caption{\textbf{Schematic representation of Stokes and Anti-Stokes luminescence process from a single gold nanorod.} 
-Upon the excitation with resonant energy $\hbar \omega\textrm{L}$ a surface plasmon is created (SPR), which creates 
+Upon the excitation with resonant energy $\hbar \omega_\textrm{L}$ a surface plasmon is created (SPR), which creates 
 an electron-hole pair state (e-h). This pair can recombine non-radiatively (the most likely event) or radiatively
-after iterating with the baths, leading to high energy (anti-Stokes) or low energy (Stokes) emission of a photon.}
+after interacting with the baths, leading to high energy (anti-Stokes) or low energy (Stokes) emission of a photon.}
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
-\pagebreak
 
+\pagebreak
+\section{Determination of $\textrm{I}_\textrm{SPR}(E)$}\label{sec:ISPR} 
+
+As we mentioned in the main text, the phenomenological model we use to extract
+the temperature from the anti-Stokes spectrum depends on the prior determination 
+of shape and position of the surface plasmon resonance (SPR). 
+In this paper, we measure the photoluminescence emission spectrum 
+when a single nanorod is excited with a $532\,\nm$ CW laser to obtain the SPR. 
+Figure 1 in the main text shows an example of such spectra for an individual nanorod. 
+An asymmetric shape is measured, due to some plasmonic-unrelated contribution 
+from gold\cite{Mooradian1969} added to the plasmonic emission. 
+This complicates the determination of the SPR from the measured spectra, since a simple 
+Lorentzian shape does not fit this data. 
+We present here the way we analyzed the data to circumvent this problem.
+We first determine this background contribution phenomenologically in independent experiments and then 
+we take it into account for the SPR determination. 
+
+We modeled this emission spectra taken with the $532$ nm laser with the following phenomenological form
+
+\begin{equation}
+I_{\textrm{PL}}(E) = A_1 B(E;\Delta) + A_2 \textrm{I}_\textrm{SPR}(E)\,,
+\label{eq:spectra_model}
+\end{equation}
+
+where $E$ represents the photon energy, $B$ is the broadband contribution from bulk gold, 
+phenomenologically modeled as $B(E;\Delta) = \exp(E/\Delta)$, $\textrm{I}_\textrm{SPR}(E)$ 
+is the surface plasmon resonance spectrum and $A_1$ and $A_2$ are constants. 
+We take the $\textrm{I}_\textrm{SPR}(E)$ to be Lorentzian\cite{Zijlstra2011}, i.e.  
+
+\begin{equation}
+\textrm{I}_{\textrm{SPR}}(E) = 
+	\frac{\left( \Gamma/2 \right)^2}{\left( E-E_\textrm{SPR}\right)^2 +\left( \Gamma/2 \right)^2}\,.
+\label{eq:ISPR}
+\end{equation}
+
+Figure \ref{fig:PL_spectra}(a) presents some individual gold nanorods spectra with 
+size similar to the ones presented in the main text, i.e. a bulk SPR around $635$ nm. 
+We use this set of spectra to empirically obtain the shape of the background.
+Figure \ref{fig:PL_spectra}(b) shows an example of the fitted function and the extracted 
+function $B(E;\Delta)$. We performed this fit on five different nanorods and we averaged 
+the values for $\Delta$, obtaining $(0.120\pm0.02)$ eV. With the background defined by 
+this parameter we can extract the $\textrm{I}_{\textrm{SPR}}(E)$ from the photoluminescence 
+spectra of every individual gold nanorod. For example, the spectra shown in Figure 
+\ref{fig:PL_spectra} (b) yielded to $E_\textrm{SPR}$ is $(1.97 \pm 0.35)$ eV, 
+with a width $\Gamma=(129 \pm 1) meV$.
+
+For all the analysis done in the rest of our paper we used this procedure to obtain the
+surface plasmon resonance profile from the photoluminescence spectrum excited at $532$ nm.
+
+\begin{figure}[htp] \centering
+\includegraphics[width=0.90\textwidth]{Figures/Supplementary/09_Error_vs_Wavelength/532nm_spectra_and_bkg.png}
+\caption{\textbf{Photoluminescence spectra of individual gold nanorods.} 
+(a) Normalized emission spectra of three different individual nanorods, all of which present 
+an asymmetric shape due to the bulk emission contribution. The vertical dash line shows the 
+excitation laser energy and the abrupt cut close to $2.2$eV is due to the notch filter used 
+to prevent laser detection. (b) Example of the fit to extract the function $B(E;\Delta)$. 
+The blue solid line is the spectrum of an individual nanorod and the black dotted line is the 
+fitted function from equation (\ref{eq:spectra_model}). We obtained $E_\textrm{SPR}$ is $(1.97 \pm 0.35)$ eV, 
+with a width $\Gamma=(129 \pm 1) meV$.
+The red solid line shows the obtained background function $B(E;\Delta)$, with $\Delta = 0.12$ eV. 
+The integration time of these spectra was $20$ s.}
+\label{fig:PL_spectra}
+\end{figure}
+
+The analysis presented above completes the  first step in our protocol 
+(presented in the main text). 
+%We did that by fitting photoluminescence spectra recorded with $532$ \nm laser excitation 
+%of the nanorod under study with the function from equation (\ref{eq:spectra_model}) with $\Delta$ fixed 
+%from our previous analysis.
+
+
+\pagebreak
 \section{Experimental setup}\label{sec:setup}
 
-The experimental setup consisted on a home-made confocal microscope, schematically shown in figure
+The experimental setup consisted of a home-made confocal microscope, schematically shown in Figure
 \ref{fig:setup}, similar to the one presented before \cite{Carattino2016a}. The microscope allows 
-the detection of individual nanorods in the sample and the measurement of their photoluminescence spectra. 
-We use continuous wave lasers at 532 nm or 633 nm to excite the transverse and longitudinal plasmon resonances, respectively. The  532 nm is a DPSS laser (CNI) and the 633 nm is a HeNe (Thorlabs). Both lasers are reflected at a 50/50 beam splitter that allows the simultaneous detection of the anti-Stokes and Stokes emission of the particles.
+the detection of individual nanorods in the sample and the measurement 
+of their photoluminescence spectra. 
+We use continuous wave lasers at $532$ nm or $633$ nm to excite the transverse 
+and longitudinal plasmon resonances, respectively. The  $532$ nm source is a DPSS 
+laser (CNI) and the 633 nm one is a HeNe (Thorlabs). Both lasers are reflected at
+ a 50/50 beam splitter and the emitted light from the sample is transmitted. 
+Exchangeable notch filters for both lasers are use accordingly to avoid the detection 
+of the excitation source. This allows the simultaneous detection of both the anti-Stokes
+ and Stokes emission of the particles. The intensity of the $633$ nm laser was 
+controlled with an acoustic-optic modulator (AA opto-electronics).
 
 We employ an objective lens to focus the excitation beam into a diffraction-limited 
 spot and we collect the emitted photoluminescence using the same objective in an epi-configuration. 
-The 532 nm laser is focused down by our 60x NA1.4 objective to a waist of 228 nm, with a power of $200\, \mu$W reaching the sample, leading to an intensity of $1.23$ mW$\mu$m$^{-2}$. 
+The 532 nm laser is focused down by our $60\times$ NA$1.4$ objective to a waist of 228 nm, 
+with a power of $200\, \mu$W reaching the sample, leading to an intensity of $1.23$ mW$\mu$m$^{-2}$. 
 For the HeNe laser, the maximum power used was $100$ $\mu$W which 
-corresponds to $0.43$ mW$\mu$m$^{-2}$. This is equivalent to $1.37\times10^{15}$ photons s$^{-1}$ $\mu$m$^{-2}$, which leads to a fluence of $\approx 240$ photons$\mu$m$^{-2}$ in three minutes integration time used for the spectra acquisition. 
-A confocal pinhole of 50 $\mu$m is placed between a pair of lenses with 10 cm focal length to reduce the unwanted background from the solvent above the nanorods. Then we could select between an APD or the spectrometer to perform a raster-scan image or an emission spectrum, respectively. We reject the laser light with appropriate notch filters.
+corresponds to $0.43$ mW$\upmu$m$^{-2}$. This is equivalent to $1.37\times10^{15}$ 
+photons s$^{-1}$ $\mu$m$^{-2}$, which leads to a fluence of $\approx 240$ photons$\mu$m$^{-2}$ 
+in three minutes integration time used for the spectra acquisition. 
+A confocal pinhole of 50 $\mu$m is placed between a pair of lenses with 10 cm focal length 
+to reduce the unwanted background from the solvent above the nanorods. Then we could 
+select between an APD or the spectrometer to perform a raster-scan image or an emission 
+spectrum, respectively. We reject the laser light with appropriate notch filters.
 
 Additionally, the temperature of the sample can be controlled with a special holder that allows 
-water flow, a heater and a thermocouple to measure the temperature of the sample. For the experiments
-done with this holder we employed a 60X objective with NA $0.9$ (Olympus) to avoid presence of a heat sink on the 
-particle under study.
+water flow, a heater and a thermocouple to measure the temperature of the sample. 
+For the experiments done with this holder we employed an air-spaced $60\times$ 
+objective with NA $0.9$ (Olympus) perturbation of the sample temperature by heat 
+conduction to the objective.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.5\textwidth]{Figures/Supplementary/02_Setup/setup.png}
@@ -124,17 +211,18 @@ particle under study.
 
 We synthesized gold nanorods using the seed-mediated growth method \cite{nikoobakht2003preparation} 
 and characterized their size by performing TEM imaging on a drop-cast sample on a silicon substrate. 
-Figure \ref{fg:nr-char} (a) shows the image where the cylindrical shape with spherical caps can be seen 
-and the width is $23$ nm while the length is $50$ nm, 
-leading to a mean aspect ratio of $2.17$. 
+Figure \ref{fg:nr-char} (a) shows the TEM image and the inset shows a zoom of a cluster of nanorods.
+In the latter image, the cylindrical shape with spherical caps of the nanorods can be seen appreciated. 
+The mean width is $21$ nm while the mean length is $50$ nm, leading to a mean aspect ratio of $2.38$. 
+
 Naturally, there is some size dispersion due to the fabrication procedure, that leads to a broad bulk extinction 
-spectra, shown in (b). The transverse plasmon resonance is located at $525$ nm while the more intense 
-longitudinal plasmon resonance is at $630$ nm. We also show the wavelengths of the lasers used for 
-our study as vertical lines. 
+spectra, shown in Figure \ref{fg:nr-char} (b). The transverse plasmon resonance is located at 
+$525$ nm while the more intense longitudinal plasmon resonance is at $630$ nm. We also show 
+the wavelengths of the lasers used for our study as vertical dashed lines. 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.8\textwidth]{Figures/Supplementary/07_GNRs_Characterization_TEM/GNRs_characterization.png}
-\caption{\textbf{Gold nanorod characterization.} (a) TEM image of a dried drop of  the gold nanorods used in this study. The mean width is $23$ nm while the length is $50$. The inset shows higher magnification. (b) Bulk absorbance spectra of the gold nanorod sample showing the transverse (around $525$ nm) and the longitudinal (around $630$ nm) surface plasmon resonances. The dashed vertical lines show the two laser wavelengths used in this work.}
+\caption{\textbf{Gold nanorod characterization.} (a) TEM image of a dried drop of  the gold nanorods used in this study. The mean width is $22$ nm while the length is $50$ nm . The inset shows higher magnification. (b) Bulk absorbance spectra of the gold nanorod sample showing the transverse (around $525$ nm) and the longitudinal (around $630$ nm) surface plasmon resonances. The dashed vertical lines show the two laser wavelengths used in this work.}
 	\label{fg:nr-char}
 \end{figure}
 
@@ -142,65 +230,9 @@ our study as vertical lines.
 \pagebreak
 \section{Determination of the error in the temperature extraction}\label{sec:discussion_errors} 
 
-As we mentioned in the main text, the phenomenological model we use to extract the temperature from the anti-Stokes spectrum depends on the prior determination of shape and position of the surface plasmon resonance (SPR). 
-In this paper, we measure the photoluminescence emission spectrum 
-when a single nanorod is excited with a $532\,\nm$ CW laser to obtain the SPR. 
-Figure 1 in the main text shows an example of such spectra for an individual nanorod. 
-An asymmetric shape is measured, due to some plasmonic-unrelated contribution 
-from gold\cite{Mooradian1969} added to the plasmonic emission. 
-This complicates the determination of the SPR from the measured spectra, since a simple 
-Lorentzian shape does not fit this data. 
-We present here the way we analyzed the data to circumvent this problem and the error analysis for the 
-extracted temperature. 
-We first determine this background contribution phenomenologically with independent experiments and then 
-we take it into account for the SPR determination. 
-
-We modeled this emission spectra taken with the $532$ nm laser with the following phenomenological form
-
-\begin{equation}
-I_{\textrm{PL}}(E) = A_1 B(E;\Delta) + A_2 I_\textrm{SPR}(E)\,,
-\label{eq:spectra_model}
-\end{equation}
-
-where $E$ represents the photon energy, $B$ is the broadband contribution from bulk gold, 
-phenomenologically modeled as $B(E;\Delta) = \exp(E/\Delta)$, $I_\textrm{SPR}(E)$ surface 
-plasmon resonance spectra and $A_1$ and $A_2$ are constants. 
-We take the SPR to be Lorentzian\cite{Zijlstra2011}, i.e.  
-
-\begin{equation}
-I_{\textrm{SPR}}(E) = \frac{\left( \Gamma/2 \right)^2}{\left( E-E_\textrm{SPR}\right)^2 +\left( \Gamma/2 \right)^2}\,.
-\label{eq:ISPR}
-\end{equation}
-
-Figure \ref{fig:PL_spectra}(a) presents some individual gold nanorods spectra with 
-size similar to the ones presented in the main text, i.e. a bulk SPR around $635$ nm. 
-We use this set of spectra to empirically obtain the shape of the background.
-Figure \ref{fig:PL_spectra}(b) shows an example of the fitted function and the extracted 
-function $B(E;\Delta)$. We performed this fit on five different nanorods and we averaged 
-the values for $\Delta$, obtaining $(0.120\pm0.02)$ eV.
-We then fix this parameter, which defines our background model and analyze an independent 
-set of data from a single nanorod to retrieve the temperature with the procedure we 
-present in this paper.
 
 
-\begin{figure}[htp] \centering
-\includegraphics[width=0.90\textwidth]{Figures/Supplementary/09_Error_vs_Wavelength/532nm_spectra_and_bkg.png}
-\caption{\textbf{Photoluminescence spectra of individual gold nanorods.} 
-(a) Normalized emission spectra of three different individual nanorods, all of which present 
-an asymmetric shape due to the bulk emission contribution. The vertical dash line shows the 
-excitation laser energy and the abrupt cut close to $2.2$eV is due to the notch filter used 
-to prevent laser detection. (b) Example of the fit to extract the function $B(E;\Delta)$. 
-The blue solid line is the spectra of an individual nanorod and the black dotted line is the 
-fitted function from equation (\ref{eq:spectra_model}). The red solid line shows the obtained bacground 
-function $B(E;\Delta)$, with $\Delta = 0.12$ eV. 
-The integration time in the spectra acquisition for these spectra was $20$ s.}
-\label{fig:PL_spectra}
-\end{figure}
-
-The first step in our protocol (presented in the main text) is to find $I_{\textrm{SPR}}(E)$. 
-We did that by fitting photoluminescence spectra recorded with $532$ \nm laser excitation 
-of the nanorod under study with the function from equation (\ref{eq:spectra_model}) with $\Delta$ fixed 
-from our previous analysis. The inset in figure \ref{fig:as_fit} (a) shows the spectra and 
+ The inset in figure \ref{fig:as_fit} (a) shows the spectra and 
 the fit, which provides the parameters that characterize the SPR, i.e. SPR 
 $(E_\textrm{SPR},\Gamma)$. Then we fit the anti-Stokes part of the spectra obtained with 
 nearly resonant excitation of $633$ \nm, obtaining the curves shown in figure \ref{fig:as_fit} (a). 

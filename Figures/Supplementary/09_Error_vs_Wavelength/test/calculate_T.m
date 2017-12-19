@@ -216,7 +216,7 @@ end
 % P = polyfitweighted(pw,T,1,eT);
 [P,S] = polyfit(pw,T,1);
 [~,delta] = polyval(P,0,S);
-figure(3)
+figure(4)
 clf
 errorbar(pw,T,eT,'o','MarkerSize',10,'linewidth',lw)
 hold all
@@ -233,7 +233,7 @@ set(gca,'Linewidth',BW)
 set(gca,'XMinorGrid','off')
 set(gca,'YMinorGrid','off')
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% plot for the SI
 close all
 
@@ -295,8 +295,8 @@ legend(legd{1:length(aux)})
 clear aux
 
 
-saveas(gcf,'AS_spectra.fig','fig')
-saveas(gcf,'AS_spectra.pdf','pdf')
+% saveas(gcf,'AS_spectra.fig','fig')
+% saveas(gcf,'AS_spectra.pdf','pdf')
 
 %%
 x_lim = [50 110];
@@ -319,5 +319,5 @@ set(gca,'YMinorGrid','off')
 
 disp(strcat('T_{room}=',num2str(floor(P(2))),'(',num2str(floor(delta)),' )K'))
 
-saveas(gcf,'TvsPower.fig','fig')
-saveas(gcf,'TvsPower.pdf','pdf')
+% saveas(gcf,'TvsPower.fig','fig')
+% saveas(gcf,'TvsPower.pdf','pdf')
