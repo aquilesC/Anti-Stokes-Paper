@@ -17,15 +17,15 @@
    version="1.1"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="04_CompareComsol.svg"
-   inkscape:export-filename="04_Compare_Comsol.png"
-   inkscape:export-xdpi="299.88223"
-   inkscape:export-ydpi="299.88223">
+   inkscape:export-filename="D:\Martin\Publications\anti-stokes\Figures\Supplementary\04_Compare_Comsol\04_Compare_Comsol.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4348">
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile3" />
+       id="color-profile2" />
     <defs
        id="defs1">
       <clipPath
@@ -384,18 +384,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="36.521268"
-     inkscape:cx="275.90455"
-     inkscape:cy="195.11303"
+     inkscape:zoom="2.2825792"
+     inkscape:cx="258.99242"
+     inkscape:cy="105.79721"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="3066"
-     inkscape:window-height="1689"
-     inkscape:window-x="134"
-     inkscape:window-y="55"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -921,7 +921,7 @@
            y="34.924515"
            x="97.135025"
            id="tspan5518"
-           sodipodi:role="line">Shperes</tspan></text>
+           sodipodi:role="line">Spheres</tspan></text>
       <path
          id="path5085-9"
          style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d95319;stroke-width:2.66669989;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"

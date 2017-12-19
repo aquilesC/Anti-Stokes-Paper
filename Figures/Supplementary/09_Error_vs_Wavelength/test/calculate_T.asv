@@ -155,15 +155,15 @@ for n=1:size(pw,2)
     N0u(n) = Beta_Tu(1);
     Tu(n) = Beta_Tu(2);
     eTu(n) = sqrt(CovB3u(2,2));
-    
-    
-    disp('Down')
-    model = @(p,x) L([beta_d(2),beta_d(3),beta_d(4)],x).*n_oc([p(1) p(2)],x);
-    
-    [Beta_Td,~,~,CovB3d]=nlinfit(x,y,model,ini,'Weights',ey);
-    N0d(n) = Beta_Td(1);
-    Td(n) = Beta_Td(2);
-    eTd(n) = sqrt(CovB3d(2,2));
+%     
+%     
+%     disp('Down')
+%     model = @(p,x) L([beta_d(2),beta_d(3),beta_d(4)],x).*n_oc([p(1) p(2)],x);
+%     
+%     [Beta_Td,R3,J3,CovB3,MSE3,ErrorModelInfo3]=nlinfit(x,y,model,ini,'Weights',ey);
+%     N0d(n) = Beta_T(1);
+%     Td(n) = Beta_T(2);
+%     eTd(n) = sqrt(CovB3(2,2));
     
     
     figure(100+n)
@@ -215,24 +215,17 @@ for n=1:size(pw,2)
     xlim([1.9 2.5])
 end
 
-disp('Results')
-T
-Tu
-Td
 
-eT
-eTu
-eTd
 %%
 % P = polyfitweighted(pw,T,1,eT);
 [P,S] = polyfit(pw,T,1);
 [~,delta] = polyval(P,0,S);
 figure(4)
 clf
-errorbar(pw,T,eT/2,'o','MarkerSize',10,'linewidth',lw)
+errorbar(pw,T,eT,'o','MarkerSize',10,'linewidth',lw)
 hold all
-errorbar(pw,Tu,eTu/2,'o','MarkerSize',10,'linewidth',lw)
-errorbar(pw,Td,eTd/2,'o','MarkerSize',10,'linewidth',lw)
+% errorbar(pw,Tu,eTu,'o','MarkerSize',10,'linewidth',lw)
+% errorbar(pw,Td,eTd,'o','MarkerSize',10,'linewidth',lw)
 plot(pw,polyval(P,pw),'-')
 % plot([0 max(pw)],ones(1,2).*(23+273))
 grid on
@@ -316,7 +309,7 @@ set(gcf,'position',[966.6000  333.8000  560.0000  420.0000])
 clf
 plot(x_lim,polyval(P,x_lim),'-k','linewidth',lw)
 hold all
-errorbar(pw,T,eT/2,'s','MarkerSize',10,'linewidth',lw,'MarkerFaceColor','w')
+errorbar(pw,T,eT,'s','MarkerSize',10,'linewidth',lw,'MarkerFaceColor','w')
 set(gca,'XTick',[50:15:115])
 
 xlim(x_lim)
@@ -330,5 +323,5 @@ set(gca,'YMinorGrid','off')
 
 disp(strcat('T_{room}=',num2str(floor(P(2))),'(',num2str(floor(delta)),' )K'))
 
-saveas(gcf,'TvsPower.fig','fig')
-saveas(gcf,'TvsPower.pdf','pdf')
+% saveas(gcf,'TvsPower.fig','fig')
+% saveas(gcf,'TvsPower.pdf','pdf')

@@ -133,11 +133,11 @@ size similar to the ones presented in the main text, i.e. a bulk SPR around $635
 We use this set of spectra to empirically obtain the shape of the background.
 Figure \ref{fig:PL_spectra}(b) shows an example of the fitted function and the extracted 
 function $B(E;\Delta)$. We performed this fit on five different nanorods and we averaged 
-the values for $\Delta$, obtaining $(0.120\pm0.02)$ eV. With the background defined by 
+the values for $\Delta$, obtaining $(0.120\pm0.02)$ \eV. With the background defined by 
 this parameter we can extract the $\textrm{I}_{\textrm{SPR}}(E)$ from the photoluminescence 
 spectra of every individual gold nanorod. For example, the spectra shown in Figure 
-\ref{fig:PL_spectra} (b) yielded to $E_\textrm{SPR}$ is $(1.97 \pm 0.35)$ eV, 
-with a width $\Gamma=(129 \pm 1) meV$.
+\ref{fig:PL_spectra} (b) yielded to $E_\textrm{SPR}$ is $(1.97 \pm 0.35)$ \eV, 
+with a width $\Gamma=(129 \pm 1) \meV$.
 
 For all the analysis done in the rest of our paper we used this procedure to obtain the
 surface plasmon resonance profile from the photoluminescence spectrum excited at $532$ nm.
@@ -222,7 +222,7 @@ the wavelengths of the lasers used for our study as vertical dashed lines.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.8\textwidth]{Figures/Supplementary/07_GNRs_Characterization_TEM/GNRs_characterization.png}
-\caption{\textbf{Gold nanorod characterization.} (a) TEM image of a dried drop of  the gold nanorods used in this study. The mean width is $22$ nm while the length is $50$ nm . The inset shows higher magnification. (b) Bulk absorbance spectra of the gold nanorod sample showing the transverse (around $525$ nm) and the longitudinal (around $630$ nm) surface plasmon resonances. The dashed vertical lines show the two laser wavelengths used in this work.}
+\caption{\textbf{Gold nanorod characterization.} (a) TEM image of a dried drop of  the gold nanorods used in this study. The mean width is $22$ nm while the length is $50$ nm. The inset shows higher magnification. (b) Bulk absorbance spectra of the gold nanorod sample showing the transverse (around $525$ nm) and the longitudinal (around $630$ nm) surface plasmon resonances. The dashed vertical lines show the two laser wavelengths used in this work.}
 	\label{fg:nr-char}
 \end{figure}
 
@@ -230,42 +230,46 @@ the wavelengths of the lasers used for our study as vertical dashed lines.
 \pagebreak
 \section{Determination of the error in the temperature extraction}\label{sec:discussion_errors} 
 
+In this section we present how we obtain the uncertanty in the temperature determination
+while using our protocol. 
 
+First we get the surface plasmon resonance profile by using the analysis presented before.
+This gives us the two parameters that characterize the curve, $E_\textrm{SPR}$ and $\Gamma$
+with their respective uncertainties. Then we fit the anti-Stokes part of the spectra obtained with 
+nearly resonant excitation of $633$ \nm, obtaining the curves shown in figure \ref{fig:as_fit} (a) and
+the temperature values. The inset in the Figure shows the result for the first step of the procedure. 
 
- The inset in figure \ref{fig:as_fit} (a) shows the spectra and 
-the fit, which provides the parameters that characterize the SPR, i.e. SPR 
-$(E_\textrm{SPR},\Gamma)$. Then we fit the anti-Stokes part of the spectra obtained with 
-nearly resonant excitation of $633$ \nm, obtaining the curves shown in figure \ref{fig:as_fit} (a). 
-With the obtained temperature values for each laser power we construct the plot in figure 
+Secondly, we used the obtained temperature values for each laser power to construct the plot in Figure 
 \ref{fig:as_fit} (b), where the error bars correspond to the square root of the variance of 
 the temperature, estimated by the fitting algorithm.
 Note that the higher the power, the smaller the error, due to the higher photon counts in 
-the spectra. We emphasize that a single spectra leads to a temperature value with a 
-relative error of $2\%$ for powers larger than $70$ mW.
-
-Additionally, we performed a linear fit to these temperature values and extrapolated to 
-zero laser power, to obtain the value for the room temperature $T_R$. 
-We obtained $T_R = (297 \pm 13)$ K, consistent with independent measurements and a $4\%$ relative accuracy.
-
+the spectra. We emphasize that a single spectrum leads to a temperature value with a 
+relative error of $2\%$ for powers larger than $70$ \uW. The highest error is of $\sim 4\%$ for the 
+lowest power used. We also repeated the last step taking
+as the plasmon resonance energy edges of the confidence intervals obtained from the fit presented
+before and we obtained temperatures that differ around $1\K$, which is within the confidence interval
+presented. 
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.90\textwidth]{Figures/Supplementary/09_Error_vs_Wavelength/Temp_error.png}
 \caption{\textbf{Temperature extraction from the anti-Stokes emission.} 
-(a) Anti-Stokes spectra for three different $633$ nm-excitation power: $107$ mW in 
-blue triangles, $88$ mW in yellow squares and $63$ mW in red circles. 
+(a) Anti-Stokes spectra for three different $633$ nm-excitation powers: $107$ \uW in 
+blue triangles, $88$ \uW in yellow squares and $63$ \uW in red circles. 
 The solid lines correspond to the fit using our model from equation (2) in the main text, 
 with $T$ as a free parameter. The inset shows the photoluminescence spectra of the same 
 nanorod excited with $532$ nm (blue circles) and the fit using the equation 
 (\ref{eq:spectra_model}) with a fixed value for $\Delta$ (dashed black line), from which 
 we obtained $E_\textrm{SPR}=2.04$ eV and $\Gamma=0.175$ eV. The abrupt cut at $E<2$ eV is due to the
 notch filter used to prevent laser detection.  
-(b) Temperature extracted from the spectra in (a) for different laser excitation power. 
+(b) Temperature extracted from the spectra in (a) for different laser excitation powers. 
 The solid black line corresponds to a linear fit that gives a room temperature value $T_R = (297 \pm 13)$ K.}
 \label{fig:as_fit}
 \end{figure}
 
-The analysis presented in this section and the errors treatment was used to obtain the results presented in
-the main text. 
+Finally, we performed a linear fit to these temperature values and extrapolated to 
+zero laser power, to obtain the value for the room temperature $T_R$. 
+We obtained $T_R = (297 \pm 13)$ K, consistent with independent measurements and a $4\%$ relative accuracy.
+
 
 %\subsection{Fit a Lorentzian in a restricted range\label{sec:wcut}}
 %
@@ -312,7 +316,7 @@ the main text.
 \begin{figure}[htp] \centering
 \includegraphics[width=0.45\textwidth]{Figures/Supplementary/03_AS_S_in_Log/03_AS_S_in_Log.png}
 \caption{\textbf{Stokes and anti-Stokes integrated emission as a function of excitation power.} The
-linear fit in logarithmic scale has a slope of $0.88$ and $1.20$ respectively,
+linear fits in logarithmic scale have a slope of $0.88$ and $1.20$ respectively,
 confirming the $1$-photon nature of both kinds of emission.}
 	\label{fig:Log_Plot}
 \end{figure}
@@ -321,12 +325,13 @@ Figure \ref{fig:Log_Plot} shows the spectrally-integrated intensity of the Stoke
 anti-Stokes (blue) emission for several excitation powers. In both cases the
 linear fit in logarithmic scale has a slope close to $1$, being $0.88$ for the
 Stokes and $1.20$ for the anti-Stokes. 
-The anti-Stokes band has a higher slope due to dependence on $T$ of the 
-anti-Stokes emission, in agreement with the fact that to achieve high-energy
-emission some energy from the thermal baths has to be taken. Since most 
-excitations decay non-radiatively, the energy provided by previous excitations
-changes the energy content of the bath in a power dependence manner, thus leading
-to a higher slope in plot \ref{fig:Log_Plot}. In other words, the higher the power, 
+In order to achieve photon emission at higher energy than the excitation, 
+i.e. an anti-Stokes band, the interactions with the thermal baths 
+has to provide the extra energy required. Since most 
+excitations decay non-radiatively, the energy available in the thermal bath 
+also depends on the previous excitations. Thus, the energy content of the 
+bath also presents on the excitation power, leading
+to a slope $>1$ in Figure \ref{fig:Log_Plot}. In other words, the higher the power, 
 the higher the temperature of the particle and the higher the anti-Stokes signal is. 
 This behavior is independent of the plasmon resonance position. 
 It is important to note that the excitation intensity cannot
