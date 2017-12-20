@@ -25,7 +25,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile3" />
+       id="color-profile2" />
     <defs
        id="defs1">
       <clipPath
@@ -363,7 +363,7 @@
      inkscape:cx="142.66988"
      inkscape:cy="110.33823"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1137"
@@ -383,7 +383,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Aquiles Carattino</dc:title>
@@ -397,8 +397,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-6.4917622,0.45990271)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        x="132.43881"
        xml:space="preserve"
@@ -956,7 +955,7 @@
        x1="123.54515"
        x2="123.54515"
        y1="186.08403"
-       style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.66669989;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
+       style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.66669989;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        y2="5.3915682"
        id="line4994" />
     <rect
@@ -978,7 +977,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Calculations"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        transform="translate(-6.4917622,0.45990271)"
        inkscape:connector-curvature="0"
@@ -2116,8 +2116,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Legend"
-     sodipodi:insensitive="true">
+     inkscape:label="Legend">
     <text
        x="212.57233"
        xml:space="preserve"
@@ -2148,7 +2147,7 @@
     <line
        transform="translate(-6.4917622,0.45990271)"
        y2="37.821465"
-       style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.66669989;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
+       style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.66669989;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        x1="197.5309"
        x2="211.22057"
        y1="37.821465"
