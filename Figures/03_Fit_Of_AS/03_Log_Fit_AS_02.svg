@@ -25,7 +25,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile2" />
+       id="color-profile3" />
     <clipPath
        id="clipPath966"
        clipPathUnits="userSpaceOnUse">
@@ -114,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.2597917"
-     inkscape:cx="170.07874"
-     inkscape:cy="113.38583"
+     inkscape:zoom="3.0121276"
+     inkscape:cx="96.2475"
+     inkscape:cy="81.213046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1439,7 +1439,7 @@
              transform="matrix(6.0056054,0,0,6.0027789,1850.5852,3632.6151)">
             <path
                d="M -5,-5 V 5 H 5 V -5 Z"
-               style="fill:none;stroke:#0072bd;stroke-width:2.66666698;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;stroke:#0072bd;stroke-width:13.35266384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
                id="path1279"
                inkscape:connector-curvature="0" />
           </g>
@@ -1457,7 +1457,7 @@
              transform="matrix(6.0056054,0,0,6.0027789,2548.3794,3236.2817)">
             <path
                d="M -5,-5 V 5 H 5 V -5 Z"
-               style="fill:none;stroke:#0072bd;stroke-width:2.66666698;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;stroke:#0072bd;stroke-width:13.35266384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
                id="path1287"
                inkscape:connector-curvature="0" />
           </g>
@@ -1475,7 +1475,7 @@
              transform="matrix(6.0056054,0,0,6.0027789,3246.1735,2735.6499)">
             <path
                d="M -5,-5 V 5 H 5 V -5 Z"
-               style="fill:none;stroke:#0072bd;stroke-width:2.66666698;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;stroke:#0072bd;stroke-width:13.35266384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
                id="path1295"
                inkscape:connector-curvature="0" />
           </g>
@@ -1625,12 +1625,6 @@
          y="502.13153"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.16294575px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.88248062;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
          id="text3311">320</text>
-      <text
-         x="352.58829"
-         xml:space="preserve"
-         y="482.08957"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.16294575px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.88248062;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         id="text3315">300</text>
       <text
          x="352.58829"
          xml:space="preserve"
@@ -1790,12 +1784,6 @@
          y="440.5538"
          xml:space="preserve"
          x="352.58829">360</text>
-      <text
-         x="352.58829"
-         xml:space="preserve"
-         y="454.52441"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.16294575px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.88248062;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-         id="text3313">340</text>
       <text
          transform="rotate(-90)"
          id="text5264"

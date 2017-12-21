@@ -8,7 +8,8 @@
 \usepackage{xr}
 %% This is to use color to hihglight the changes introduced for the revised version
 \usepackage{color}
-\newcommand{\HI}[1]{\textcolor{blue}{#1}} % use to add anything to the main text.
+%\newcommand{\HI}[1]{\textcolor{blue}{#1}} % use to add anything to the main text.
+\newcommand{\HI}[1]{{#1}} % use to add anything to the main text.
 %%% This is for adding a footer with the time of the compilation of the file.
 %%% Useful for versioning of printed copies.
 %\usepackage{datetime}
@@ -96,8 +97,8 @@ temperature. Together with the miniaturization of devices and the advent of
 nanotechnology the need for measuring temperature with high spatial accuracy
 started to emerge. Notably in biology\cite{Yang2011a,Hrelescu2010} and
 medicine\cite{Li2013c} \HI{measuring and controlling temperature at a sub-cellular 
-scale are the challenges that need to be overcome to achieve better understanding and control 
-of the mechanisms involved in new therapies such as photothermal tumor ablation\cite{Gobin2007} 
+scale are the challenges that must to be overcome to achieve better understanding and control 
+of new therapies such as photothermal tumor ablation\cite{Gobin2007} 
 or controlled drug delivery\cite{Huang2006,Huo2014}.}
 
 Nanometer-size probes with distinctive spectral features are ideal candidates
@@ -203,7 +204,7 @@ photoluminescence is always ``hot''. It is worth noting that Raman scattering,
 corresponding to the lowest order of interaction with baths, will be an important
 contribution to photoluminescence\cite{Huang2014,mertens2017light}. However, second 
 and higher orders may also contribute significantly. Because all these processes obey a 
-Boltzman-type of relation between anti-Stokes and Stokes emission, they cannot be easily 
+Boltzmann-type of relation between anti-Stokes and Stokes emission, they cannot be easily 
 distinguished from each other on the basis of their temperature dependence.}
 
 
@@ -215,7 +216,7 @@ any previous temperature calibration. We show that we can determine the particle
 \textit{in-situ} with an accuracy of $6\%$ by recording a single anti-Stokes spectrum (with an 
 acquisition time of $3$ minutes). 
 Moreover, by performing this measurement at different excitation powers 
-we can obtain the temperature of the surrounding medium with an accuracy better than $2\%$.}
+we can obtain the temperature of the surrounding medium with an accuracy better than $2$ \%.}
 
 \HI{\textbf{Phenomenological model for the luminescence emission.} 
 In a nutshell, we consider the luminescence emission as radiative recombination of
@@ -223,9 +224,9 @@ electron-hole pairs created by the decay of the plasmon, after their interaction
 with thermal baths. Before the recombination, carriers may interact with the baths one or more
 times, leading to secondary light emission with an energy different from the initial internal energy of the pair. 
 The anti-Stokes spectral contribution arises from interactions that increase the energy 
-of the pair, whereas the Stokes emission to a decrease in energy. The emission process will be 
+of the pair, whereas the Stokes emission corresponds to a decrease in energy. The emission process will be 
 enhanced by the surface plasmon; therefore the luminescence spectrum will be modulated with the plasmon shape. 
-An schematic representation of these ideas is shown in the Supporting Information.}
+A schematic representation of these ideas is shown in the Supporting Information.}
 
 \HI{Exciting a gold nanorod with a monochromatic beam at its resonance frequency, $\omega_\textrm{SPR}$, generates a collective oscillation of the gas of conduction electrons, also called a plasmon.} 
 %The lifetime of this oscillation can be measured in
@@ -237,13 +238,13 @@ i.e. \HI{ $E_{e-h}=\hbar \omega_\textrm{L}$.}
 
 %The hot electron and hole cool down by exchanging energy with the lattice on a
 %timescale of $\tau\approx1\ps$\cite{Pustovalov2005}. 
-This hot electron and hole have a small probability of recombining radiatively, i.e. of 
-re-emitting their high electronic energy as a photoluminescence photon. If they
-have interacted only with static surfaces or defects, their energy will be the same and
-therefore the emitted photon will have the same energy as the incoming
+This hot electron-hole pair has a small probability of recombining radiatively, i.e. of 
+re-emitting its high electronic energy as a photoluminescence photon. If the electron and hole
+have interacted only with static surfaces or defects, their energy will be the same.
+Therefore, the emitted photon will have the same energy as the incoming
 photon, and will not contribute to the measured photoluminescence. It will be
 blocked by the notch filter used to remove the exciting laser from detection.
-If, on the other hand, they have interacted with a
+If, on the other hand, the electron and hole have interacted with a
 phonon or a thermally excited electron or hole, they may have lost or acquired
 energy.
 % by creation or annihilation of phonons or interact with thermally excited charge carriers. 
@@ -267,9 +268,9 @@ Firstly the emission spectrum must follow the plasmon spectrum if the excitation
 laser is well above the plasmon resonance as shown in \mbox{Figure
 \ref{fig:spectra_intensity}}, \HI{green line}. If the excitation falls within the
 plasmon resonance, the spectrum is expected to follow the plasmon spectrum
-multiplied by a Bose-Einstein statistics factor arising from phonon population. 
-\HI{Here we assume that the coupling to the phonons dominates the process, while references
-\cite{Huang2014} and \cite{mertens2017light} assume that carrier-carrier interactions dominate.
+multiplied by a Bose-Einstein statistics factor arising from phonon population
+\HI{(here, we assume that the coupling to the phonons dominates the process, while references
+\cite{Huang2014} and \cite{mertens2017light} assume that carrier-carrier interactions dominate).
 Thus, under our assumption, the emission} should be proportional to the \HI{phonon occupation} number $\bar{n}$ 
 for anti-Stokes and $\bar{n}+1$ for Stokes processes, with
 
@@ -277,8 +278,8 @@ for anti-Stokes and $\bar{n}+1$ for Stokes processes, with
 	\bar{n}=\left(\exp\frac{\hbar\Omega}{k_\textrm{B}T}-1\right)^{-1}\,,
 \end{equation}
 \HI{where $\hbar\Omega$ is the phonon energy. If 
-carrier-carrier interactions dominate, the occupation number 
-obeys Fermi statistics, i.e. $n=\left(\exp(\frac{\hbar \Omega}{k_\textrm{B}T})+1 \right)^{-1}$\cite{Huang2014,mertens2017light}.} 
+carrier-carrier interactions dominate, the occupation number would obeys Fermi statistics, 
+i.e. $n=\left(\exp(\frac{\hbar \Omega}{k_\textrm{B}T})+1 \right)^{-1}$\cite{Huang2014,mertens2017light}.} 
 
 With this model, we can also predict that the emission should be polarized. 
 For the strong longitudinal plasmon of gold nanorods this polarization coincides with
@@ -315,7 +316,7 @@ constant not included in equation \ref{eqn:fitting}).
 %yield the absolute temperature $T$ of the particle under study.}
 
 \HI{The procedure we propose to obtain the absolute temperature $T$ of gold nanorods 
-form the anti-Stokes luminescence emission without 
+from the anti-Stokes luminescence emission without 
 the need of any previous temperature calibration involves the following steps:}
 \HI{\begin{enumerate}
 	\item Obtain the surface plasmon resonance spectrum of the particle. This is usually expressed as a 
@@ -346,16 +347,16 @@ objective. This provided high excitation and collection efficiency.
 We employed a $532\nm$ (CNI) laser for characterizing the nanorods' plasmon and
 a $633\nm$ HeNe (Thorlabs) to excite the nanorods in resonance.
 The intensity of the laser was controlled via an acousto-optic modulator. 
-\HI{We give provide a scheme of the setup and more details in the Supporting Information.}
+\HI{We provide a scheme of the setup and more details in the Supporting Information.}
 
-Wet chemically synthesized nanorods\cite{Nikoobakht2003} with average dimensions
+Wet-chemically synthesized nanorods\cite{Nikoobakht2003} with average dimensions
 of $21\nm\times50\nm$ and a plasmon resonance around $650\nm$ were spin-coated
 onto clean coverslips, controlling the superficial concentration to separate
 individual nanorods within the diffraction-limited spot\cite{Zijlstra2011}.
 \HI{The characterization of the gold nanorods sample with transmission electron microscopy (TEM)
-and the ensemble extinction spectrum is presented in the Supporting Information.}
+and the ensemble extinction spectrum are presented in the Supporting Information.}
 
-In addition, the samples were mounted in a flow cell that allowed us to increase
+The samples were mounted in a flow cell that allowed us to increase
 the temperature of the medium up to $60\degree$ and to monitor it through a
 Pt100 resistance thermometer placed $1\mm$ away from the observation area. 
 To compensate for the drift of the setup while increasing the temperature, we
@@ -375,7 +376,7 @@ lower the noise of the measurement because of a longer exposure time
 \HI{($3$ minutes in total)}, but also allowed us to remove bright pixels generated by cosmic rays. 
 Having several accumulations is also useful to monitor changes in the intensity of the spectra
 during the acquisition itself. These changes can be due to a drift of the setup
-while measuring or to a reshaping of the particle. If the reshaping was
+while measuring or to reshaping of the particle. If the reshaping was
 confirmed by comparing the spectra acquired with the $532\nm$
 laser\cite{Liu2009}, the measurements where rejected. If the changes in the
 observed emission spectra were due to drift of the setup, the particular data
@@ -384,7 +385,7 @@ intensity is crucial for characterizing the method; if the particle is not in
 focus it would result in an overestimation of the excitation power. 
 
 
-\HI{\textbf{Experimental Results.}} The proposed model for the anti-Stokes emission requires the plasmon
+\HI{\textbf{Results.}} The proposed model for the anti-Stokes emission requires the plasmon
 spectrum ($\textrm{I}_{\textrm{SPR}}(\omega)$ in equation \ref{eqn:fitting}) 
 in order to fit the emission at shorter wavelengths and extract the
 particle temperature. It has been shown that both scattering and luminescence
@@ -394,7 +395,7 @@ plasmon spectra, as shown in the green solid curve of Figure \ref{fig:spectra_in
 \HI{It has to be recalled that the luminescence spectrum is not a perfect
 Lorentzian since there is a broadband contribution also observed in bulk gold \cite{Mooradian1969}.
 The procedure to extract the SPR profile from such a measurement is explained in the
-Supporting Information. We show in figure \ref{fig:spectra_intensity} the extracted 
+Supporting Information. We show in Figure \ref{fig:spectra_intensity} the extracted 
 surface plasmon profile in the red solid curve. }
 %was fitted by a single Lorentzian, shown in red in the Figure; the dashed
 %part of the curve is the spectral region that was not considered for the
@@ -457,9 +458,9 @@ emission.}
 To further characterize the anti-Stokes emission in gold nanorods, we measured the emission for \HI{$105$}
 nanorods with different plasmon resonances under the same $633\nm$ excitation
 and calculated the ratio of integrated anti-Stokes to Stokes emissions.
-Figure \ref{fig:ASS-ratio} shows the experimental ratios as blue circles, where
-as a function of the surface plasmon resonance (SPR) of the
-particle. The vertical red line marks the laser wavelength. The particles measured 
+Figure \ref{fig:ASS-ratio} shows the experimental ratios as blue circles
+versus the surface plasmon resonance (SPR) of the
+particle. The vertical black line marks the laser wavelength. The particles measured 
 had resonances between $600\nm$ and $690\nm$; the ones showing the
 maximum ratio of anti-Stokes to Stokes are those with a resonance to the blue of
 the laser. For these particles the longitudinal plasmon is enhancing preferably the
@@ -468,8 +469,8 @@ anti-Stokes and the Stokes emission have similar enhancement and show a ratio
 close to $10\%$.
 
 Figure \ref{fig:ASS-ratio} also shows as red triangles the results of numerical calculations \HI{showing
-an excellent overlap between the measured and the calculated data can
-be observed. To obtain these results, we numerically calculated the 
+an excellent overlap between the measured and the calculated data.
+To obtain these results, we numerically calculated the 
 absorption cross section of \HI{$82$} particles 
 with the ADDA package\cite{Yurkin2011} using a fixed width of $23\nm$ and different 
 lengths to achieve different SPR wavelengths.}
@@ -479,7 +480,7 @@ fitted by a Lorentzian and used as $\textrm{I}_{\textrm{SPR}}(\omega)$ in equati
 calculated absorption cross section we calculated the temperature of
 the particle. This value was used in equation \ref{eqn:fitting} to compute the
 anti-Stokes emission spectrum. The Stokes emission was set proportional to the
-excitation power  with a shape given by the calculated absorption spectra. Since both
+excitation power  with a shape given by the calculated absorption spectrum. Since both
 anti-Stokes and Stokes emissions are proportional to the excitation power, this
 term cancels out when computing the ratio. The laser power therefore only enters
 into the equation when calculating the temperature of the particles. It is
@@ -553,7 +554,7 @@ obtain the SPR profile, are suited for the procedure as well.}
 %A balance between the amount of collected light and the
 %uncertainty produced by the correct determination of the plasmon resonance has
 %to be reached depending on each application.
-\HI{The error bars in the inset of figure \ref{fig:AS_in_Log} and in the following figures 
+\HI{The error bars in the inset of Figure \ref{fig:AS_in_Log} and in the following figures 
 is the result of the estimated variance in the fit parameters for the 
 anti-Stokes spectra using equation \ref{eqn:fitting}, step 3 in our protocol. More details
 about the error determination for the final temperature extracted are given in the Supporting
@@ -605,9 +606,9 @@ line is a fit to the data points with unit slope that shows a systematic offset 
 
 Figure \ref{fig:AS_temp} shows the extracted temperature of a particle at
 varying excitation powers and at different water temperatures. The blue squares
-are the results of the measurement at $20\degree$, while the green crosses are measured
-at $40\degree$ and the yellow circles at $60\degree$. The full lines are \HI{fits 
-with the same slope for the three set of data. Using these fits we can extrapolate
+are the results of the measurement at $60\degree$, while the green crosses are measured
+at $40\degree$ and the yellow circles at $20\degree$. The full lines are \HI{fits 
+with the same slope for the three sets of data. Using these fits we can extrapolate
 the temperature value at zero excitation power to obtain the water temperature in each case.}
 %the calculated temperatures for a particle with plasmon overlapping the measured one
 %and assuming a diffraction-limited focus spot. For the dimensions of the
@@ -621,13 +622,13 @@ the temperature value at zero excitation power to obtain the water temperature i
 %relative error smaller than $2\%$.
 The values obtained with the extrapolation to $0\uW$ excitation power were $296 \pm 4\K$, $315\pm 4\K$
 and $339 \pm 4\K$ for water temperatures of $293\K$, $313\K$ and $333\K$
-respectively. The inset plot in figure \ref{fig:AS_temp} presents these points 
+respectively. The inset plot in Figure \ref{fig:AS_temp} presents these points 
 and a red solid line with the expected curve if both temperatures are identical. The 
 dashed line shows a fit of the data that evidences a small systematic offset of $3.8\,\K$. This represents
 an inaccuracy of $1.2\%$ which is a good result for a calibration-free method.
 
 Figure \ref{fig:AS_temp} clearly shows that the extracted temperature varies
-with the temperature of the surrounding medium. More strikingly the method does
+with the temperature of the surrounding medium. More strikingly, the method does
 not require any previous calibration nor adjustment. 
 Notably, the presented calibration-free procedure would allow us to perform the same
 measurements in any other setup and could act as a reference for calibration of
@@ -641,19 +642,19 @@ to nano fabrication\cite{Fedoruk2013}. In this work we have shown a simple
 procedure that allows us to measure the temperature of single gold nanorods
 irradiated by a monochromatic continuous laser and without any previous
 calibration. The level of accuracy of the temperature measurement depends on
-several factors, but for nanorods it can be estimated to be better than $6\K$ 
+several factors, but for \HI{a single} nanorod it can be estimated to be better than $6\K$ 
 with an integration time of $3$ minutes without any previous calibration.
 
 \HI{The model employed for describing the anti-Stokes emission takes into account
 the surface plasmon resonance of the particles under study, which is responsible 
-for enhancing the emission, as well the electron-hole pairs
+for enhancing the emission, as well the electron-hole pair
 interaction with the thermal baths.}
 %We found that the correct characterization of the plasmonic resonance is
 %fundamental for the proper extraction of temperature, specially in cases
 %where the resonance is to the blue of the excitation wavelength.
 Particles with a resonance to the red of the excitation wavelength would be more
 reliable in the temperature extraction procedure, but would also exhibit a lower
-emission towards shorter wavelengths. The trade-off between both effects and
+emission towards shorter wavelengths. The trade-off between both effects, and
 the possibility to fully characterize the plasmon resonance, will determine the
 specific particles that are better suited for each application.
 
@@ -673,9 +674,9 @@ can be improved in different ways: by carefully selecting the particles that
 show the most favorable plasmon resonance; by determining the plasmon resonance
 through white-light scattering, reducing the uncertainty in the fit; by
 increasing the exposure times to increase the signal-to-noise ratio. 
-\HI{A cheaper alternative implementation would be to have point two detectors and use 
-filters to detect the anti-Stokes emission in one and the Stokes emission in the other, 
-but this approach would require a temperature calibration.}
+\HI{A cheaper alternative would have two detectors and band-pass 
+filters to detect the anti-Stokes and the Stokes emission independently. However,
+this approach would require a temperature calibration.}
 
 The authors declare no competing financial interest.
 
