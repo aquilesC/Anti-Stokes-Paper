@@ -17,13 +17,13 @@
    id="svg8"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="TOC.svg"
-   inkscape:export-filename="D:\Martin\Publications\anti-stokes\Figures\00_TOC\TOC.png"
-   inkscape:export-xdpi="600.36163"
-   inkscape:export-ydpi="600.36163">
+   inkscape:export-filename="TOC.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <defs
      id="defs2">
     <color-profile
-       id="color-profile3"
+       id="color-profile2"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <defs
@@ -1704,7 +1704,7 @@
          id="glyph1868" />
     </font>
     <color-profile
-       id="color-profile338"
+       id="color-profile337"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <defs
@@ -3307,7 +3307,7 @@
      inkscape:cx="170.07874"
      inkscape:cy="66.141732"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1137"
@@ -3341,11 +3341,11 @@
      transform="translate(0,-262)"
      style="display:inline">
     <text
-       x="53.479118"
+       x="48.572285"
        xml:space="preserve"
-       y="294.48434"
+       y="294.58582"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.39349097;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-       id="text10003">Exc. Int. (μW)</text>
+       id="text10003">Excitation power (μW)</text>
     <line
        y2="288.73459"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:0.30000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -3715,7 +3715,7 @@
     <text
        x="19.985819"
        xml:space="preserve"
-       y="32.197983"
+       y="32.570652"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.24310473;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text4212">Energy (eV)</text>
     <line
@@ -4130,7 +4130,7 @@
     <text
        x="-29.171186"
        xml:space="preserve"
-       y="5.627039"
+       y="5.0680327"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:0.24310473;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text4352"
        transform="rotate(-90)">Intensity (Cnts/60s)</text>
@@ -7197,6 +7197,6 @@
          id="tspan10603"
          x="18.656044"
          y="17.079002"
-         style="font-size:1.70143175px;line-height:1.25;stroke-width:0.18393858px">Exc. Int.</tspan></text>
+         style="font-size:1.70143175px;line-height:1.25;stroke-width:0.18393858px">Exc. Pow.</tspan></text>
   </g>
 </svg>

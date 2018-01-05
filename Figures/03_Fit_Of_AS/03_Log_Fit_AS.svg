@@ -25,7 +25,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile2" />
+       id="color-profile3" />
     <defs
        id="defs1">
       <clipPath
@@ -771,16 +771,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="122.0478"
-     inkscape:cy="88.689064"
+     inkscape:zoom="4.0970534"
+     inkscape:cx="147.8162"
+     inkscape:cy="120.20834"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="3066"
-     inkscape:window-height="1689"
-     inkscape:window-x="134"
-     inkscape:window-y="55"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -4290,11 +4290,11 @@
      transform="translate(-2.4097366,18.643774)"
      style="display:inline">
     <text
-       x="184.8857"
+       x="185.80099"
        xml:space="preserve"
        y="91.591072"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
-       id="text10003">Exc. Int. (μW)</text>
+       id="text10003">Exc. Pow. (μW)</text>
     <line
        y2="72.944427"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -4404,7 +4404,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text10045">75</text>
     <text
-       x="251.46463"
+       x="251.00699"
        xml:space="preserve"
        y="81.731674"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.25px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
@@ -4803,7 +4803,7 @@
          id="tspan10603"
          x="78.577049"
          y="116.51984"
-         style="font-size:9.25px;line-height:1.25">Exc. Int.</tspan></text>
+         style="font-size:9.25px;line-height:1.25">Exc. Pow.</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

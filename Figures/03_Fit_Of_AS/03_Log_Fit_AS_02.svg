@@ -17,15 +17,15 @@
    version="1.1"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="03_Log_Fit_AS_02.svg"
-   inkscape:export-filename="D:\Martin\Publications\anti-stokes\Figures\03_Fit_Of_AS\03_Log_Fit_AS_02.png"
-   inkscape:export-xdpi="400"
-   inkscape:export-ydpi="400">
+   inkscape:export-filename="03_Log_Fit_AS_02.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <defs
      id="defs7589">
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile3" />
+       id="color-profile2" />
     <clipPath
        id="clipPath966"
        clipPathUnits="userSpaceOnUse">
@@ -114,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0121276"
-     inkscape:cx="96.2475"
-     inkscape:cy="81.213046"
+     inkscape:zoom="4.2597917"
+     inkscape:cx="170.07874"
+     inkscape:cy="113.38583"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -315,12 +315,12 @@
        style="display:inline;fill:none;stroke:#76ab2f;stroke-width:0.95215666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        d="m 49.106764,281.77131 3.36702,3.36574 m -3.36702,0 3.36702,-3.36574" />
     <text
-       x="256.82141"
+       x="264.74097"
        xml:space="preserve"
        y="534.62769"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:0%;font-family:SansSerif;-inkscape-font-specification:'SansSerif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;color-interpolation:linearRGB;fill:#262626;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
        id="text5761"
-       transform="scale(1.0004257,0.99957448)">Excitation Intensity (μW)</text>
+       transform="scale(1.0004257,0.99957448)">Excitation power (μW)</text>
     <line
        y2="510.50082"
        style="font-style:normal;font-weight:normal;font-size:medium;font-family:Dialog;display:inline;color-interpolation:linearRGB;fill:none;fill-opacity:1;stroke:#262626;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:optimizeQuality;image-rendering:optimizeQuality;shape-rendering:auto;text-rendering:geometricPrecision"
