@@ -45,30 +45,17 @@ figure(1)
 clf
 set(gcf,'position',[80   790   717   308])
 subplot(1,2,1)
-b2 = bar(cw,nw);
-set(b2,'FaceColor',[0.8500    0.3250    0.0980],'EdgeColor',linecolor,'LineWidth',lw);
+b2 = bar(cw,nw)
+set(b2,'FaceColor',[0.8500    0.3250    0.0980],'EdgeColor',linecolor,'LineWidth',lw)
 hold all
-
-xlim([10 60])
-xticks(10:10:60)
-xlabel('Width [nm]')
-ylabel('# Nanorods')
-% legend('Length','Width')
-grid on
-set(gca,'FontSize',FS)
-set(gca,'Linewidth',BW)
-set(gca,'XMinorGrid','off')
-set(gca,'YMinorGrid','off')
-
 subplot(1,2,2)
-b1 = bar(cl,nl);
-set(b1,'FaceColor',[0    0.4470    0.7410],'EdgeColor',linecolor,'LineWidth',lw);
-
-xlim([20 70])
-xticks(20:10:70)
-xlabel('Length [nm]')
+b1 = bar(cl,nl)
+set(b1,'FaceColor',[0    0.4470    0.7410],'EdgeColor',linecolor,'LineWidth',lw)
+xlim([10 70])
+xticks(10:10:70)
+xlabel('Distance [nm]')
 ylabel('# Nanorods')
-% legend('Length','Width')
+legend('Length','Width')
 grid on
 set(gca,'FontSize',FS)
 set(gca,'Linewidth',BW)
